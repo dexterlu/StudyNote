@@ -97,6 +97,7 @@ $ cp feeds.conf.default feeds.conf
 $ echo src-git linkit https://github.com/MediaTek-Labs/linkit-smart-7688-feed.git >> feeds.conf 
 6)  Update the feed information for all packages needed to build firmware 
 $ ./scripts/feeds update 
+  ./scripts/feeds update -a
 7)  Install all packages  
 $ ./scripts/feeds install –a 
 8)  Prepare the kernel configuration file for informing OpenWrt the intention to build a firmware for LinkIt Smart 7688   
@@ -110,6 +111,40 @@ o  Target Profile: LinkIt 7688
 $ make V=99
 12) After the compilation process completes, the resulting firmware file will be under bin/ramips/openwrt-ramips-mt7688-LinkIt7688-squashfs-sysupgrade.bin 
 13)  Now you can use this file to do the firmware upgrade through Web UI or rename it to lks7688.img and use it to upgrade firmware through a USB drive. 
+
+
+/******************************************************************************/
+linkit-smart-feed
+/******************************************************************************/
+ref : https://github.com/MediaTek-Labs/linkit-smart-7688-feed
+
+Steps
+In the Ubuntu system, open the Terminal application and type the following commands:
+Install prerequisite packages for building the firmware:
+$ sudo apt-get install git g++ make libncurses5-dev subversion libssl-dev gawk libxml-parser-perl unzip wget python xz-utils
+
+Download OpenWrt CC source codes:
+$ git clone git://git.openwrt.org/15.05/openwrt.git
+Prepare the default configuration file for feeds:
+$ cd openwrt
+$ cp feeds.conf.default feeds.conf
+Add the LinkIt Smart 7688 feed:
+$ echo src-git linkit https://github.com/MediaTek-Labs/linkit-smart-7688-feed.git >> feeds.conf
+Update the feed information of all available packages for building the firmware:
+$ ./scripts/feeds update
+Install all packages:
+$ ./scripts/feeds install -a
+Prepare the kernel configuration to inform OpenWrt that we want to build an firmware for LinkIt Smart 7688:
+$ make menuconfig
+Select the options as below:
+Target System: Ralink RT288x/RT3xxx
+Subtarget: MT7688 based boards
+Target Profile: LinkIt7688
+Save and exit (use the deafult config file name without changing it)
+Start the compilation process:
+$ make V=99
+After the build process completes, the resulted firmware file will be under bin/ramips/openwrt-ramips-mt7688-LinkIt7688-squashfs-sysupgrade.bin. Depending on the H/W resources of the host environment, the build process may take more than 2 hours.
+You can use this file to do the firmware upgrade through the Web UI. Or rename it to lks7688.img for upgrading through a USB drive.
 
 
 /******************************************************************************/
@@ -148,7 +183,8 @@ Cygwin 無法正常的運作，也不保證可以成功的建置於 ~BSD 或 Mac
 
 程序
 1. 不要使用 root帳號
-2. 所有的命令必須在 <buildroot dir> 目錄底下執行, 如 ~/openwrt/trunk/ 3. 不要在完整路徑名中有空白的資料夾下建置
+2. 所有的命令必須在 <buildroot dir> 目錄底下執行, 如 ~/openwrt/trunk/ 
+3. 不要在完整路徑名中有空白的資料夾下建置
 安裝 subversion (short: svn), 來下載OpenWrt的原始碼較為便利，且安裝 build tools 來幫助編彙程序:
 sudo apt-get update
 sudo apt-get install subversion build-essential
@@ -2820,9 +2856,86 @@ Links
 
 
 /******************************************************************************/
+// make menuconfig error
+/******************************************************************************/
+root@jazzhipster-VirtualBox:/media/sf_LinuxDisk_JS/Mtk7688/openwrt# make menuconfig
+Checking 'working-make'... ok.
+Checking 'case-sensitive-fs'... failed.
+Checking 'gcc'... ok.
+Checking 'working-gcc'... ok.
+Checking 'g++'... ok.
+Checking 'working-g++'... ok.
+Checking 'ncurses'... ok.
+Checking 'zlib'... ok.
+Checking 'libssl'... ok.
+Checking 'tar'... ok.
+Checking 'find'... ok.
+Checking 'bash'... ok.
+Checking 'patch'... ok.
+Checking 'diff'... ok.
+Checking 'cp'... ok.
+Checking 'seq'... ok.
+Checking 'awk'... ok.
+Checking 'grep'... ok.
+Checking 'getopt'... ok.
+Checking 'stat'... ok.
+Checking 'md5sum'... ok.
+Checking 'unzip'... ok.
+Checking 'bzip2'... ok.
+Checking 'wget'... ok.
+Checking 'perl'... ok.
+Checking 'python'... ok.
+Checking 'svn'... ok.
+Checking 'git'... ok.
+Checking 'file'... ok.
+Checking 'openssl'... ok.
+Checking 'ldconfig-stub'... ok.
+
+Build dependency: OpenWrt can only be built on a case-sensitive filesystem
+
+Prerequisite check failed. Use FORCE=1 to override.
+make: *** [staging_dir/host/.prereq-build] Error 1
+root@jazzhipster-VirtualBox:/media/sf_LinuxDisk_JS/Mtk7688/openwrt# ^C
+root@jazzhipster-VirtualBox:/media/sf_LinuxDisk_JS/Mtk7688/openwrt# ^C
+I know it has been year but even now you are stuck here is answer
+You might be using Windows as host and NTFS as file system
+so NTFS is non case sensitive FS
+according to wiki
+In Unix filesystems, filenames are usually case-sensitive. Old Windows filesystems (VFAT, FAT32) are not case-sensitive (there cannot be a readme.txt and a Readme.txt in the same directory) but are case-preserving, i.e. remembering the case of the letters. The original FAT12 filesystem was case-insensitive.[7] Current Windows file systems, like NTFS, are case-sensitive; that is a readme.txt and a Readme.txt can exist in the same directory.
+so there is chance that you have shared your folder with virtual box.
+and compiling same source.
+so copy source on EXT4 partition and compile.
+safest way is get fresh source directly on EXT4 partition and let me know.
+I think this should solve your problem.
+
+
+/******************************************************************************/
+Linkit 7688 Duo USB firmware update-記錄(解磚-救磚-更新)
+/******************************************************************************/
+開發板的第一篇分享文章，就是把開發板玩壞後的復原……
+先看一下磚掉的7688是什麼情況，老實說我也不確定是否磚掉了
+但wifi燈長亮也連不上7688，我就當他是磚掉了
+接下來的說明，參考資料來自 https://www.youtube.com/watch?v=YZ1Zkg7vBqQ
+簡單的說，解磚的方法 = 透過USB更新 firmware
+1. 首先要準備一支USB隨身碟，必需要是FAT32的格式
+2. 至官網下載最新的 firmware 
+https://labs.mediatek.com/site/global/developer_tools/mediatek_linkit_smart_7688/sdt_intro/index.gsp
+3. 解開壓縮檔，拷貝lks7688.img至隨身碟根目錄
+一定要放在USB的根目錄，而且檔名為 lks7688.img
+4. 隨身碟接至7688的USB HOST
+靠綠燈的是USB Host
+5. 按下wifi reset 不放，再按一下MPU reset並放開(wifi reset還不能放喔)，等五秒後再放開wifi reset
+6. 請等約五分鐘…wifi 燈號一開始會快閃，然後穩定的閃亮，更新完成時7688會重啟(耐心！耐心！)
+https://labs.mediatek.com/fileMedia/download/87c801b5-d1e6-4227-9a29-b5421f2955ac#page=47
+7. done.   
+wifi 回復正常了
+如果是要更新firmware，照本篇做是沒問題的
+希望你也救回你的了7688
+
+
 /******************************************************************************/
 /******************************************************************************/
 /******************************************************************************/
 /******************************************************************************/
 /******************************************************************************/
-Android Debug app
+/******************************************************************************/

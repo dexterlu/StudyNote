@@ -7,7 +7,6 @@
 4.在URL of repository填上http://xxxxxx.googlecode.com/svn/trunk/ 
     xxxxxx是project 名稱，按下OK就開始下載了
 
-
 開源中國社區
 http://www.java2s.com/Code/Android/Date-Type/byteArrayToHexString.htm
 http://www.oschina.net/android/202/actionbar

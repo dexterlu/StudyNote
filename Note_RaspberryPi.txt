@@ -4261,7 +4261,8 @@ Finally, plug the card into the Pi and boot it!
 /******************************************************************************/
 Product : my_device
 Security Profile Description 
-Choose a description for your security profile for Amazon services to use in communicating with you.  AVS_SampleAppSecurityProfileDescription_Dexter1101
+Choose a description for your security profile for Amazon services to use in communicating with you.  
+AVS_SampleAppSecurityProfileDescription_Dexter1101
 
 Security Profile ID 
 This ID will identify your security profile in Amazon services. 
@@ -4272,7 +4273,30 @@ This is a value specific to you that is assigned to you when you register with L
 amzn1.application-oa2-client.5df0ca0dfb314840ac813c6a2c65edb6
 
 Client Secret   
-This is a secret specific to you that is assigned to you when you register with Login with Amazon. Confidential.  126a904afbd0a64bd4e22d23fdff2b893341897b8237c083e7c7b3d2ccd5724e
+This is a secret specific to you that is assigned to you when you register with Login with Amazon. Confidential.  
+126a904afbd0a64bd4e22d23fdff2b893341897b8237c083e7c7b3d2ccd5724e
+
+
+/******************************************************************************/
+/******************************************************************************/
+dexter_1101
+
+
+/******************************************************************************/
+// devicePi
+/******************************************************************************/
+Security Profile   
+Security Profile Description 
+Choose a description for your security profile for Amazon services to use in communicating with you.	devicePi
+Security Profile ID 
+This ID will identify your security profile in Amazon services.		
+amzn1.application.5c00a63343ed47b1adb3a426045b6206
+Client ID   
+This is a value specific to you that is assigned to you when you register with Login with Amazon.	
+amzn1.application-oa2-client.e2373f77d00646d795bbf6f4d84c34cf
+Client Secret   
+This is a secret specific to you that is assigned to you when you register with Login with Amazon. Confidential.	
+65da1ddf92a616f8fce09aebd304e6fa16e9487c90441dc1bb114126a5344c94
 
 
 /******************************************************************************/
@@ -4306,34 +4330,64 @@ $ mvn exec:exec
 /******************************************************************************/
 // Amazon Alexa information
 /******************************************************************************/
-pi@raspberrypi:~/Desktop/alexa-avs-raspberry-pi-master/samples/javaclient $ ./generate.sh
+dexter@dexter-1101HA:~/SambaDisk/repos/AmazonAlexa/alexa-avs-sample-app/samples/javaclient$ ./generate.sh
 Product ID: dexter_1101
 Serial Number: 123456
-Password for Keystores (won't echo): Generating RSA private key, 4096 bit long modulus
+Password for Keystores (won't echo): 0222709599
+Generating RSA private key, 4096 bit long modulus
 ........................................................................++
-...................................................................++
+..............++
 e is 65537 (0x10001)
 Generating RSA private key, 2048 bit long modulus
-................+++
-.........................................+++
+............................+++
+..............................................................+++
 e is 65537 (0x10001)
 Signature ok
-subject=/CN=dexter_1101:123456/C=US/ST=WA/L=SEATTLE/O=RASP_PI/OU=RASP_PI_TEST
+subject=/CN=dexter_1101:123456/C=TW/ST=TW/L=Taipei/O=Jazz/OU=Jazz
 Getting CA Private Key
 Generating RSA private key, 2048 bit long modulus
-....................................................................................+++
-.................................................................+++
+..................................................................................................................................+++
+.........+++
 e is 65537 (0x10001)
 Signature ok
-subject=/CN=localhost/C=US/ST=WA/L=SEATTLE/O=RASP_PI/OU=RASP_PI_TEST
+subject=/CN=localhost/C=TW/ST=TW/L=Taipei/O=Jazz/OU=Jazz
 Getting CA Private Key
 Generating RSA private key, 2048 bit long modulus
-....................................................+++
-..................+++
+....+++
+...........................................................................................................................+++
 e is 65537 (0x10001)
 Signature ok
-subject=/CN=localhost/C=US/ST=WA/L=SEATTLE/O=RASP_PI/OU=RASP_PI_TEST
+subject=/CN=localhost/C=TW/ST=TW/L=Taipei/O=Jazz/OU=Jazz
 Getting CA Private Key
+dexter@dexter-1101HA:~/SambaDisk/repos/AmazonAlexa/alexa-avs-sample-app/samples/javaclient$
+
+dexter@dexter-1101HA:~/SambaDisk/repos/AmazonAlexa/alexa-avs-sample-app/samples/javaclient$ pwd
+/home/dexter/SambaDisk/repos/AmazonAlexa/alexa-avs-sample-app/samples/javaclient
+
+Set sslKey to {REFERENCE_IMPLEMENTATION}/samples/javaclient/certs/server/node.key
+/home/dexter/SambaDisk/repos/AmazonAlexa/alexa-avs-sample-app/samples/javaclient/certs/server/node.key
+Set sslCert to {REFERENCE_IMPLEMENTATION}/samples/javaclient/certs/server/node.crt
+/home/dexter/SambaDisk/repos/AmazonAlexa/alexa-avs-sample-app/samples/javaclient/certs/server/node.crt
+Set sslCaCert to {REFERENCE_IMPLEMENTATION}/samples/javaclient/certs/ca/ca.crt
+/home/dexter/SambaDisk/repos/AmazonAlexa/alexa-avs-sample-app/samples/javaclient/certs/ca/ca.crt
+
+
+/******************************************************************************/
+https://github.com/alexa/alexa-avs-sample-app/wiki/Raspberry-Pi
+/******************************************************************************/
+raspberrypi-sys-mods (20161018+3) jessie; urgency=medium
+
+  * The 20161018 release has introduced a /etc/sudoers.d/010_pi-nopasswd file.
+    - The file is installed even if the "pi ALL=(ALL) NOPASSWD: ALL" entry has been
+      previously removed from /etc/sudoers by the user.
+    - If you do not want the entry to exist, please comment out or remove 010_pi-nopasswd.
+    - If upgrading to 20161018+3 from a version earlier than 20161018, the line in
+      010_pi-nopasswd is automatically commented out if the entry doesn't exist in sudoers.
+    - See https://github.com/RPi-Distro/raspberrypi-sys-mods/issues/6
+
+ -- Serge Schneider <serge@raspberrypi.org>  Wed, 19 Oct 2016 10:52:07 +0100
+
+(q to quit)
 
 
 /******************************************************************************/
@@ -4457,6 +4511,22 @@ Good listening!
 // Raspberry Pi 3 的應用 - Wi-Fi 無線基地台
 /******************************************************************************/
 http://blog.itist.tw/2016/03/using-raspberry-pi-3-as-wifi-ap-with-raspbian-jessie.html
+
+
+/******************************************************************************/
+Smart-Mirror
+/******************************************************************************/
+https://github.com/HackerHouseYT/Smart-Mirror
+
+
+/******************************************************************************/
+Top 10 DIY Projects That Will Teach You A Lot About Technology
+/******************************************************************************/
+http://www.lifehacker.com.au/2016/11/top-10-diy-projects-that-will-teach-you-a-ton-about-tech/
+
+How To Build Your Own Amazon Echo With A Raspberry Pi
+http://www.lifehacker.com.au/2016/10/how-to-build-your-own-amazon-echo-with-a-raspberry-pi/
+
 
 
 /******************************************************************************/
