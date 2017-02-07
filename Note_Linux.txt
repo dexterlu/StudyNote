@@ -206,6 +206,7 @@ scew (工作 xml) 用原始碼裝
 expat (工作 xml) 用原始碼裝
 gettext (GNU gettext)
 
+
 /***************************************************************************/
 Ubuntu 安裝 GCC
 /***************************************************************************/
@@ -1193,8 +1194,10 @@ Linux是一個目前非常普遍的作業系統，因為它為免費且公開原
 
 
 /***************************************************************************/
-// 如何啟動USB sound  (Emmebedded System)       ref: http://victoryuembeddedlinux.blogspot.com/2011/01/usb-sound.html
+// 如何啟動USB sound  (Emmebedded System)       
 /***************************************************************************/
+ref: http://victoryuembeddedlinux.blogspot.com/2011/01/usb-sound.html
+
 簡介
 USB喇叭是一個標準的USB class，它是一個USB接頭直接接到一對喇叭，而在喇叭中
 直接有音訊解碼器及擴大機，可以讓你播放各音樂檔檔式，如mp3 or wav格式，在
@@ -13599,6 +13602,103 @@ AP_SCAN <ap_scan value>
 Change ap_scan value: 0 = no scanning, 1 = wpa_supplicant requests scans and uses scan results to select 
 the AP, 2 = wpa_supplicant does not use scanning and just requests driver to associate and take care of AP 
 selection 
+
+
+/******************************************************************************/
+U-boot 啟動內容及基礎指令使用介紹
+/******************************************************************************/
+U-boot 啟動內容及基礎指令使用介紹
+1.1 u-boot 啟動內容解譯
+U-Boot 1.1.4 (Sep 23 2008 - 10:58:00) //u-boot 本版資訊及編譯時間
+U-Boot code: 30700000 -> 3071B11C BSS: -> 3071F5C4//存放u-boot 資料和程式碼的位址
+
+IRQ Stack: 306daf74
+FIQ Stack: 306dbf74 //中斷Stack 位址，u-boot 可不需要使用中斷
+RAM Configuration:
+Bank #0: 30000000 32 MB //32MB 的SDRAM 位址起始位址為 30000000
+Flash: 2 MB //2MB 的Norflash 位址，其實位址為20000000
+NAND: 64 MB //64MB 的Nandflash
+*** Warning - bad CRC, using default environment //由於是第一次燒寫，flash 中還沒有儲存環境變數，因此使用預設換機變數
+In: serial
+Out: serial
+Err: serial //匯入匯出串列方式
+Set the MAC successful! //成功配置網路
+Hit any key to stop autoboot: 0 //延時幾秒後自動執行
+# //主控台，用戶可匯入指令
+
+1.2 print 指令——檢視u-boot環境變數
+由於是第一次燒錄，此時的環境變數為預設值。
+
+1.3 u-boot 環境參數解譯
+#print
+bootargs= //這個參數將會傳遞給 Linux 作業系統，現在空白，以後詳解
+bootcmd=bootm 20000 f0000 //啟動指令，將在啟動延時之後執行位址的指令
+bootdelay=5 //啟動延時，建議修改為1
+baudrate=115200 //鮑率 115200
+ethaddr=00:50:c2:1e:af:fb //網卡的 mac 位址
+ipaddr=172.17.22.189 //開發板的 ip 位址
+serverip=172.17.22.183 //伺服器(PC 機)的ip 位址
+gatewayip=172.17.22.1 //閘道位址(直連可以不填)
+netmask=255.255.255.0 //網路遮罩
+bootfile="B2-rootfs/usr/B2-zImage.u-boot" //無用，可移除
+stdin=serial
+stdout=serial
+stderr=serial
+Environment size: 261/16380 bytes //環境變數容量
+
+1.4 set 指令——設定環境變數
+如果一個參數帶有多條指令，
+EX:
+setenv bootargs mem=224M root=/dev/ram0 rw initrd=0x01000000,32M console=ttyS0,115200n8 lpj=750000;tftpboot 01000000 ramdisk_mvl_u.gz;tftpboot 03000000 uzImage.bin;bootm 03000000
+用 print 查看結果。
+
+1.5 save 指令——儲存環境變數
+設定完環境變數後需要使用 save 指令來儲存環境變數，這樣開機後就不會環境變數錯誤的查看警告了。
+
+1.6 修改適合 S3C4510 開發板的環境變數
+為了方便交流和測試，開發時希望能夠統一 ip 位址，設定如下:
+主機:192.168.0.1
+開發板:192.168.0.2
+虛擬機:192.168.0.3
+#save
+Saving Environment to Flash...
+Un-Protected 1 sectors
+Erasing Flash...
+done
+Erased 1 sectors
+Writing to Flash... done
+Protected 1 sectors
+
+(兩條指令用"\;"隔開)
+set [參數][內容]\;[參數][內容]
+--------------------
+EX:
+#set bootcmd tftp vmlinux.img 30007fc0\; bootm 30007fc0
+
+set [參數] [內容]
+--------------------
+例如:
+#set bootdelay 1
+其中 bootargs 和 bootcmd 參數需要額外說明。
+
+(1) bootargs 參數
+bootargs 參數是啟動時傳遞給 Linux 作業系統的資訊，其配置敘述為:
+set bootargs root=/dev/mtdblock2 console=ttyS0,115200 rootfstype=cramfs mem=32mb
+root:/dev/mtdblock2 表示從nand 的第三個割區啟動檔案系統，Linux 啟動後會自動搜索 nand 分割區資訊。
+console:表示 Linux 作業系統使用的主控台，我們使用第一個序列埠，因此是ttyS0，後面跟的 115200 表示序列埠使用的鮑率。
+rootfstype:表示檔案系統的格式，我們燒錄在 nand 中的檔案系統使用cramfs，所以在這裡要填寫cramfs，否則 linux 會嘗試自動掛載，可能會出錯。
+mem:表示 Linux 作業系統的記憶體容量，目前開發板掛載32MB記憶體，因此填32MB。
+
+(2) bootcmd 參數
+bootcmd 參數表示開發板開機之後，bootdelay 結束後執行的指令。
+上面範例的含義是用 tftp 這條指令，將主機上的vmlinux.img（即Linux 核心）掛載到記憶體的 30007fc0 這個位址，
+然後從 30007fc0 啟動核心。(如果將 Linux 核心燒錄到 Nandflash 上，則指令又有不同)
+
+1.7 ping 指令——測試網路指令
+功能很簡單，比 pc 上的弱很多，如下：
+#ping 192.168.0.1
+host 192.168.0.1 is alive
+
 
 
 /******************************************************************************/

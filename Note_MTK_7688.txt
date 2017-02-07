@@ -625,6 +625,10 @@ jazzhipster@ubuntu:/media/Rd353Backup/DexterBackup/MTK7688_SDK/openwrt$ ^C
 make defconfig 
 若defconfig回显提示缺少软件包或编译库等依赖，则按提示安装所缺软件包或库等即可
 
+[SOLVE]
+將缺少的軟體包或librayr等相依軟體，安裝or複製到以下路街徑。
+openwrt/staging_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/
+
 
 /******************************************************************************/
 DIY a Wi-Fi Speaker
@@ -2931,6 +2935,53 @@ https://labs.mediatek.com/fileMedia/download/87c801b5-d1e6-4227-9a29-b5421f2955a
 wifi 回復正常了
 如果是要更新firmware，照本篇做是沒問題的
 希望你也救回你的了7688
+
+
+/******************************************************************************/
+// WiFi STA setup
+/******************************************************************************/
+Step-by-step
+Step 1 — Apply UCI commands to assign SSID, key, and encryption information for the Station mode
+Assume the wireless router to be connected is with the following properties:
+SSID: SampleAP
+Password: 12345678
+Encryption: WPA2 Personal
+In the system console of LinkIt Smart 7688, type the following commands if you're with the firmware version v0.9.4 or above: 
+Commands for v0.9.4 or above
+# uci set wireless.sta.ssid=SampleAP
+# uci set wireless.sta.key=12345678
+# uci set wireless.sta.encryption=psk2
+# uci commit
+If you're using the firmware v0.9.3 or below, please use this set of commands:
+Commands for v0.9.3 and v0.9.2
+# uci set wireless.sta.ssid=SampleAP  
+# uci set wireless.sta.key=12345678  
+# uci set wireless.sta.encryption=psk2  
+# uci set wireless.sta.disabled=0  
+# uci commit
+Step 2 — Restart the Wi-Fi driver to activate the configuration
+Type the command in the system console:
+Command for v0.9.4 or above
+# wifi_mode sta
+For firmware v0.9.3 or below, please use this command:
+Commands for v0.9.3 and v0.9.2
+# wifi  
+If you use SSH to connect to the system console of the LinkIt Smart 7688 development board, you'll lose the connection once the wifi command is set. This command will restart the Wi-Fi driver and then connect your PC to the same wireless router as the board did. Then you can connect to the LinkIt Smart 7688 development board with mylinkit.local by SSH again.
+You can also refer to the LED behavior to check the states of the connection in Station mode.
+ Step 3 — Check for internet connection
+ Now check if you’ve established internet connection by typing the following command in the system console:
+# ping –c 5 www.mediatek.com
+If you see messages like below, then congratulations. You’ve connected to the wireless router with internet access.
+root@mylinkit:/# ping -c 5 www.mediatek.com  
+PING www.mediatek.com (210.61.82.38): 56 data bytes  
+64 bytes from 210.61.82.38: seq=0 ttl=244 time=388.372 ms  
+64 bytes from 210.61.82.38: seq=1 ttl=244 time=368.003 ms  
+64 bytes from 210.61.82.38: seq=2 ttl=244 time=397.851 ms  
+64 bytes from 210.61.82.38: seq=3 ttl=244 time=417.423 ms  
+64 bytes from 210.61.82.38: seq=4 ttl=244 time=357.303 ms   
+--- www.mediatek.com ping statistics ---  5 packets transmitted, 
+5 packets received, 0% packet loss  
+round-trip min/avg/max = 357.303/385.790/417.423 ms
 
 
 /******************************************************************************/

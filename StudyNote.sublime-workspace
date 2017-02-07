@@ -1,0 +1,1236 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"BT_Process_D",
+				"BT_Process_Disconnect"
+			],
+			[
+				"bG",
+				"bGEN_VolOut"
+			],
+			[
+				"Thre",
+				"Threshold"
+			],
+			[
+				"BT_TWE",
+				"BT_TWS_AutoConnect]=40"
+			],
+			[
+				"TW",
+				"TWS_Pairing"
+			],
+			[
+				"BT",
+				"BTState"
+			],
+			[
+				"HE",
+				"Hex_to_Ascii"
+			],
+			[
+				"BT_Process_A",
+				"BT_Process_AskParty"
+			],
+			[
+				"C",
+				"Connected"
+			],
+			[
+				"delay",
+				"Delay_ms"
+			],
+			[
+				"NTP",
+				"NTP8230_SoundON"
+			],
+			[
+				"Devi",
+				"DeviceOn"
+			],
+			[
+				"TWS",
+				"TWS_Connected"
+			],
+			[
+				"sec",
+				"secKeyCount"
+			],
+			[
+				"Device",
+				"DeviceOff"
+			],
+			[
+				"fL",
+				"fLED_1"
+			],
+			[
+				"PWM",
+				"PWMD2"
+			],
+			[
+				"Is",
+				"IsFirstOpen"
+			],
+			[
+				"Hold",
+				"HOLD_KEY"
+			],
+			[
+				"Fir",
+				"FirstKey"
+			],
+			[
+				"HOLD",
+				"HOLD_KEY"
+			],
+			[
+				"NTP8230",
+				"NTP8230_Mute"
+			],
+			[
+				"0x1A",
+				"0x1A"
+			],
+			[
+				"map",
+				"map_value"
+			],
+			[
+				"Add",
+				"Address"
+			],
+			[
+				"up",
+				"up"
+			],
+			[
+				"Trig",
+				"TriggerTime"
+			],
+			[
+				"Panel",
+				"PanelKey"
+			],
+			[
+				"Ke",
+				"Key"
+			],
+			[
+				"TRA",
+				"TRANS_KEY_REPEAT"
+			],
+			[
+				"TR",
+				"TRANS_KEY_REPEAT"
+			],
+			[
+				"Tri",
+				"TriggerFlag"
+			],
+			[
+				"D",
+				"DelayTimes"
+			],
+			[
+				"Del",
+				"Delay"
+			],
+			[
+				"FIR",
+				"FIRST_KEY"
+			],
+			[
+				"K",
+				"KeyFlag"
+			],
+			[
+				"BT_T",
+				"BT_TWSAudioRoutingAsk"
+			],
+			[
+				"M",
+				"M"
+			],
+			[
+				"UI",
+				"UI_TimeOutEvent"
+			],
+			[
+				"De",
+				"Delay_10ms(20"
+			],
+			[
+				"P",
+				"Pairing"
+			],
+			[
+				"TWS_",
+				"TWS_Pairing"
+			],
+			[
+				"Dela",
+				"Delay_10ms(10"
+			],
+			[
+				"CS",
+				"CS48L1x"
+			],
+			[
+				"BM",
+				"BM5481_Sub"
+			],
+			[
+				"CS48",
+				"CS48L1x_Init(1"
+			],
+			[
+				"0x04",
+				"0x04"
+			],
+			[
+				"DSP",
+				"DSP_UNMUTE"
+			],
+			[
+				"BT_Pr",
+				"BT_Process_ExitTWS"
+			],
+			[
+				"BY",
+				"BYTE"
+			],
+			[
+				"BT_P",
+				"BT_Process_Pause"
+			],
+			[
+				"BT_Process_a",
+				"BT_Process_AutoConnect"
+			],
+			[
+				"bf",
+				"bFuncMode"
+			],
+			[
+				"BT_Process",
+				"BT_Process_VolUpdate"
+			],
+			[
+				"aux",
+				"AUX_MODE"
+			],
+			[
+				"TW_",
+				"TW_Connected"
+			],
+			[
+				"Uar",
+				"UART_TransmitByte('C"
+			],
+			[
+				"URAR",
+				"UART_Printf(\"PAIRING"
+			],
+			[
+				"uar",
+				"UART_TransmitByte"
+			],
+			[
+				"Rda",
+				"Rdata1"
+			],
+			[
+				"R",
+				"Rdata1"
+			],
+			[
+				"Low",
+				"LowBATTcnt"
+			],
+			[
+				"KEY_P",
+				"KEY_PAIRING_KEY"
+			],
+			[
+				"HOL",
+				"HOLD_TRIGER"
+			],
+			[
+				"bKe",
+				"bKeyFlag"
+			],
+			[
+				"BT_Process_",
+				"BT_Process_VolUp"
+			],
+			[
+				"BTs",
+				"BTState"
+			],
+			[
+				"pa",
+				"pairing"
+			],
+			[
+				"PL",
+				"PlugDetectcnt"
+			],
+			[
+				"Tra",
+				"transmit"
+			],
+			[
+				"UART",
+				"UART_Printf"
+			],
+			[
+				"STANDBY",
+				"STANDBY_MODE"
+			],
+			[
+				"Timeou",
+				"TimeOutRutineBuf"
+			],
+			[
+				"AUX",
+				"AUX_MODE"
+			],
+			[
+				"SYS_",
+				"SYS_BT_MODE"
+			],
+			[
+				"bfun",
+				"bFuncMode"
+			],
+			[
+				"ST",
+				"STANDBY_MODE"
+			],
+			[
+				"BT_De",
+				"BT_DeviceOn]=40"
+			],
+			[
+				"rU",
+				"TimeOutRutineBuf"
+			],
+			[
+				"AMP",
+				"AMP_SPEAKERON"
+			],
+			[
+				"de",
+				"define"
+			],
+			[
+				"TEST",
+				"TEST"
+			],
+			[
+				"RETURN",
+				"return"
+			],
+			[
+				"BYTE",
+				"BYTE0\tBYTE0"
+			],
+			[
+				"AS_VOL_M",
+				"AS_VOL_MIN"
+			],
+			[
+				"Am",
+				"AMP_RESET"
+			],
+			[
+				"BT_",
+				"BT_RST=LO"
+			],
+			[
+				"P_",
+				"P_EN2"
+			],
+			[
+				"timeout",
+				"TimeOutRutineBuf"
+			],
+			[
+				"ke",
+				"keyword"
+			],
+			[
+				"name",
+				"name\tname:"
+			],
+			[
+				"matc",
+				"match\tmatch:"
+			],
+			[
+				"ru",
+				"TimeOutRutineBuf"
+			],
+			[
+				"void",
+				"void0"
+			],
+			[
+				"By",
+				"BYTE1\tBYTE"
+			],
+			[
+				"Sub",
+				"Sublime"
+			],
+			[
+				"Co",
+				"Connected"
+			],
+			[
+				"BTS",
+				"BTState"
+			],
+			[
+				"BT_pr",
+				"BT_Process_TWSMaster"
+			],
+			[
+				"mul",
+				"MultiCount"
+			],
+			[
+				"fK",
+				"fKEY_2"
+			],
+			[
+				"HO",
+				"HOLD_KEY"
+			],
+			[
+				"s",
+				"start"
+			],
+			[
+				"pep",
+				"popen\tfunction"
+			],
+			[
+				"g",
+				"GetFileName"
+			],
+			[
+				"stK",
+				"stKP_KeyInfoKeep"
+			],
+			[
+				"EE",
+				"EEPROM_Page_Read"
+			],
+			[
+				"ADC",
+				"ADC_PlugDetect"
+			],
+			[
+				"A",
+				"AUX_MODE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Note_Linux.txt",
+			"settings":
+			{
+				"buffer_size": 588622,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					""
+				],
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					"JSON"
+				],
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					"Property List"
+				],
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					"YAML (Block Style)"
+				],
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					"YAML (Default Style)"
+				]
+			],
+			[
+				"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+				"Property List"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"mater",
+				"Material Theme: Activate theme"
+			],
+			[
+				"theme",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"material",
+				"Material Theme: Activate theme"
+			],
+			[
+				"br",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pc",
+				"Package Control: List Packages"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 198.0,
+		"history":
+		[
+			"ls",
+			"dir",
+			"ls",
+			"dir",
+			"sublime.Selection.clear()",
+			"sublime.Selection.clear(self)",
+			"sublime.Selection.clear()",
+			"view.substr(reg)",
+			"reg",
+			"sublime.Selection.add_all(reg)",
+			"reg",
+			"sublime.Selection.add_all(5)",
+			"sublime.Selection.add_all(5,10)",
+			"sublime.Selection.add(5,10)",
+			"sublime.Selection.add(5)",
+			"sublime.Selection.add(reg)",
+			"sublime.selection.add(reg)",
+			"sublime.Selection.add(reg)",
+			"sublime.Selection().add(reg)",
+			"sublime.Selection.add(reg)",
+			"reg=sublime.Region(10150,10181)",
+			"reg=sublime.Region(0,1)",
+			"reg=Region(0,1)",
+			"sublime.Selection.add(10150,10181)",
+			"sublime.Selection.add(0)",
+			"sublime.add(0)",
+			"Sublime.add(0)",
+			"Sublime.add()",
+			"view.text_point(row, 0)",
+			"view.text_point(row, col)",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"view.text_point(row, col)",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"view.text_point(row, col)",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"view.text_point(row, col)",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"view.text_point(row, col)",
+			"text_point(row, col)",
+			"view.line(2)",
+			"view.line(1)",
+			"view.line(row)",
+			"region=view.line(row)",
+			"view.substr(region)",
+			"region",
+			"view.substr(2)",
+			"view.substr(2, 3 ,2)",
+			"view.substr(2, 3)",
+			"region",
+			"view.substr(2,3)",
+			"view.substr(2)",
+			"view.substr(1)",
+			"region",
+			"region=view.line(row)",
+			"view.substr(26)",
+			"view.substr(25)",
+			"view.substr(region)",
+			"region=view.line(row)",
+			"row",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"view.substr(region)",
+			"region=view.line(row+1)",
+			"row",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"view.substr(region)",
+			"region=view.line(row)",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"view.substr(region)",
+			"region=view.line(row)",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"view.substr(region)",
+			"region=view.line(row)",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"view.substr(region)",
+			"region=view.line(row)",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"view.substr(region)",
+			"region=view.line(row)",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"view.substr(region)",
+			"sublime.substr(region)",
+			"sublime.Region(region)",
+			"Region(region)",
+			"view.word(region)",
+			"word(region)",
+			"region=view.line(row)",
+			"view.line(row)",
+			"row",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"row",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"view.line(0)",
+			"view.word(0)",
+			"view.word(14)",
+			"view.sel()[0].begin()",
+			"col",
+			"row",
+			"(row,col) = view.rowcol(view.sel()[0].begin())",
+			"(row,col) = view.rowcol(self.view.sel()[0].begin())",
+			"(row,col) = self.view.rowcol(self.view.sel()[0].begin())",
+			"view.id()",
+			"view.sel()",
+			"for i in view.sel():",
+			"view.sel()",
+			"view.line(15)",
+			"view.word(15)",
+			"view.word(10)",
+			"view.word(1)",
+			"view.word(5)",
+			"view.show(5)",
+			"view.show(1)",
+			"view.open_file(\"log.txt\")",
+			"view.substr(1)",
+			"view.substr(12)",
+			"view.substr(\"sdasf\")",
+			"view.substr('123')",
+			"self.view.substr('123')",
+			"view.run_command('example')",
+			"view.run_command('Example')",
+			"view.run_command('example')",
+			"view.run_command('Example')",
+			"view.run_command('example')",
+			"dir()",
+			"dir",
+			"k=window.extract_variables()",
+			"view.run_command('example')",
+			"view.runCommand(\"Example\")",
+			"os.system(\"UV4 -r zzzz.uvproj -o log.txt\")"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/X/Dexter1101Bt/Docs/StudyNote"
+	],
+	"file_history":
+	[
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Frontier/Note_Frontier.txt",
+		"/X/Dexter1101Bt/Docs/StudyNote/Note_SublimeText.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_JS/Sam Firmware/sam-2.1.17-S-generic/sam-cdk/tools/bin/JsAir_MP/Note_Gen_Firmware.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Magnat/Sam Firmware/sam-2.3.17-S-generic/sam-cdk/files/device-tree/CS_Serial/Sample01/cus227_CS_10.dts",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.0.34-SA-generic/sam-cdk/files/device-tree/E3/cus227_E3.dts",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.3.18-S-generic/sam-cdk/tools/bin/E3_forApple3rd/Note_Gen_Firmware.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.0.34-SA-generic/sam-cdk/tools/bin/E3/cus227_E3.dtb",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Magnat/Sam Firmware/sam-2.3.17-S-generic/sam-cdk/tools/bin/CS_Serial/Sample01/Note_Gen_Firmware.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Magnat/Sam Firmware/sam-2.3.17-S-generic/sam-cdk/tools/bin/CS_Serial/Sample01/Gen_upgrade_test/Magnat_40-S.sam.mft",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Magnat/Sam Firmware/sam-2.3.17-S-generic/sam-cdk/tools/bin/CS_Serial/Sample01/Gen_upgrade_test/Magnat_10-S.sam.mft",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_JS/Sam Firmware/sam-2.1.17-S-generic/sam-cdk/files/device-tree/JsAir_MP/cus227_JsAir_1.dts",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_JS/Note_Gen_Firmware.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/Project_JS/Deluxe_1/Software Customization Kit_LS9_v3.1/FENV/envitem.xml",
+		"/E/Downloads/OLED_I2C/OLED_I2C.cpp",
+		"/E/DEXTER/IntRadio.py",
+		"/X/Dexter1101Bt/StudyProject/RaspberryPi3/Desktop/IFTTT/C_Button/piIfttt.c",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/Project_ETON/EtonSample/Software Customization Kit_LS9_v3.1/FENV/envitem.xml",
+		"/X/Dexter1101Bt/StudyProject/RaspberryPi3/Desktop/IFTTT/button/gpio_input.py",
+		"/X/Dexter1101Bt/StudyProject/RaspberryPi3/Desktop/IFTTT/button/test.py",
+		"/X/Dexter1101Bt/StudyProject/BeagleBone/CES_SmartSpeaker_Project/home/debian/cropse/touch/touch.py",
+		"/E/Pi/AllJoynPhilipsHueDSB/README.md",
+		"/E/DEXTER/[ssh 192.168.100.35] (2016-12-30_140311).log",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/LibreSync/LS_Firmwares/LS6/v6108_15Nov16/Firmwares/MergeTool/FENV/envitem.xml",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/From_Ann/BIST_Image_withTZ key/TZ key tool/Libre_SWProcessTool_V2.3_Win7_64bit/Libre_SWProcess_Tool.log",
+		"/X/Dexter1101Bt/Docs/StudyNote/Note_MTK_7688.txt",
+		"/X/Dexter1101Bt/Docs/StudyNote/Note_Alljoyn.txt",
+		"/C/SoftwareTools/Sublime Text Build/Packages/Java.sublime-package",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/From_Ann/GoogleKey_LIBRE_TEST_291/LIBRE_TEST_294/factory/client.crt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/From_Ann/GoogleKey_LIBRE_TEST_291/LIBRE_TEST_294/factory/serial.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/From_Ann/GoogleKey_LIBRE_TEST_291/LIBRE_TEST_294/factory/bssid.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/From_Ann/GoogleKey_LIBRE_TEST_291/LIBRE_TEST_293/factory/bssid.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/From_Ann/GoogleKey_LIBRE_TEST_291/LIBRE_TEST_292/factory/bssid.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/From_Ann/GoogleKey_LIBRE_TEST_291/LIBRE_TEST_291/factory/bssid.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/From_Ann/GoogleKey_LIBRE_TEST_291/LIBRE_TEST_291/factory/serial.txt",
+		"/E/DEXTER/RunProgram_W10.bat",
+		"/C/Users/DEXTER.LU/Desktop/RunProgram_W10 - 捷徑.lnk",
+		"/E/DEXTER/WorkDocs/Note_WorkMisc.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Allplay/allplaySoftware/liballplaymcu_v2.0.1/st3proj.sublime-project",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/From_Ann/BIST_Image_withTZ key/TZ key tool/Libre_SWProcessTool_V2.3_Win7_64bit/BTmacidused.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/From_Ann/BIST_Image_withTZ key/TZ key tool/Libre_SWProcessTool_V2.3_Win7_64bit/config.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/From_Ann/BIST_Image_withTZ key/TZ key tool/Libre_SWProcessTool_V2.3_Win7_64bit/MappingDetails.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/From_Ann/BIST_Image_withTZ key/TZ key tool/Libre_SWProcessTool_V2.3_Win7_64bit/No_WIFImacid.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.0.34-SA-generic/sam-cdk/tools/bin/E3/Note_Gen_Firmware.txt",
+		"/E/Downloads/README.md",
+		"/X/Dexter1101Bt/Docs/StudyNote/Note_RaspberryPi.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Auluxe/Docs/CertAllplay/ForAllplayTeam/cus227_E3.dts",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Auluxe/Docs/CertAllplay/ForAllplayTeam/JsAir_T.sam.mft",
+		"/X/repos/history.txt",
+		"/X/repos/Readme.txt",
+		"/X/Readme",
+		"/E/DEXTER/Eclipse workspace/TCPClient/src/com/example/tcpclient/TCPClient.java",
+		"/E/DEXTER/Eclipse workspace/TCPServer/src/TCPServer.java",
+		"/C/Users/DEXTER.LU/Desktop/hs_err_pid13697.log",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/Project_JS/Deluxe_1_withLibreGoogleKey/Software Customization Kit_LS9_v3.1/FENV/envitem.xml",
+		"/X/repos/AmazonAlexa/alexa-avs-sample-app/samples/javaclient/pom.xml",
+		"/C/Users/DEXTER.LU/Desktop/hs_err_pid27693.log",
+		"/C/Users/DEXTER.LU/Desktop/log_play_icrt_err_20161128.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/Project_JS/LS_Firmwares/Software Customization Kit_LS9_v3.1/FENV/envitem.xml",
+		"/E/DEXTER/AirPlay/Note_Airplay.txt",
+		"/E/DEXTER/[Com COM1] (2016-11-18_161817).log",
+		"/E/DEXTER/[Com COM1] (2016-11-18_160514).log",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/Note_Libre.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Libre/Project_JS/LS_Firmwares/LS9/LS9_V9075_TZ/ENVXML/envitem.xml",
+		"/E/Downloads/mopidy.gpg",
+		"/C/SoftwareTools/Sublime Text Build 3083/Data/Packages/User/Anaconda.sublime-settings",
+		"/C/SoftwareTools/Sublime Text Build 3083/Data/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/SoftwareTools/Sublime Text Build 3083/Data/Packages/User/Plain text.sublime-settings",
+		"/C/SoftwareTools/Sublime Text Build 3083/Data/Packages/Git/Git.sublime-settings",
+		"/X/Dexter1101Bt/Docs/Note/Note_Git.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Note_Allplay.txt",
+		"/X/Dexter1101Bt/Docs/Note/Note_MTK_7688.txt",
+		"/C/Users/DEXTER.LU/Desktop/ALLPLAY Network Status.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.3.18-S-generic/sam-cdk/tools/bin/E3/Note_Gen_Firmware.txt",
+		"/X/Dexter1101Bt/Docs/Note/Note_Network.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Misc/WPS_on_sam2.3.17-s/wps_message.txt",
+		"/C/SoftwareTools/Sublime Text Build 3083/Data/Installed Packages/Material Theme.sublime-package",
+		"/C/SoftwareTools/Sublime Text Build 3083/Data/Cache/Material Theme/schemes/Material-Theme-Darker.tmTheme.cache",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/ALLPlay Docs/Sam Firmware/CustomVersion/Auluxe/Readme.txt",
+		"/E/Downloads/dropbox.py",
+		"/X/Dexter1101Bt/Docs/Note/Note_Linux.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_Magnat/Sam Firmware/sam-2.3.17-S-generic/sam-cdk/tools/bin/CS_Serial/Sample01/Mcu/Magnat_test/Magnat_10-S.sam.mft",
+		"/C/Users/DEXTER.LU/Desktop/ETH0 status.txt",
+		"/E/DEXTER/WorkDocs/Module_WifiAudio/Qualcomm/Project_JS/Sam Firmware/sam-2.3.18-S-generic/sam-cdk/tools/bin/JsAir_MP/Note_Gen_Firmware.txt",
+		"/C/Users/DEXTER.LU/Desktop/oem.config",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.0.34-SA-generic/sam-cdk/files/device-tree/E3/cus227_E31.dts",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.3.18-S-generic/sam-cdk/files/device-tree/E3/cus227.dts",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.3.18-S-generic/sam-cdk/tools/bin/E3/Note_Gen_Firmware.txt",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.3.18-S-generic/sam-cdk/files/oem.config",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_JS/Sam Firmware/sam-2.3.18-S-generic/sam-cdk/files/oem.config_air5",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_JS/Sam Firmware/sam-2.3.18-S-generic/sam-cdk/files/oem.config",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.3.18-S-generic/sam-cdk/files/device-tree/E3/cus227_E3_Telnet.dts",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Magnat/Sam Firmware/sam-2.1.17-S-generic/sam-cdk/files/oem.config",
+		"/X/Dexter1101Bt/Docs/Note/Note_openwrt.txt",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.0.34-SA-generic/sam-cdk/files/device-tree/E3/cus227_E3.dts",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.3.18-S-generic/sam-cdk/files/device-tree/E3/cus227_E3.dts",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.0.34-SA-generic/sam-cdk/tools/bin/E3_forApple/Note_Gen_Firmware.txt",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.0.34-SA-generic/sam-cdk/tools/bin/E3/Note_Gen_Firmware.txt",
+		"/E/log.txt",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Auluxe/Sam Firmware/sam-2.0.34-SA-generic/sam-cdk/tools/bin/E3/McuOnly/E3.sam.mft",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_JS/Sam Firmware/sam-2.0.34-S-generic/sam-cdk/tools/bin/JsAir_MP_forApple/Note_Gen_Firmware_forAirplayAudit.txt",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Libre/Project_JS/LS_Firmwares/Software Customization Kit_LS9_v3.1/FENV/envitem.xml",
+		"/C/SoftwareTools/Sublime Text Build 3083/Data/Packages/User/Preferences.sublime-settings",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Libre/LibreSync/LS_Firmwares/LS9/LS9_Release_NonTZ_v9055_16Aug2016/FENV/envitem.xml",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Libre/Project_JS/Deluxe_1/Software Customization Kit_LS9_v3.1/FENV/envitem.xml",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Module_WifiAudio.sublime-project",
+		"/E/Downloads/python-wifi-0.6.1/api-2011.txt",
+		"/E/Downloads/python-wifi-0.6.1/README",
+		"/E/Downloads/7688 speaker (1).cdr",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/ALLPlay Docs/Sam Firmware/FromTao_EU_EN_300328_1.9.1_testing_firmware/cus227.dtb",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Magnat/Sam Firmware/sam-2.3.17-S-generic/sam-cdk/tools/bin/CS_Serial/Sample01/Note_Gen_Firmware.txt",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_JS/Sam Firmware/sam-2.0.34-S-generic/sam-cdk/tools/bin/JsAir_MP/Note_Gen_Firmware_forAirplayAudit.txt",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Magnat/Sam Firmware/sam-2.1.17-S-generic/sam-cdk/tools/bin/CS_Serial/Sample01/Note_Gen_Firmware.txt",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_JS/Sam Firmware/sam-2.0.34-S-generic/sam-cdk/tools/bin/JsAir_MP/Note_Gen_Firmware.txt",
+		"/E/Downloads/7688 speaker.cdr",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Magnat/Sam Firmware/Request_ThunderSoft/oem.config",
+		"/X/Dexter1101Bt/Docs/Note/Note_Linux1.txt",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/ALLPlay Docs/Sam Firmware/sam-2.3.17-S-generic/sam-cdk/files/device-tree/cus227.dts",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/ALLPlay Docs/Sam Firmware/FromTao_sam-2.3.04/cus227.dtb",
+		"/X/Dexter1101Bt/Docs/Note/.git/config",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Magnat/Sam Firmware/sam-2.1.17-S-generic/sam-cdk/files/device-tree/CS_Serial/cus227_CS_10.dts",
+		"/E/DEXTER/Work Docs/Module_WifiAudio/TI/Docs_AM335x/Note_TI.txt",
+		"/X/Dexter1101Bt/Docs/Note/Note_RaspberryPi.txt",
+		"/X/Dexter1101Bt/Docs/Note/Note_Perl.txt",
+		"/E/DEXTER/PythonProject/serial_test_thread.py",
+		"/E/DEXTER/PythonProject/ProjectSerial/serial_test_thread.py",
+		"/E/DEXTER/Work Docs/Module - Wifi Audio/Libre/LSx Common Docs.zip",
+		"/C/SoftwareTools/Sublime Text Build 3083/Data/Packages/Default/Preferences.sublime-settings",
+		"/E/DEXTER/PythonProject/Network/SocketClient.py"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<current file>,<open folders>,C:\\Users\\CROPSE.MA\\Desktop\\KeyObject_Normal_withGENKey\\mbed\\TARGET_NUCLEO_F091RC,C:\\Users\\CROPSE.MA\\Desktop\\DigitalOut_HelloWorld\\mbed\\TARGET_NUCLEO_F072RB",
+			"<current file>,<open folders>,C:\\Users\\CROPSE.MA\\Desktop\\KeyObject_Normal_withGENKey\\mbed\\TARGET_NUCLEO_F091RC",
+			"<current file>,<open folders>",
+			"<current file>",
+			"C:\\Users\\CROPSE.MA\\Desktop\\Bamster Outdoor\\Bamster Outdoor\\Source Code",
+			"C:\\Users\\CROPSE.MA\\Desktop\\Bamster Outdoor\\Bamster Outdoor"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"staging_dir",
+			"target-mipsel",
+			"fuse",
+			"mpc",
+			"Install Kernel",
+			"Dealing with",
+			"backup",
+			"LUCI command",
+			"LUCI",
+			"bluetooth",
+			"setenv",
+			"mpc",
+			"setup",
+			"shairport",
+			"usb",
+			"shairport",
+			"config",
+			"airplayj",
+			"airplay",
+			"vlc",
+			"i2s",
+			"package",
+			"model",
+			"support",
+			"usb",
+			"root",
+			"13.14",
+			"TW",
+			"ssh",
+			"open",
+			"apt-get install",
+			"tcp",
+			"7777",
+			"port",
+			"LUCI_local",
+			"message box",
+			"mac",
+			"Libre",
+			"version",
+			"Deluxe",
+			"allow",
+			"can not",
+			"LUCI_local",
+			"version",
+			"ia32-lib",
+			"dd",
+			"DDMS",
+			"fw",
+			"url",
+			"firmware",
+			"usb",
+			"telnet",
+			"netif",
+			"auto",
+			"hostpresent",
+			"version",
+			"deluxe",
+			"ethernet",
+			"device id",
+			"hostpresent",
+			"gpio",
+			"luci_local",
+			"LUCI",
+			"run",
+			"putty",
+			"root",
+			"nand",
+			"run",
+			"mkfs",
+			"fstab",
+			"fdisk",
+			"update",
+			"uboot",
+			"dexter.lu@jazzhipster.com.tw",
+			"raspberry",
+			"uboot",
+			"142",
+			"mac",
+			"new",
+			"telnet",
+			"linein",
+			"java",
+			"12.12",
+			"E3/",
+			"hostpresent",
+			"version",
+			"WAC",
+			"LUCI_local",
+			"hostpresent",
+			"142",
+			"124",
+			"wac",
+			"root",
+			"uboot",
+			"type a",
+			"uart",
+			"BIST",
+			"type a",
+			"block0",
+			"button",
+			"usb",
+			"tty",
+			"root",
+			"error",
+			"11.11",
+			"rd353",
+			"bear",
+			"token",
+			"6c",
+			"LUCI_local",
+			"SAC/WAC you can use LUCI_local 142 1 ",
+			"LUCI_local",
+			"factory",
+			"LS",
+			"airplay",
+			"LSConfig",
+			"name",
+			"Model",
+			"device",
+			"libre",
+			"Librei",
+			"Libre",
+			"Deluxe",
+			"Libre",
+			"BT",
+			"hostpresent",
+			"usb_",
+			"Deluxe"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"14.16",
+			"ETON_a1",
+			"13.14",
+			"E3_forApple3rd/",
+			"12.12E3_forApple3rd/",
+			"12.12",
+			"11.11",
+			"E3_forApple3rd",
+			"0.10.10",
+			"--out \"E3_forApple3rd",
+			"FromTao_sam-2.3.18-SA_AppleAudit3rd",
+			"DDDD",
+			"sam-2.3.18-SA-jazzhipster-theme-auluxe-new",
+			"007",
+			"006",
+			"002",
+			"2.3.18",
+			"FromTao_sam-2.2.18-SA_withCA",
+			"E3_forApple/",
+			"E3_forApple",
+			"openwrt_ar71xx_generic_cus227_firmware",
+			"FromTao_sam-2.2.18-SA",
+			"2.2.18",
+			"0.9.09",
+			"Deluxe_01",
+			"0.8.08",
+			"sam-2.3.17-S-jazzhipster-theme-magnet-new",
+			"2.3.17",
+			"05",
+			"2.2.18",
+			"openwrt_ar71xx_generic_cus227_firmware",
+			"_ar71xx",
+			"/",
+			"JsAir_MP_forApple",
+			"../../../../FromTao_sam-2.2.18-SA/",
+			"04",
+			"03",
+			"45",
+			"31",
+			"45",
+			"31",
+			"2.1.17",
+			"\"sam\" \"2.1.17",
+			"45",
+			"1.2a",
+			"SA",
+			"50W",
+			"30W",
+			"SoundAround_MP01",
+			"SOUNDAROUND_Wi-Fi_system/SW30W",
+			"SoundAround_MP01",
+			"a",
+			"BTSend('G')",
+			" \"Source Code/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Note_Linux.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 588622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312594,
+								312594
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 146632.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 153.0
+	},
+	"output.figlet_preview":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 264.0
+	},
+	"output.git":
+	{
+		"height": 124.0
+	},
+	"output.package_dev":
+	{
+		"height": 29.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "StudyNote.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"note",
+				"Note_Allplay.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\CROPSE.MA\\Desktop\\BT sound base\\T30 N20_no48l11_RCA_AUX_ARC\\SoundBase.sublime-project"
+			]
+		],
+		"width": 594.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 314.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
