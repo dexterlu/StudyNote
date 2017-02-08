@@ -434,7 +434,8 @@ zoneinfo  --->  # 時區資訊
 /******************************************************************************/
 AllJoyn在OpenWrt上的實踐  (待測)
 /******************************************************************************/
-from : https://read01.com/yO3mzP.html
+from : http://blog.csdn.net/baiwfg2/article/details/42556767
+Alljoyn official GIT: https://github.com/allseenalliance/core-openwrt_feed
 
 依項目需求，需要將alljoyn移植到openwrt開發板上，其實談不上複雜，只是這東西有點新，參考教程不多，需要足夠地摸索。可參考的官方教程寫得太不詳細，也只能跟著它試試看了。基本步驟如下：
 
