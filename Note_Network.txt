@@ -857,7 +857,180 @@ Dec 14 16:56:33 doorway upnpd: AddPortMap: RemoteHost: (null) Prot: 6 ExtPort: 3
 
 
 /******************************************************************************/
+MQTT
 /******************************************************************************/
+樹莓派安裝 Mosquitto 輕量級 MQTT Broker 教學，連接各種物聯網設備
+https://blog.gtwang.org/iot/raspberry-pi/raspberry-pi-mosquitto-mqtt-broker-iot-integration/
+
+Mosquitto 是一個開放原始碼 MQTT broker，安裝於樹莓派中就可以把所有的感測器、運算與控制設備連結起來，打造一個整合性的物聯網架構。
+在物聯網的應用中，有許多的感測器會產生各種的資料，這些資料可能會傳送至資料庫中儲存、交給運算伺服器分析、或是直接傳遞至使用者端即時顯示，而物聯網中的各種設備也需要接收來自於使用者或自動控制程式程式的指令，進行各種智慧化的動作，要讓整個物聯網環境具備互相溝通的能力，就需要有一個資訊傳遞的機制。
+MQTT 是一種 machine-to-machine（M2M） 的輕量級通訊協定，可以讓各種設備互相溝通，而其所需要的運算與傳輸頻寬很低，非常適合用於物聯網中的各種應用。
+在 MQTT 的通訊架構之下，會有一台設備專門負責所有訊息的派送工作，這個角色就稱為 broker，所有的訊息在傳遞時都會經過 broker，由 broker 來負責處理每一則訊息該如何遞送。
+
+MQTT 通訊協定與物聯網 IOT 應用整合概念
+MQTT broker 的實作有非常多種，例如 ActiveMQ Apollo、 HiveMQ、 Mosca、 Mosquitto、 RabbitMQ 等，基本上來說不管使用那一個實作版本都可以，功能上不會差太多。
+
+這裡我們以樹莓派的 Linux 環境為例，介紹 Mosquitto 這一個 MQTT 實作版本的安裝與使用方式，也就是把樹莓派打造成一個 MQTT broker 的角色，負責所有物聯網設備之間的相互溝通。
+名稱：Mosquitto
+描述：開放原始碼 MQTT Broker
+網址：Mosquitto 官方網站
+安裝 Mosquitto
+在樹莓派的 Raspbian Linux 中我們可以使用 apt 直接安裝 mosquitto 套件，同時也順便安裝 mosquitto-clients 這個 MQTT clients 的套件，方便測試：
+apt-get install mosquitto mosquitto-clients
+正常來說，安裝完成後 mosquitto 服務會自動啟動，我們可以使用 service 指令檢查一下 mosquitto 服務的狀態：
+service mosquitto status
+<code>mosquitto</code> 服務狀態
+mosquitto 服務狀態
+服務的狀態呈現綠色的 active 就表示 Mosquitto 有在正常運作，接著就可以開始使用 MQTT Broker 的功能了。
+使用 Mosquitto MQTT Broker
+在 MQTT 的架構中，設備可分為三種：
+Publisher：發送訊息者。
+Subscriber：接收訊息者。
+Broker：轉送訊息者。
+而不同的訊息可能會需要傳遞給不同的接收者，所以訊息在發送的時候，發送者（publisher）必須標示這則訊息的主題（topic），而轉送訊息者（broker）則會依照這則訊息的主題，將訊息傳遞給有訂閱該主題的接收者（subscriber），這就是 MQTT 基本的訊息傳遞架構。
+
+MQTT 訊息傳遞架構
+在物聯網的應用中，一個設備可以是訊息的接收者，接收從其他設備發送過來的訊息，同時也可以訊息的發布者，發送訊息給其他設備。
+
+了解這個 MQTT 的基本架構之後，我們可以開啟一個虛擬終端機視窗，使用 mosquitto_sub 指令來訂閱指定的主題，也就是成為一個訊息的接收者：
+mosquitto_sub -t gtwang/test
+這裡的 -t 參數就是指定要訂閱的主題（topic），而後面的 gtwang/test 就是主題的名稱。
+MQTT 的主題在使用時不需要事先設定，直接在發布或訂閱時指定自己要的主題名稱即可。
+
+MQTT 中的主題名稱類似一般的檔案系統，是採用階層的方式命名，我們可以自己決定命名的規則，要使用幾層都可以，善用有條理的命名方式可以讓訊息更好管理，例如 sensors/COMPUTER_NAME/temperature/HARDDRIVE_NAME 這樣就是一個不錯的命名方式。
+接著再開啟另外一個虛擬終端機視窗，作為訊息的發送者，使用 mosquitto_pub 將訊息發送至 gtwang/test 這個主題：
+mosquitto_pub -t gtwang/test -m "Hello, world!"
+這裡的 -m 參數就是指定要送出的訊息內容，執行這行指令之後，就會將訊息傳送至 broker，在由 broker 將訊息送給 gtwang/test 主題的訂閱者，也就是另外一個虛擬終端機視窗，所以這時候就可以在另外一個視窗中看到這行訊息。
+
+Mosquitto client
+以上就是基本 MQTT 訊息傳遞的傳送方式。
+訂閱多個主題
+MQTT 的主題設計成階層式的架構，主要是為了可以支援比較複雜的訂閱規則，最簡單的主題訂閱方式就是直接指定完整的主題名稱，例如：
+sensors/my_computer/temperature/my_hd
+除了這種方式之外，我們可以利用加號 + 這個萬用字元來匹配任意的名稱，例如：
+sensors/+/temperature/+
+這樣的話就會接收到所有第一層為 sensors 而第三層為 temperature 的訊息。
+假設有一個主題名稱為 a/b/c/d，則以下這幾種主題指定方式都可以匹配該主題：
+a/b/c/d
++/b/c/d
+a/+/c/d
+a/+/+/d
++/+/+/+
+但是以下這幾種就不會與 a/b/c/d 批配：
+a/b/c
+b/+/c/d
++/+/+
+另外一種萬用字元是井字號 #，這個萬用字元專門用於結尾處，可以匹配之後所有的階層，以下幾種寫法都可以匹配 a/b/c/d：
+#
+a/#
+a/b/#
+a/b/c/#
++/b/c/#
+
+使用者認證
+預設的 Mosquitto 服務是允許匿名登入使用的，也就是說任何人都可以透過 MQTT 的協定傳送與接收資料，若是在封閉的網路環境之下是沒有問題，但若是開放性的網路，最好就要上一些安全機制。
+最基本的安全機制就是設定登入的帳號密碼，只有經過認證的使用者可以透過 Mosquitto 服務傳送或是接收資料，以下是 Mosquitto 設定帳號與密碼的步驟。
+STEP 1
+建立 Mosquitto 用的帳號密碼檔案，並新增 gtwang 這個使用者：
+mosquitto_passwd -c /etc/mosquitto/passwd gtwang
+執行這行指令後，接著要設定 gtwang 的密碼。
+STEP 2
+編輯 /etc/mosquitto/mosquitto.conf 設定檔，加入以下設定：
+# 設定帳號密碼檔案
+password_file /etc/mosquitto/passwd
+# 禁止匿名登入
+allow_anonymous false
+STEP 3
+重新啟動 mosquitto 服務：
+service mosquitto restart
+STEP 4
+以設定好的帳號密碼登入，訂閱 gtwang/test 主題：
+mosquitto_sub -t gtwang/test -u gtwang -P secret123
+以設定好的帳號密碼登入，發送訊息至 gtwang/test 主題：
+mosquitto_pub -t gtwang/test -u gtwang -P secret123 -m "Hello, world!"
+
+設定好使用者認證機制之後，接下來還要設定安全加密連線，請繼續閱讀下一頁。
+安全加密 TLS 連線
+在安全性的考量上，僅僅只有加上帳號密碼是不夠的，至少還要有安全加密的保護，才能達到基本的防禦效果，否則讓帳號與密碼以明碼的方式在網路上傳遞，跟沒有設定帳號密碼是差不多的。
+以下是 Mosquitto 設定安全加密 TLS 連線的步驟。
+STEP 1
+建立一個只有自己能讀取的目錄，隨後我們要在這個目錄中產生伺服器用的金鑰檔案。
+mkdir myCA
+chmod 700 myCA
+cd myCA
+STEP 2
+產生金鑰的過程可以參考 mosquitto-tls 的 man page，而更快速的方式是使用 generate-CA.sh 這一個已經寫好的指令稿：
+wget https://github.com/owntracks/tools/raw/master/TLS/generate-CA.sh
+bash generate-CA.sh
+執行 generate-CA.sh 之後，會自動產生伺服器用的金鑰。
+STEP 3
+將金鑰複製到 Mosquitto 的目錄之中：
+sudo cp ca.crt /etc/mosquitto/ca_certificates/
+sudo cp raspberrypi.crt raspberrypi.key /etc/mosquitto/certs/
+STEP 4
+重新啟動 Mosquitto 服務：
+service mosquitto restart
+如果重新啟動 Mosquitto 服務時，/var/log/mosquitto/mosquitto.log 出現這樣的錯誤：
+Error: Unable to load server key file "/etc/mosquitto/certs/raspberrypi.key". Check keyfile.
+通常是因為檔案權限不足的問題，只要修改一下檔案的擁有者即可：
+sudo chown mosquitto /etc/mosquitto/certs/raspberrypi.key
+STEP 5
+檢查伺服器的金鑰是否正常運作：
+mosquitto_sub -t '$SYS/broker/bytes/#' \
+  -u gtwang -P secret123 \
+  --cafile ca.crt -v
+$SYS/broker/bytes/# 這個主題每隔 10 秒會輸出統計資訊，類似這樣：
+$SYS/broker/bytes/received 1008
+$SYS/broker/bytes/sent 253
+$SYS/broker/bytes/received 1092
+$SYS/broker/bytes/sent 325
+有收到訊息就表示正常。
+STEP 6
+使用密碼配合 TLS 安全加密，訂閱 gtwang/test 主題：
+mosquitto_sub -t gtwang/test -u gtwang -P secret123 \
+  --cafile ca.crt
+使用密碼配合 TLS 安全加密，發送訊息至 gtwang/test 主題：
+mosquitto_pub -t gtwang/test -u gtwang -P secret123 \
+  -m "Hello, world!" --cafile ca.crt
+連接手機與電腦
+在 Mosquitto 的 MQTT broker 伺服器架設好之後，任何支援 MQTT 協定的設備都可以直接連線進來傳送或是接收訊息，這裡我們以一台 Android 手機作為示範，將樹莓派上的訊息傳送至手機，並同時也可以將手機上的訊息傳回樹莓派。
+
+在 Andorid 手機上有非常多 MQTT client 的 app，這次我選擇 IoT MQTT Dashboard 這一款支援加密的 MQTT client app 來做示範，而這個 app 在建立加密連線時需要讀取 BKS 格式的憑證檔案，所以我們要先把自己的 ca.crt 轉為 BKS 檔。
+STEP 1
+從 bouncycastle.org 下載 bcprov-ext-jdk15on-156.jar：
+wget http://bouncycastle.org/download/bcprov-ext-jdk15on-156.jar
+STEP 2
+將 ca.crt 轉換為 BKS 檔：
+keytool -importcert -v -trustcacerts -file ca.crt \
+  -alias IntermediateCA -keystore android.bks \
+  -provider org.bouncycastle.jce.provider.BouncyCastleProvider \
+  -providerpath bcprov-ext-jdk15on-156.jar \
+  -storetype BKS -storepass mysecret
+其中 mysecret 可以換成自己的密碼。
+STEP 3
+將 轉換好的 BKS 檔 android.bks 複製到 Android 手機上，然後開啟 IoT MQTT Dashboard 進行設定，填入樹莓派的基本資訊（左圖）。
+Server 欄位就填入樹莓派的 IP 位址（可用 ifconfig 指令查詢），連接埠（Port）預設是 1883，Username 與 Password 就是剛剛上面新增的Mosquitto 帳號與密碼，將 SSL 打勾之後，並填入剛剛產生的 BKS 檔，還有 BKS 檔的密碼。
+Android 手機 MQTT Dashboard
+Android 手機 MQTT Dashboard
+設定好 MQTT 伺服器之後，新增一個 Subscribe 設定，也就是訂閱一個主題，這裡我以 gtwang/test 這個主題做示範。
+STEP 4
+在樹莓派中執行以下指令，送出兩則測試訊息。
+mosquitto_pub -t gtwang/test -u gtwang -P secret123 \
+  -m "Hello, world!" --cafile ca.crt
+mosquitto_pub -t gtwang/test -u gtwang -P secret123 \
+  -m "This is a test." --cafile ca.crt
+STEP 5
+查看 Android 手機上的 MQTT Dashboard 訊息，正常的話這樣就可以收到從樹莓派發送出來的兩則訊息了。
+Android 手機 MQTT Dashboard
+STEP 6
+讓 Android 手機發布訊息至樹莓派中，在 MQTT Dashboard 中新增一個 Publish 設定，發送訊息至 gtwang/test 主題。
+
+這時候在樹莓派中就可以使用 Mosquitto 的 client 接收這個來自於 Android 手機的訊息。
+Mosquitto client
+這裡我們是將 Android 手機發送的訊息也送進 gtwang/test 主題中，而 Android 手機本身也是這個主題的訊息訂閱者，所以自己也會收到這則訊息，如果不想讓自己也收到訊息的話，可以更換訊息的主題（例如 gtwang/test2），要如何設計訊息的主題就要看實際的需求而定。
+基本上不管訊息要從哪個設備發送，以及從哪個設備接收，只要依循 MQTT 的協定、設定好訊息主題，任何設備都可以非常容易地互相溝通，因此 MQTT 在物聯網的應用上可以說是相當有發展性的技術。
+
+
 /******************************************************************************/
 /******************************************************************************/
 /******************************************************************************/

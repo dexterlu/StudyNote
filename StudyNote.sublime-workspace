@@ -486,24 +486,47 @@
 			}
 		},
 		{
-			"file": "README.md",
+			"file": "/X/Dexter1101Bt/Docs/Travel/Japan_Kyoto/Note.md",
 			"settings":
 			{
-				"buffer_size": 73,
+				"buffer_size": 3838,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/X/repos/c-template/README.md",
+			"settings":
+			{
+				"buffer_size": 8780,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "/******************************************************************************/\nExcel表格公式大全∼∼這太有用了∼大推\n/******************************************************************************/\n2014-05-10 / 作者 : 啵啵 / 690760\n1、查找重複內容公式：=IF(COUNTIF(A:A,A2)>1,\"重複\",\"\")。\n2、用出生年月來計算年齡公式：=TRUNC((DAYS360(H6,\"2009/8/30\",FALSE))/360,0)。\n3、從輸入的18位身份證號的出生年月計算公式：=CONCATENATE(MID(E2,7,4),\"/\",MID(E2,11,2),\"/\",MID(E2, 13,2))。\n4、從輸入的身份證號碼內讓系統自動提取性別，可以輸入以下公式：\n   =IF(LEN(C2)=15,IF(MOD(MID(C2,15,1),2)=1,\"男\",\"女\"),IF(MOD(MID(C2,17,1), 2)=1,\"男\",\"女\"))公式內的「C2」代表的是輸入身份證號碼的單元格。\n\n1、求和： =SUM(K2:K56) ——對K2到K56這一區域進行求和；\n2、平均數： =AVERAGE(K2:K56) ——對K2 K56這一區域求平均數；\n3、排名： =RANK(K2，K$2:K$56) ——對55名學生的成績進行排名；\n4、等級： =IF(K2>=85,\"優\",IF(K2>=74,\"良\",IF(K2>=60,\"及格\",\"不及格\")))\n5、學期總評： =K2*0.3+M2*0.3+N2*0.4 ——假設K列、M列和N列分別存放著學生的「平時總評」、「期中」、「期末」三項成績；\n6、最高分： =MAX(K2:K56) ——求K2到K56區域（55名學生）的最高分；\n7、最低分： =MIN(K2:K56) ——求K2到K56區域（55名學生）的最低分；\n8、分數段人數統計：\n（1） =COUNTIF(K2:K56,\"100\") ——求K2到K56區域100分的人數；假設把結果存放於K57單元格；\n（2） =COUNTIF(K2:K56,\">=95\")－K57 ——求K2到K56區域95∼99.5分的人數；假設把結果存放於K58單元格；\n（3）=COUNTIF(K2:K56,\">=90\")－SUM(K57:K58) ——求K2到K56區域90∼94.5分的人數；假設把結果存放於K59單元格；\n（4）=COUNTIF(K2:K56,\">=85\")－SUM(K57:K59) ——求K2到K56區域85∼89.5分的人數；假設把結果存放於K60單元格；\n（5）=COUNTIF(K2:K56,\">=70\")－SUM(K57:K60) ——求K2到K56區域70∼84.5分的人數；假設把結果存放於K61單元格；\n（6）=COUNTIF(K2:K56,\">=60\")－SUM(K57:K61) ——求K2到K56區域60∼69.5分的人數；假設把結果存放於K62單元格；\n（7） =COUNTIF(K2:K56,\"<60\") ——求K2到K56區域60分以下的人數；假設把結果存放於K63單元格；\n說明：COUNTIF函數也可計算某一區域男、女生人數。\n如：=COUNTIF(C2:C351,\"男\") ——求C2到C351區域（共350人）男性人數；\n9、優秀率： =SUM(K57:K60)/55*100\n10、及格率： =SUM(K57:K62)/55*100\n11、標準差： =STDEV(K2:K56) ——求K2到K56區域(55人)的成績波動情況（數值越小，說明該班學生間的成績差異較小，反之，說明該班存在兩極分化）；\n12、條件求和： =SUMIF(B2:B56,\"男\"，K2:K56) ——假設B列存放學生的性別，K列存放學生的分數，則此函數返回的結果表示求該班男生的成績之和；\n13、多條件求和： ｛=SUM(IF(C3:C322=\"男\",IF(G3:G322=1,1,0)))｝ ——假設C列（C3:C322區域）存放學生的性別，G列（G3:G322區域）存放學生所在班級代碼（1、2、3、4、5），則此函數返回的結果表示求一班的男生人數；這是一個數組函數，輸完後要按Ctrl＋Shift＋Enter組合鍵(產生「｛……｝」)。「｛｝」不能手工輸入，只能用組合鍵產生。\n14、根據出生日期自動計算週歲：=TRUNC((DAYS360(D3,NOW( )))/360,0)\n———假設D列存放學生的出生日期，E列輸入該函數後則產生該生的週歲。\n15、在Word中三個小竅門：\n１連續輸入三個「~」可得一條波浪線。\n２連續輸入三個「-」可得一條直線。\n連續輸入三個「=」可得一條雙直線。\n\n一、excel中當某一單元格符合特定條件，如何在另一單元格顯示特定的顏色比如：\nA1〉1時，C1顯示紅色\n0<A1<1時，C1顯示綠色\nA1<0時，C1顯示黃色\n方法如下：\n1、單元擊C1單元格，點「格式」>「條件格式」，條件1設為：\n公式=A1=1 \n2、點「格式」->「字體」->「顏色」，點擊紅色後點「確定」。\n條件2設為：\n公式=AND(A1>0,A1<1) \n3、點「格式」->「字體」->「顏色」，點擊綠色後點「確定」。\n條件3設為：\n公式=A1點「格式」->「字體」->「顏色」，點擊黃色後點「確定」。\n4、三個條件設定好後，點「確定」即出。\n\n二、EXCEL中如何控制每列數據的長度並避免重複錄入\n1、用數據有效性定義數據長度。\n用滑鼠選定你要輸入的數據範圍，點\"數據\"->\"有效性\"->\"設置\"，\"有效性條件\"設成\"允許\"\"文本長度\"\"等於\"\"5\"（具體條件可根據你的需要改變）。\n還可以定義一些提示資訊、出錯警告資訊和是否打開中文輸入法等，定義好後點\"確定\"。\n2、用條件格式避免重複。\n選定A列，點\"格式\"->\"條件格式\"，將條件設成「公式=COUNTIF($A:$A,$A1)>1」，點\"格式\"->\"字體\"->\"顏色\"，選定紅色後點兩次\"確定\"。\n這樣設定好後你輸入數據如果長度不對會有提示，如果數據重複字體將會變成紅色。\n\n三、在EXCEL中如何把B列與A列不同之處標識出來？\n（一）、如果是要求A、B兩列的同一行數據相比較：\n假定第一行為表頭，單擊A2單元格，點「格式」->「條件格式」，將條件設為: \n「單元格數值」 「不等於」=B2 \n點「格式」->「字體」->「顏色」，選中紅色，點兩次「確定」。\n用格式刷將A2單元格的條件格式向下複製。\nB列可參照此方法設置。\n（二）、如果是A列與B列整體比較（即相同數據不在同一行）：\n假定第一行為表頭，單擊A2單元格，點「格式」->「條件格式」，將條件設為: \n「公式」=COUNTIF($B:$B,$A2)=0 \n點「格式」->「字體」->「顏色」，選中紅色，點兩次「確定」。\n用格式刷將A2單元格的條件格式向下複製。\nB列可參照此方法設置。\n按以上方法設置後，AB列均有的數據不著色，A列有B列無或者B列有A列無的數據標記為紅色字體。\n\n四、EXCEL中怎樣批量地處理按行排序\n假定有大量的數據(數值)，需要將每一行按從大到小排序，如何操作？\n由於按行排序與按列排序都是只能有一個主關鍵字,主關鍵字相同時才能按次關鍵字排序。所以，這一問題不能用排序來解決。解決方法如下：\n1、假定你的數據在A至E列，請在F1單元格輸入公式：\n=LARGE($A1:$E1,COLUMN(A1)) \n用填充柄將公式向右向下複製到相應範圍。\n你原有數據將按行從大到小排序出現在F至J列。如有需要可用「選擇性粘貼/數值」複製到其他地方。\n註：第1步的公式可根據你的實際情況（數據範圍）作相應的修改。如果要從小到大排序,公式改為:=SMALL($A1:$E1,COLUMN(A1))\n\n五、巧用函數組合進行多條件的計數統計\n例：第一行為表頭，A列是「姓名」，B列是「班級」，C列是「語文成績」，D列是「錄取結果」，現在要統計「班級」為「二」，「語文成績」大於等於104，「錄取結果」為「重本」的人數。統計結果存放在本工作表的其他列。\n公式如下：\n=SUM(IF((B2:B9999=\"二\")*(C2:C9999>=104)*(D2:D9999=\"重本\"),1,0)) \n輸入完公式後按Ctrl+ Shift+Enter鍵,讓它自動加上數組公式符號\"{}\"。\n\n六、如何判斷單元格裡 ??是否包含指定文本？\n假定對A1單元格進行判斷有無\"指定文本\",以下任一公式均可: \n=IF(COUNTIF(A1,\"*\"&\"指定文本\"&\"*\")=1,\"有\",\"無\") \n=IF(ISERROR(FIND(\"指定文本\",A1,1)),\"無\",\"有\")\n求某一區域內不重複的數據個數\n例如求A1:A100範圍內不重複數據的個數，某個數重複多次出現只算一個。有兩種計算方法：\n一是利用數組公式：\n=SUM(1/COUNTIF(A1:A100,A1:A100)) \n輸入完公式後按Ctrl+Shift+Enter鍵,讓它自動加上數組公式符號\"{ }\"。\n二是利用乘積求和函數：\n=SUMPRODUCT(1/COUNTIF(A1:A100,A1:A100))\n\n七、一個工作薄中有許多工作表如何快速整理出一個目錄工作表\n1、用宏3.0取出各工作表的名稱，方法：\nCtrl+F3出現自定義名稱對話方塊，取名為X，在「引用位置」框中輸入：\n=MID(GET.WORKBOOK(1),FIND( \"]\",GET.WORKBOOK(1))+1,100) \n確定\n2、用HYPERLINK函數批量插入連接，方法：\n在目錄工作表（一般為第一個sheet）的A2單元格輸入公式：\n=HYPERLINK(\"# '\"&INDEX(X,ROW())&\"'!A1\",INDEX(X,ROW())) \n將公式向下填充，直到出錯為止，目錄就生成了。\n\n\n\n\n/******************************************************************************/\n/******************************************************************************/\n/******************************************************************************/\n/******************************************************************************/\n/******************************************************************************/\n/******************************************************************************/\n/******************************************************************************/\n/******************************************************************************/\n/******************************************************************************/\n/******************************************************************************/\n/******************************************************************************/\n",
-			"file": "Note_MsOffice.txt",
-			"file_size": 7301,
-			"file_write_time": 131231571427173107,
+			"file": "/X/repos/MusicPlayer/InternetRadio_mpc/test.sh",
 			"settings":
 			{
-				"buffer_size": 5090,
-				"line_ending": "Unix",
-				"scratch": true
+				"buffer_size": 645,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/X/repos/MusicPlayer/InternetRadio_mpc/streams.txt",
+			"settings":
+			{
+				"buffer_size": 1311,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/X/repos/MusicPlayer/InternetRadio_mpc/mpcontrol.py",
+			"settings":
+			{
+				"buffer_size": 1063,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -811,6 +834,14 @@
 	],
 	"file_history":
 	[
+		"/X/repos/MusicPlayer/InternetRadio_mpc/playlist.m3u",
+		"/X/repos/MusicPlayer/InternetRadio_mpc/Readme.md",
+		"/X/repos/MusicPlayer/InternetRadio_mpc/stream.sh",
+		"/X/Dexter1101Bt/Docs/StudyNote/Travel_2017_OSAKA.md",
+		"/X/repos/MusicPlayer/InternetRadio_mpc/stream.txt",
+		"/X/Dexter1101Bt/Docs/StudyNote/README.md",
+		"/C/Users/DEXTER.LU/Desktop/test.md",
+		"/X/Dexter1101Bt/Docs/StudyNote/Note_MsOffice.txt",
 		"/C/SoftwareTools/Sublime Text Build/Data/Packages/LiveReload/LiveReload.sublime-settings",
 		"/X/Dexter1101Bt/Docs/StudyNote/Note_Markdown.md",
 		"/C/SoftwareTools/Sublime Text Build/Data/Packages/User/Package Control.sublime-settings",
@@ -930,15 +961,7 @@
 		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_JS/Sam Firmware/sam-2.0.34-S-generic/sam-cdk/tools/bin/JsAir_MP/Note_Gen_Firmware.txt",
 		"/E/Downloads/7688 speaker.cdr",
 		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Magnat/Sam Firmware/Request_ThunderSoft/oem.config",
-		"/X/Dexter1101Bt/Docs/Note/Note_Linux1.txt",
-		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/ALLPlay Docs/Sam Firmware/sam-2.3.17-S-generic/sam-cdk/files/device-tree/cus227.dts",
-		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/ALLPlay Docs/Sam Firmware/FromTao_sam-2.3.04/cus227.dtb",
-		"/X/Dexter1101Bt/Docs/Note/.git/config",
-		"/E/DEXTER/Work Docs/Module_WifiAudio/Qualcomm/Project_Magnat/Sam Firmware/sam-2.1.17-S-generic/sam-cdk/files/device-tree/CS_Serial/cus227_CS_10.dts",
-		"/E/DEXTER/Work Docs/Module_WifiAudio/TI/Docs_AM335x/Note_TI.txt",
-		"/X/Dexter1101Bt/Docs/Note/Note_RaspberryPi.txt",
-		"/X/Dexter1101Bt/Docs/Note/Note_Perl.txt",
-		"/E/DEXTER/PythonProject/serial_test_thread.py"
+		"/X/Dexter1101Bt/Docs/Note/Note_Linux1.txt"
 	],
 	"find":
 	{
@@ -962,6 +985,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"stream",
 			"  .",
 			"Ctrl",
 			"helloworld",
@@ -1088,8 +1112,7 @@
 			"libre",
 			"Librei",
 			"Libre",
-			"Deluxe",
-			"Libre"
+			"Deluxe"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1191,7 +1214,7 @@
 						"translation.y": 304.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1223,7 +1246,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1253,7 +1276,7 @@
 						"translation.y": 351.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1269,8 +1292,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1237,
+								1237
 							]
 						],
 						"settings":
@@ -1282,32 +1305,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 293.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "README.md",
+					"file": "/X/Dexter1101Bt/Docs/Travel/Japan_Kyoto/Note.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 73,
+						"buffer_size": 3838,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								73
+								1758,
+								1758
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "ASCII",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
 							"parser": "markdown",
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
 							"target": "disk"
@@ -1321,11 +1345,71 @@
 				},
 				{
 					"buffer": 5,
-					"file": "Note_MsOffice.txt",
+					"file": "/X/repos/c-template/README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5090,
+						"buffer_size": 8780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3407,
+								3407
+							]
+						],
+						"settings":
+						{
+							"parser": "markdown",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"target": "browser"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1311.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/X/repos/MusicPlayer/InternetRadio_mpc/test.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/X/repos/MusicPlayer/InternetRadio_mpc/streams.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1311,
 						"regions":
 						{
 						},
@@ -1333,22 +1417,51 @@
 						[
 							[
 								0,
-								0
+								52
 							]
 						],
 						"settings":
 						{
-							"in_converting": true,
 							"is_init_dirty_state": false,
-							"origin_encoding": "BIG5",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/X/repos/MusicPlayer/InternetRadio_mpc/mpcontrol.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1063,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]

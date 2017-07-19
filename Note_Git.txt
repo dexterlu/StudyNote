@@ -727,6 +727,160 @@ git branch [BRANCH_NAME] [REMOTE_BRANCH]
 git branch -a
 舉例來說：
 $ git branch -a
+* local_branch
+  remotes/arm7/master
+$ git branch local_branch_test remotes/arm7/master
+
+3. 切換local branch
+git checkout [BRANCH_NAME]
+
+4. 列出所有的改動
+git status
+
+5. 把改動的檔案先放上modified list
+git add [FILE_NAME]
+ or 
+git add [DIR_NAME]
+
+6. 把modified list中的檔案，退掉改動
+git checkout [FILE_NAME]
+ or
+git checkout [DIR_NAME]
+
+7. 把所有project中的所有改動都退掉
+git reset --hard HEAD
+
+8. 將modified list中的改動一起commit到local branch
+git commit
+
+9. 將local branch上已經commit的改動退掉 (改動還留著)
+git reset --soft HEAD^
+
+10. 把commit的改動，放到remote branch
+git push [REMOTE_PROJECT_URL] HEAD:refs/to/[REMOTE_BRANCH_NAME]
+
+要怎麼知道remote branch name呢？
+可以透過git remote show [REMOTE]，例如下面的例子中的branch name就是master：
+$ git remote
+mips
+$ git remote show mips
+* remote mips
+  Fetch URL: [REMOTE_PROJECT_URL]
+  Push  URL: [REMOTE_PROJECT_URL]
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    local_branch merges with remote master
+
+
+/******************************************************************************/
+Ubuntu Linux 上安裝並設定私有 git server 筆記
+/******************************************************************************/
+因為工作需要，我必須要在 Ubuntu 上架設一個私有的 git server , 以下是筆記
+
+事先準備：
+灌好 Ubuntu 的實體機器或 VM （我是用 Ubuntu Server 14.04 LTS）
+安裝 Ubuntu 時選 sshd server 或是由 apt-get 安裝 ssh 
+
+步驟：
+若想用最新的 git 版本（建議），可先加入 ppa 再安裝
+$ sudo add-apt-repository ppa:git-core/ppa
+$ sudo apt-get update
+$ sudo install git git-core
+
+確認 git 版本的方法
+$ git --version
+
+在 server 端建立 project
+$ cd /var/git （目錄位置可以自己決定）
+$ sudo mkdir new_project.git
+$ cd new_project.git
+$ sudo git --bare init
+ 
+如果要用 ssh 存取，每一個可以用來存取的帳號必須為這台 linux 的帳號（用 web 就不一定要用了，這個其他文章再提），為了方便我們可以建立一個群組，把要存取 git 的人加入。
+
+sudo groupadd git
+sudo usermod -a -G git [你的id] ＃id 改自己的帳號
+# 修改 owner 跟權限，每次開專案時都要做
+sudo chgrp -R git /var/git 
+sudo chown g+rwx -R /var/git
+回到 local 端，我們要 clone 一個 git 的 repository 下來改，語法如下
+git clone ssh://[你的帳號]@[server ip or name]:/var/git/new_proejct.git
+將帳號, server ip 換成自己的。
+系統會問你密碼，填入密碼，就可以把 repository clone 下來，之後就跟一般 git 操作一樣，修改->commit->push
+
+
+
+/******************************************************************************/
+[Coding] repo & git 的使用方法
+/******************************************************************************/
+最近開始，由於公司規劃往Android方向靠攏，學習Android上所採用Repo和Git作為版本控制的工具就變成無法避免的課題。
+
+什麼是Repo和Git？
+Git是所謂的分散式版本控管系統，網路上可以查到很多相關資料，請善用Google，在此就只貼上維基百科的說明。
+
+要先知道，Android本身是一個大的work space，裡面包含非常多的git repository。為了方便管理這些git repository，Repo就是背負著這個責任所發明出來的。Repo是由Google用Python script所寫出來，專門用來使用Git的一套script，主要是用來下載、管理Android下所有的git repository。
+Repo: 
+使用Repo就大部分按照以下的格式
+repo COMMAND OPTIONS
+
+1、獲取相關幫助：
+repo help COMMAND
+例如：repo help init，就可以取得repo init的其他用法
+
+2、repo init -u URL
+用來在目前目錄安裝下載整個Android repository，會下建立一個".repo"的目錄。-u參數用來指定一個URL，從這個URL中獲取repository的manifest文件。
+例如：repo init -u git://android.git.kernel.org/platform/manifest.git，獲取的manifest文件放在.repo目錄中，命名為manifest.xml。這個文件的內容其實就是Android work space下所有被git管理的git repository的列表！
+
+如果你有仔細看，可以發現到.repo/manifests是個被git管理的repository，裡面放著所有的manifest文件 (*.xml)。而透過參數的設定，則可以指定要使用哪個manifest文件，甚至是該文件的不同branch。
+
+-m：用來選擇獲取 repository 中的某一個特定的 manifest 文件。如果不具體指定，那麼表示為預設的 manifest 文件 (default.xml)
+repo init -u git://android.git.kernel.org/platform/manifest.git -m dalvik-plus.xml
+
+-b：用來指定某個manifest 分支。
+repo init -u git://android.git.kernel.org/platform/manifest.git -b release-1.0
+
+3、repo sync [PROJECT_LIST]
+下載最新文件，更新成功後，文件會和遠端server中的代碼是一樣的。 可以指定需要更新的project ， 如果不指定任何參數，則會同步整個所有的project。
+
+4、repo upload [PROJECT_LIST]
+上傳修改的代碼 ，如果你的代碼有所修改，那麼在運行 repo sync 的時候，會提示你上傳修改的代碼。所有修改的代碼分支會上傳到 Gerrit，Gerrit 收到上傳的代碼，會轉換為一個改動，從而可以讓人們來review 修改的代碼。
+
+5、repo diff [PROJECT_LIST]
+顯示尚未commit的改動差異
+
+6、repo download target revision
+下載指定的修改版本， 例如:  repo download platform/frameworks/base 1241 ，就是下載修改版本為 1241 的代碼。
+
+7、repo start new_branch_name [PROJECT_LIST]
+在指定的project中建立新的branch，並且切換到該branch上。
+
+--all：代表指定所有的git projects
+
+8、repo prune [PROJECT_LIST]
+刪除已經merge好的project。
+
+9、repo forall [PROJECT_LIST] -c COMMAND
+針對指定的project執行所帶入的git command，例如：repo forall -c git reset --hard HEAD 就會將所有project中的改動全部都清掉。
+
+10、repo status
+顯示所有project的狀態
+
+Git:
+1. 把遠端的git project抓下來放在local
+git clone [REMOTE_PROJECT_URL]
+
+2. 之前有提到的，任何的改動都需要建立在branch之上，所以就得建立local branch
+git branch [BRANCH_NAME]
+
+如果local branch需要track遠端的branch，那就在後面加上remote branch
+git branch [BRANCH_NAME] [REMOTE_BRANCH]
+
+要知道有哪些remote branch，可以透過git branch -a，會列出所有(local和remote)的branch。
+git branch -a
+舉例來說：
+$ git branch -a
 
 * local_branch
 
@@ -769,131 +923,22 @@ git push [REMOTE_PROJECT_URL] HEAD:refs/to/[REMOTE_BRANCH_NAME]
 要怎麼知道remote branch name呢？
 可以透過git remote show [REMOTE]，例如下面的例子中的branch name就是master：
 $ git remote
-
 mips
-
 $ git remote show mips
-
 * remote mips
-
   Fetch URL: [REMOTE_PROJECT_URL]
-
   Push  URL: [REMOTE_PROJECT_URL]
-
   HEAD branch: master
-
   Remote branch:
-
     master tracked
-
   Local branch configured for 'git pull':
-
     local_branch merges with remote master
 
 
 /******************************************************************************/
-Ubuntu Linux 上安裝並設定私有 git server 筆記
+.gitignore example
 /******************************************************************************/
-因為工作需要，我必須要在 Ubuntu 上架設一個私有的 git server , 以下是筆記
-
-事先準備：
-灌好 Ubuntu 的實體機器或 VM （我是用 Ubuntu Server 14.04 LTS）
-安裝 Ubuntu 時選 sshd server 或是由 apt-get 安裝 ssh 
-
-步驟：
-若想用最新的 git 版本（建議），可先加入 ppa 再安裝
-$ sudo add-apt-repository ppa:git-core/ppa
-$ sudo apt-get update
-$ sudo install git git-core
-
-確認 git 版本的方法
-$ git --version
-
-在 server 端建立 project
-$ cd /var/git （目錄位置可以自己決定）
-$ sudo mkdir new_project.git
-$ cd new_project.git
-$ sudo git --bare init
- 
-如果要用 ssh 存取，每一個可以用來存取的帳號必須為這台 linux 的帳號（用 web 就不一定要用了，這個其他文章再提），為了方便我們可以建立一個群組，把要存取 git 的人加入。
-
-sudo groupadd git
-sudo usermod -a -G git [你的id] ＃id 改自己的帳號
-# 修改 owner 跟權限，每次開專案時都要做
-sudo chgrp -R git /var/git 
-sudo chown g+rwx -R /var/git
-回到 local 端，我們要 clone 一個 git 的 repository 下來改，語法如下
-
-git clone ssh://[你的帳號]@[server ip or name]:/var/git/new_proejct.git
-
-將帳號, server ip 換成自己的。
-
-系統會問你密碼，填入密碼，就可以把 repository clone 下來，之後就跟一般 git 操作一樣，修改->commit->push
-
-
-/******************************************************************************/
-簡易git server架設教學 (用Ubuntu linux)
-/******************************************************************************/
-ref: http://toyroom.bruceli.net/tw/2011/02/04/install-git-server-on-ubuntu-linux.html
-
-1. 安裝git：
-sudo apt-get install git-core
-
-2. 在server端建立放置所有projects的目錄：
-我的習慣是放在/var/GitServer
-cd /var
-sudo mkdir GitServer
-
-3. 在server端建立project：
-步驟3,5,6是每開一個新project就要做一遍的，假設現在我開了一個專案叫new_project
-cd /var/git
-sudo mkdir new_project.git
-# 如果是第二次新增project，記得也要改該資料夾的群組跟權限，相關步驟在step 4有寫
-cd new_project.git
-sudo git --bare init
-
-4. 建立git的群組：
-因為我放在/var之下，這邊要root權限，當你用你的帳號pull東西上去時，會爆權限不足。但是把他改成權限全開的話(chmod 777 ...)又很危險。所以我開一個git的群組，讓會傳東西的人加到這個群組。
-sudo groupadd gitgroup
-sudo usermod -a -G gitgroup your_login # your_login改成你自己的帳號。
-# 下面這兩行，在每次新增新project時要對新的資料夾補做
-sudo chgrp -R gitgroup /var/git
-sudo chmod g+rwx -R /var/git
-
-
-在local端，假設我的project資料夾是/path/to/your/projects/new_project
-5. 初始化git：
-cd /path/to/your/projects/new_project
-git init
-
-6. 把我們遠端的repository加到git remote：
-git remote add origin ssh://your_login@your.host/var/git/new_project.git/
-這邊的路徑要注意，別打成ssh://your_login@your.host:/var/git/new_project.git 
-會爆以下錯誤：
-ssh: Could not resolve hostname : Name or service not known
-fatal: The remote end hung up unexpectedly
-
-7. 把我們local的程式碼丟上去：(每次commit的例行步驟)
-git add .
-git commit -m '註解'
-git push origin master
-
-8. 在其到local 下載
-假設路徑在/home/jazzhipster/GitServer/
-git clone ssh://rd@192.168.100.45/var/GitServer/JsTestGit.git
-
-
-常用git指令小筆記：
-git add 檔案名稱 #加到本次commit
-git add -i #加檔案的互動介面
-git status # 看準備要commit的檔案
-git grep 關鍵字 # 在專案中搜尋關鍵字
-git diff # 看本次變動
-git log # 看log
-git rm 檔案名稱 # 從準備要commit的檔案清單中去除，加-f參數強制刪除
-git remote # 會列出來remote列表。總之就是git remote add new_remote ssh://... 。新增以後，打這個指令就會出現new_remote。名稱可以自己取，但如果需求單純的話，一般都習慣取作origin。
-
-
+https://github.com/github/gitignore
 
 
 /******************************************************************************/

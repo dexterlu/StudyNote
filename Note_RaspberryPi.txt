@@ -328,44 +328,37 @@ sudo dd if=2012-12-16-wheezy-raspbian.img of=/dev/mmcblk0 bs=2M
 發表於 2013 年 10 月 08 日 由 Tsung
 Linux / Mac 使用 dd 來備份 SD card 的作業系統(Raspberry Pi), 要怎麼做呢?
 
-
 使用 dd 來 備份 / 還原 SD 卡的作業系統
-
 先使用 dmesg 找最新插入的設備編號, 在做下面備份的動作.
-
 註: bs=4m 這種寫入速度會快很多.
-
 備份
 
 Linux
-
 dd if=/dev/sdx of=/path/to/image bs=1M
+
 MacOS
-
 dd if=/dev/rdiskx of=/path/to/image bs=1m
-還原
 
+還原
 dd if=/path/to/image of=/dev/sdx
 dd bs=1M if=/path/to/image of=/dev/sdx
 壓縮 的 備份與還原
 
 備份 + 壓縮
-
 dd bs=1M if=/dev/sdx | gzip > backup.gz
 dd bs=4M if=/dev/sdx | gzip > backup.gz
-還原 + 解壓縮
 
+還原 + 解壓縮
 gzip -dc backup.gz | dd of=/dev/sdx # default bs=4k
 gzip -dc backup.gz | dd bs=1M of=/dev/sdx
 gzip -dc backup.gz | dd bs=4M of=/dev/sdx
+
 範例
-
 備份, 二選一
-
 gzip -dc /tmp/backup.gz | dd bs=4M of=/dev/sdc
 dd if=/dev/sdc  bs=4M | gzip > backup.gz
-還原
 
+還原
 sudo gzip -dc /tmp/backup.gz | dd bs=4M of=/dev/sdc
 相關網頁
 

@@ -1,12 +1,13 @@
-/******************************************************************************/
-/******************************************************************************/
-http://article.bridgat.com/big5/index.html
-英語口語：http://article.bridgat.com/big5/language/spokenen/spokenen.html
+# English Study Note
 
-/******************************************************************************/
-中國小吃的英語翻譯
-/******************************************************************************/
-中國小吃的英語翻譯
+
+### 外貿指南
+http://article.bridgat.com/big5/index.html
+
+### 英語口語
+http://article.bridgat.com/big5/language/spokenen/spokenen.html
+
+### 中國小吃的英語翻譯
 中式早點
 燒餅　　　　　Clay oven rolls
 油條　　　　　Fried bread stick
@@ -112,8 +113,9 @@ http://article.bridgat.com/big5/index.html
 
 
 /******************************************************************************/
-酒吧英語辭彙匯總：器具、飲料、咖啡、酒  ref: http://article.bridgat.com/big5/language/200803/language46.html
+酒吧英語辭彙匯總：器具、飲料、咖啡、酒  
 /******************************************************************************/
+ref: http://article.bridgat.com/big5/language/200803/language46.html
 器具類
 bar 酒吧
 counter 吧台
@@ -150,7 +152,6 @@ tapering glass 圓錐形酒杯
 
 
 飲料類
-
 mineral water 礦泉水
 orange juice 桔子原汁
 orangeade, orange squash 桔子水
@@ -561,7 +562,6 @@ Two of a trade seldom agree.
 同行是冤家。
 Two wrongs do not make a right.
 別人錯了，不等於你對了。
-
 Habit cures habit.
 心病還需心藥醫。
 Handsome is he who does handsomely.
@@ -1194,25 +1194,19 @@ A client of mine enquiries for 100 cases Black Tea.
 我的一個客戶詢價100箱紅茶。
 We are desirous of your lowest quotations for hair driers.
 我們想要貴公司頭髮吹風機的最低報價。
-I'm buying for chain stores in Australia. They are interested
-in Chinaware. I'd like to make an inquiry.
+I'm buying for chain stores in Australia. They are interested in Chinaware. I'd like to make an inquiry.
 我是為澳洲的連鎖店採購商品，他們對瓷器非常感興趣。我想詢價。
 Please send us your best CIF quotation for micro wave ovens.
 請報給我們微波爐最優惠的CIF價格。
-When quoting, please state terms of payment and time of
-delivery.
+When quoting, please state terms of payment and time of delivery.
 貴方報價時，請註明付款條件和交貨時間。
-The above inquiry was forwarded to you on January 15, but
-we haven't received your reply until now. Your early offer will
-be highly appreciated.
+The above inquiry was forwarded to you on January 15, but we haven't received your reply until now. Your early offer will be highly appreciated.
 上述詢價已於一月十五日發給貴公司，可是我們到現在還沒收到你方答覆，請早日報價，不勝感謝。
 We have many enquiries for the under-mentioned goods.
 我們收到許多下述貨品的詢價單。
-Will you please send us a copy of catalogue, with details
-of the prices and terms of payment?
+Will you please send us a copy of catalogue, with details of the prices and terms of payment?
 請寄給我方一份型錄，並註明價格和付款條件。
-Please quote us yuor best offer for the above inquiry based
-on FOB Taiwan as well as CIF New York.
+Please quote us yuor best offer for the above inquiry based on FOB Taiwan as well as CIF New York.
 請提供以上產品報價，以FOB台灣和CIF紐約為報價條件。
 
 報價Offer

@@ -1,487 +1,487 @@
 
 /******************************************************************************/
-²£«~¶}µo±M¦³¦Wµü (RFQ,KICK-OFF,EVT,DVT,PVT,MP)
+ç”¢å“é–‹ç™¼å°ˆæœ‰åè© (RFQ,KICK-OFF,EVT,DVT,PVT,MP)
 /******************************************************************************/
-Kickoff ¡V ±M®×¥¿¦¡¶}®×¡A®É¶¡¤W¤£¤@©w¦b¨º¤@­Ó¶¥¬q
-¿ï®Æ ¡V ¹s¥óªº³W®æ¬OH/W Engineer¦bµe½u¸ô¹Ïªº®É­Ô´N¨M©w¤F¡A®Æ¬O±ÄÁÊ¨M©w
-³Æ®Æ ¡V ·Ç³Æ¥Í²£®É­n¥Îªº¹s¥ó§÷®Æ
-½u¸ô¹Ï ¡V ¼Ğ¥Ü¦U­ÓIC©M¹s¥ó¤§¶¡½u¸ô³sµ²ª¬ªpªº¤å¥ó
-Layout ¡V ¼Ğ¥Ü¦U­ÓIC©M¹s¥ó¦bPCB¤W­±¬Û¹ï¦ì¸m©M½u¸ô¨«½u±¡ªpªº¤å¥ó
-Co-Lay ¡V ¦bPCB¦P¤@­Ó¦ì¤l¤W«O¯d¥i¥H©ñ¸m¨ä¥L¤£¦P³W®æ¹s¥óªºª¬ªp
-Gerber out ¡V PCB¼t¥Î¨Ó¥Í²£PCB®É»İ­nªºÀÉ®×¡A³q±`¥i¥H¥ÑLayout³nÅé²£¥Í
-PCB out ¡V PCB»rª©°µ¦nªº®É­Ô¡A¤W­±³£¨S¦³¹s¥ó
-¥´¥ó ¡V §â¹s¥ó©ñ¨ìPCB¤W­±ªº¹Lµ{
-SMP¥ó ¡V IC©Î¬O¨ä¥L¤¸¥óªº°w¸}¬Oª½±µ±µÄ²PCB¥­­±ªº¡A¹³¬OBGA«Ê¸ËªºIC
-DIP¥ó ¡V IC©Î¬O¨ä¥L¤¸¥óªº°w¸}¬O¬ï¹LPCBªº³e¤Õ¡A¹³¬O¾T½è¹q®e
-Rework ¡V ¹q¸ôªO¦¨«~¤§«á»İ­n³z¹L¤H¤uªº¤è¦¡­×§ï¸õ²{©Î¬O§ó°Ê¤¸¥ó¦ì¸m
-EVT ¡V Engineering Validate Time±M®×¬yµ{ ¤uµ{ÅçÃÒ¶¥¬q
-DVT ¡V Design Validation Test±M®×¬yµ{ ¶}µoÅçÃÒ¶¥¬q
-DVT ¡V Production Verification Test ¥Í²£ÅçÃÒ´ú¸Õ¶¥¬q
-PreMP (Pre-Production) ¡V ±M®×¬yµ{ ¤p¶q¸Õ¶q²£
-MP (Mess Production) ¡V ±M®×¬yµ{ ¥¿¦¡¶q²£²£«~
+Kickoff â€“ å°ˆæ¡ˆæ­£å¼é–‹æ¡ˆï¼Œæ™‚é–“ä¸Šä¸ä¸€å®šåœ¨é‚£ä¸€å€‹éšæ®µ
+é¸æ–™ â€“ é›¶ä»¶çš„è¦æ ¼æ˜¯H/W Engineeråœ¨ç•«ç·šè·¯åœ–çš„æ™‚å€™å°±æ±ºå®šäº†ï¼Œæ–™æ˜¯æ¡è³¼æ±ºå®š
+å‚™æ–™ â€“ æº–å‚™ç”Ÿç”¢æ™‚è¦ç”¨çš„é›¶ä»¶ææ–™
+ç·šè·¯åœ– â€“ æ¨™ç¤ºå„å€‹ICå’Œé›¶ä»¶ä¹‹é–“ç·šè·¯é€£çµç‹€æ³çš„æ–‡ä»¶
+Layout â€“ æ¨™ç¤ºå„å€‹ICå’Œé›¶ä»¶åœ¨PCBä¸Šé¢ç›¸å°ä½ç½®å’Œç·šè·¯èµ°ç·šæƒ…æ³çš„æ–‡ä»¶
+Co-Lay â€“ åœ¨PCBåŒä¸€å€‹ä½å­ä¸Šä¿ç•™å¯ä»¥æ”¾ç½®å…¶ä»–ä¸åŒè¦æ ¼é›¶ä»¶çš„ç‹€æ³
+Gerber out â€“ PCBå» ç”¨ä¾†ç”Ÿç”¢PCBæ™‚éœ€è¦çš„æª”æ¡ˆï¼Œé€šå¸¸å¯ä»¥ç”±Layoutè»Ÿé«”ç”¢ç”Ÿ
+PCB out â€“ PCBè£¸ç‰ˆåšå¥½çš„æ™‚å€™ï¼Œä¸Šé¢éƒ½æ²’æœ‰é›¶ä»¶
+æ‰“ä»¶ â€“ æŠŠé›¶ä»¶æ”¾åˆ°PCBä¸Šé¢çš„éç¨‹
+SMPä»¶ â€“ ICæˆ–æ˜¯å…¶ä»–å…ƒä»¶çš„é‡è…³æ˜¯ç›´æ¥æ¥è§¸PCBå¹³é¢çš„ï¼Œåƒæ˜¯BGAå°è£çš„IC
+DIPä»¶ â€“ ICæˆ–æ˜¯å…¶ä»–å…ƒä»¶çš„é‡è…³æ˜¯ç©¿éPCBçš„è²«å­”ï¼Œåƒæ˜¯é‹è³ªé›»å®¹
+Rework â€“ é›»è·¯æ¿æˆå“ä¹‹å¾Œéœ€è¦é€éäººå·¥çš„æ–¹å¼ä¿®æ”¹è·³ç¾æˆ–æ˜¯æ›´å‹•å…ƒä»¶ä½ç½®
+EVT â€“ Engineering Validate Timeå°ˆæ¡ˆæµç¨‹ å·¥ç¨‹é©—è­‰éšæ®µ
+DVT â€“ Design Validation Testå°ˆæ¡ˆæµç¨‹ é–‹ç™¼é©—è­‰éšæ®µ
+DVT â€“ Production Verification Test ç”Ÿç”¢é©—è­‰æ¸¬è©¦éšæ®µ
+PreMP (Pre-Production) â€“ å°ˆæ¡ˆæµç¨‹ å°é‡è©¦é‡ç”¢
+MP (Mess Production) â€“ å°ˆæ¡ˆæµç¨‹ æ­£å¼é‡ç”¢ç”¢å“
 
 
-1. ¸Õ°µ (¬ãµo¶¥¬q) Trial, Test, Research & Development
-2. ¶q¸Õ (Ãş¦ü¤p§å¸Õ°µ) Pilot Run
-3. ­­¶q¥Í²£ Batch Production
-4. ¤j¶q¥Í²£ Mass Production, Flow Production
-5. ¼Ë«~ Sample
-6. ¸Õ¥Î Trial
+1. è©¦åš (ç ”ç™¼éšæ®µ) Trial, Test, Research & Development
+2. é‡è©¦ (é¡ä¼¼å°æ‰¹è©¦åš) Pilot Run
+3. é™é‡ç”Ÿç”¢ Batch Production
+4. å¤§é‡ç”Ÿç”¢ Mass Production, Flow Production
+5. æ¨£å“ Sample
+6. è©¦ç”¨ Trial
 
-¡º ¥ı¾É¥Í²£¼Ò¦¡ Pilot Run
-¥¦¤¶©ó¹êÅç«Ç»P¤u¼t¶q²£¤§¶¡ªº¥Í²£³W¼Ò
-¹êÅç«Ç Laboratory ¡÷ Pilot Plant¡÷ ¤u¼t Manufactory
+â—‡ å…ˆå°ç”Ÿç”¢æ¨¡å¼ Pilot Run
+å®ƒä»‹æ–¼å¯¦é©—å®¤èˆ‡å·¥å» é‡ç”¢ä¹‹é–“çš„ç”Ÿç”¢è¦æ¨¡
+å¯¦é©—å®¤ Laboratory â†’ Pilot Plantâ†’ å·¥å»  Manufactory
 
-¡º ¤â¤u¥Í²£ Craft Production
+â—‡ æ‰‹å·¥ç”Ÿç”¢ Craft Production
 Craft production is the process of manufacturing by hand with or without the aid of tools. 
-¤â¤u¥Í²£¬O»s³y¹Lµ{¬O¸g¥Ñ¤â¤u©Î¤£»İ¨Ì¿à¤u¨ã¡C
+æ‰‹å·¥ç”Ÿç”¢æ˜¯è£½é€ éç¨‹æ˜¯ç¶“ç”±æ‰‹å·¥æˆ–ä¸éœ€ä¾è³´å·¥å…·ã€‚
 
-¡º ­­¶q¥Í²£ Batch Production
+â—‡ é™é‡ç”Ÿç”¢ Batch Production
 Batch production is used to produce or process any product in groups that are called batches, as opposed to a continuous production process, or a one-time production. 
 An example of batch production can be found in a bakery.
-­­¶q¥Í²£¬O¨Ï¥Î¦b¥Í²£©Î¥[¤u¤@§å²£«~¡A¬Û¹ï©ó³sÄò¥Í²£©Î³æ¤@¥Í²£¡C­­¶q¥Í²£ªº¤@­Ó¨Ò¤l´N¦pÄÑ¥]¿|»æ©±¡C
-¡÷ ­­¶qµo¦æ Limited Edition
+é™é‡ç”Ÿç”¢æ˜¯ä½¿ç”¨åœ¨ç”Ÿç”¢æˆ–åŠ å·¥ä¸€æ‰¹ç”¢å“ï¼Œç›¸å°æ–¼é€£çºŒç”Ÿç”¢æˆ–å–®ä¸€ç”Ÿç”¢ã€‚é™é‡ç”Ÿç”¢çš„ä¸€å€‹ä¾‹å­å°±å¦‚éºµåŒ…ç³•é¤…åº—ã€‚
+â†’ é™é‡ç™¼è¡Œ Limited Edition
 
-¡º ³sÄò¥Í²£ Continuous Production
+â—‡ é€£çºŒç”Ÿç”¢ Continuous Production
 Continuous production is a method used to produce or process any product without interruption. 
 There is no discrete rate at which goods are produced, as opposed to a batch production process, or a one-time production. 
 Examples of continuous production are those used to make pens, paper, cars and computers.
-³sÄò¥Í²£¬O¨Ï¥Î¦b¥Í²£©Î¥[¤u¥ô¦ó¤£¶¡Â_§@·~ªº²£«~¡C²£«~»s³y¤¤¨S¦³¤£³s±µªº§@·~¡A¬Û¹ï©ó­­¶q¥Í²£©Î³æ¤@¥Í²£¡C³sÄò¥Í²£ªº¨Ò¤l¦p»s³yµ§¡B¯È¡B¨T¨®¡B¹q¸£¡C
+é€£çºŒç”Ÿç”¢æ˜¯ä½¿ç”¨åœ¨ç”Ÿç”¢æˆ–åŠ å·¥ä»»ä½•ä¸é–“æ–·ä½œæ¥­çš„ç”¢å“ã€‚ç”¢å“è£½é€ ä¸­æ²’æœ‰ä¸é€£æ¥çš„ä½œæ¥­ï¼Œç›¸å°æ–¼é™é‡ç”Ÿç”¢æˆ–å–®ä¸€ç”Ÿç”¢ã€‚é€£çºŒç”Ÿç”¢çš„ä¾‹å­å¦‚è£½é€ ç­†ã€ç´™ã€æ±½è»Šã€é›»è…¦ã€‚
 
-¡º ¤j¶q¥Í²£ Mass Production, Flow Production 
+â—‡ å¤§é‡ç”Ÿç”¢ Mass Production, Flow Production 
 Mass production (also called flow production or repetitive flow production) is the production of large amounts of standardized products on production lines.
-¤j¶q¥Í²£¤]ºÙ¬y°Ê¥Í²£¬O©ó¥Í²£½u»s³y¤j¶q¼Ğ·Çªº²£«~¡C
+å¤§é‡ç”Ÿç”¢ä¹Ÿç¨±æµå‹•ç”Ÿç”¢æ˜¯æ–¼ç”Ÿç”¢ç·šè£½é€ å¤§é‡æ¨™æº–çš„ç”¢å“ã€‚
 
-°Ñ¦Ò¸ê®Æºô¯¸
+åƒè€ƒè³‡æ–™ç¶²ç«™
 http://en.wikipedia.org/wiki/Mass-production
 
-³Æ®Æ¤u¥O material work order
-³Æ®Æ¼Æ¶q Required Material volume
-¤u¥O³Æ®Æ³æ Material request- work order
-¤u¥OÀ³³Æ¼Æ¶q Required volume for the order
-¥»¦¸À³³Æ¼Æ¶q Required volume for the batch
-³Æ®Æ¥N¸¹ Material code ( or material number)
-¹w³]®w§O default warehouse 
-¦©±b®w§O withdrawing warehouse
-¹w©w»â®Æ¤é Planned date to withdraw
-¥L®w¼Æ¶q   Volume in other warehouse
-¹ê³Æ¼Æ¶q   Actual volume
+å‚™æ–™å·¥ä»¤ material work order
+å‚™æ–™æ•¸é‡ Required Material volume
+å·¥ä»¤å‚™æ–™å–® Material request- work order
+å·¥ä»¤æ‡‰å‚™æ•¸é‡ Required volume for the order
+æœ¬æ¬¡æ‡‰å‚™æ•¸é‡ Required volume for the batch
+å‚™æ–™ä»£è™Ÿ Material code ( or material number)
+é è¨­åº«åˆ¥ default warehouse 
+æ‰£å¸³åº«åˆ¥ withdrawing warehouse
+é å®šé ˜æ–™æ—¥ Planned date to withdraw
+ä»–åº«æ•¸é‡   Volume in other warehouse
+å¯¦å‚™æ•¸é‡   Actual volume
 
 
-guarantee «OÃÒ
-price »ù®æ
-detail ¸Ô²Ó;²Ó¸`
-quotation ³ø»ù³æ
-request ­n¨D
-P/P (pilot run) ¸Õ²£
-M/P (Mass production) ¶q²£
+guarantee ä¿è­‰
+price åƒ¹æ ¼
+detail è©³ç´°;ç´°ç¯€
+quotation å ±åƒ¹å–®
+request è¦æ±‚
+P/P (pilot run) è©¦ç”¢
+M/P (Mass production) é‡ç”¢
 
-Fowarder ³øÃö¦æ
-PO ­q³æ
-Invoice µo²¼
-L/C «H¥Îª¬
-Forecast ¹w¦ô¡]¤U³æ¥Î)
-BOM cost¡@§÷®Æ¦¨¥» ¤£§tRDªº¬ãµo¦¨¥»
-Buy-in cost ¶R¶i¦¨¥»
-Rebate ¦^õX(µ¹¸g¾P°Óªº, ¶Rxx¥ó, ´N¦^õX¬Yµ§ª÷ÃB)
-Sample ¼Ë«~
-Shipping list ¥X³f²M³æ
-FOB Shanghai/Taiwan(³fª«¥æ¨ì¤W®ü/¥xÆW)
-AVL ¬Û®e«~¦Cªí
-Failure rate ¤£¨}²v
-SKU ²£«~³W®æ(¤£ª¾«ç»òÂ½, ¦³ÂIÃş¦üspec¤S¤£¤j¹³)
-BSMI °ÓÀË§½»{ÃÒ
-EMI ºÏÀËÃÒ©ú
+Fowarder å ±é—œè¡Œ
+PO è¨‚å–®
+Invoice ç™¼ç¥¨
+L/C ä¿¡ç”¨ç‹€
+Forecast é ä¼°ï¼ˆä¸‹å–®ç”¨)
+BOM costã€€ææ–™æˆæœ¬ ä¸å«RDçš„ç ”ç™¼æˆæœ¬
+Buy-in cost è²·é€²æˆæœ¬
+Rebate å›é¥‹(çµ¦ç¶“éŠ·å•†çš„, è²·xxä»¶, å°±å›é¥‹æŸç­†é‡‘é¡)
+Sample æ¨£å“
+Shipping list å‡ºè²¨æ¸…å–®
+FOB Shanghai/Taiwan(è²¨ç‰©äº¤åˆ°ä¸Šæµ·/å°ç£)
+AVL ç›¸å®¹å“åˆ—è¡¨
+Failure rate ä¸è‰¯ç‡
+SKU ç”¢å“è¦æ ¼(ä¸çŸ¥æ€éº¼ç¿», æœ‰é»é¡ä¼¼specåˆä¸å¤§åƒ)
+BSMI å•†æª¢å±€èªè­‰
+EMI ç£æª¢è­‰æ˜
 
-TT ¶×´Ú(³q±`«ü²{ª÷)
-PP ¶^»ù¸ÉÀv
-DOA ·s«~¬G»Ù
-RMA °h¦^­ì¼tºû­×
-in Stock ¦³²{³f
-N/A ¨S¦³
-Briefing Â²³ø
-Golden ·Ç³Æ¶q²£
-ES ¤uµ{¼Ë¥»
-Warrnty «O©T
-OS license §@·~¨t²Îª©Åv(¶O¥Î¡^
+TT åŒ¯æ¬¾(é€šå¸¸æŒ‡ç¾é‡‘)
+PP è·Œåƒ¹è£œå„Ÿ
+DOA æ–°å“æ•…éšœ
+RMA é€€å›åŸå» ç¶­ä¿®
+in Stock æœ‰ç¾è²¨
+N/A æ²’æœ‰
+Briefing ç°¡å ±
+Golden æº–å‚™é‡ç”¢
+ES å·¥ç¨‹æ¨£æœ¬
+Warrnty ä¿å›º
+OS license ä½œæ¥­ç³»çµ±ç‰ˆæ¬Š(è²»ç”¨ï¼‰
 
 SKU=Stock Keeping Unit
-²£«~³W®æ¤£¹L¤£¬OSPEC
-Ãş¦üMODEL NAMEªº²Ó¤ÀÃş
+ç”¢å“è¦æ ¼ä¸éä¸æ˜¯SPEC
+é¡ä¼¼MODEL NAMEçš„ç´°åˆ†é¡
 
 BSMI
-¥xÆWªº¹qºÏªk³W»{ÃÒ
+å°ç£çš„é›»ç£æ³•è¦èªè­‰
 
 EMI=Electromagnetic Interference 
-¹qºÏ¤zÂZ
+é›»ç£å¹²æ“¾
 EMC=Electromagnetic Compatibility
-¹qºÏ¬Û®e
+é›»ç£ç›¸å®¹
 EMS=Electromagnetic Susceptibility
-¹qºÏ­@¨ü
+é›»ç£è€å—
 EMC=EMI+EMS
 
 /******************************************************************************/
-PM, ID, ME, EE & PE, HR, IE, PE, QA , SCM, CM ¼t¤º²£«~¬ãµo¬ÛÃö³æ
+PM, ID, ME, EE & PE, HR, IE, PE, QA , SCM, CM å» å…§ç”¢å“ç ”ç™¼ç›¸é—œå–®
 /******************************************************************************/
-a.¤H¤O¸ê·½¡]HR¡^¡A³o­Ó¸ò¾Ç®Õ¸Ì­±¾Çªº®t¤£¦h¡ã
-b.¤u·~¤uµ{¡]IE¡^¡A¥D­n¬O§Q¥ÎIEªº¤âªk¡]´N¬O¥Í²£¤Î§@·~ºŞ²z¾Çªº¨º¨Ç¡^¨Ó¶i¦æ¥Í²£»sµ{(¥]§t²£½u°t¸m¡B¥Í²£±Æªí¤Î¤À°t¡B²£½u¤º¦U¤u¦ì¤u§@¤À¾áµ¥)¡A©Î¬O¦U³æ¦ì¶¡§@·~¬yµ{ªº³Ì¨Î¤Æ¡C
-c.±M®×ºŞ²z¡]PM¡^¡A¤@¯ë¨Ó»¡¨ä·~°È¥]¬A¦U¥Í²£³æ¦ì¶¡¨ó½Õ¡B»P«È¤á±µÄ²¤§µ¡¤f¡B³ø»ù¡]¬İ¨ì«È¤á²£«~´N­n·|®Ú¾Ú¨ä©Ò»İ¤uÃÀ§Ş³N¤Î¦UºØ§÷®Æ¦ôºâ¤j¬ùªº¦¨¥»¡^¡BÄ³»ù¡]¸òsales®t¤£¦h¡A°Q»ùÁÙ»ù³Õ·P±¡¡^¡B«È¤á»P¼t¶¡ªº·¾³q¨ó½Õ¡C¥t¥~ÁÙ¦³³¡¤Àªº·s¥«³õ¶}µo³¡¤À¡C»İ¨Dª¾ÃÑ¥]¬A¥«³õ¤ÀªR¡]²£·~¤ÀªR¡BÄvª§¹ï¤â¤ÀªR¡B¨ÑÀ³°Ó¤ÀªRµ¥µ¥¡^¡BÄ³»ù¯à¤O¡B¤å®Ñ³B²z¡]WORD¡BEXCEL¡BPOWERPOINT¡^µ¥¡C
-d.¥Í²£¶}µo¡]PE¡^¡A­t³d¥D¾É·s¾÷ºØªº§Ş³N¶}µo¡A©Ò¦³§Ş³N°İÃD§¡¬O¥Ñ¥L­Ì³B²z¡A¨ó½Õ¡A¨Ã¸Ñ¨M¡C³o³¡¤À¦h¥b»İ­nªº¬O²z¤u­I´ºªº¤H¡I
-e.«~½è«OÃÒ¡]QA¡^¡A­t³d¦U¥Í²£³æ¦ìªº¦¨«~«~½è°İÃD¡C·|¥Î¨ì«Ü¦h²Î­p¤èªk¥h¬dÅç²£«~¨}²v¡A¥H¤Î§ï¶i¨}²v°İÃD¡C©Ò¥H¡]·PÄ±¡^«Ü»İ­n²Î­pªº¯à¤O¡I¡I
-f.¨ÑÀ³ÃìºŞ²z¡]SCM¡^¡A¤À¬°¥|¶ô¡A¦h¥b¬O»İ­nª«¬y¤è­±ªº¤H¤~¡A¦b¦¨¤j´N¬O¥æ³qºŞ²z¬ì¾Ç¨t¨º¤@¶ô¡I¥æºŞ¡]²£«~¶q²£«á­t³d¥X³f¬ÛÃö¨Æ©y¡^¡B¥ø¹º¡]±oª¾«È¤á¥X³f»İ¨D«á±Æ°t¦U¼tªº²£½u¤Î®É¶¡±Æ°tµ¥¡^¡BÃö°Èª«¬y¡]­t³d®üÃö¶i¥X¤f¬ÛÃöµ{¦¡¥H¤Î³f¹B¹B¿é½Õ°t¨Æ©y¡^¡B±ÄÁÊ¡]­t³d±Ä¶R¤@¨Ç¥Í²£¹Lµ{¤¤©Ò»İªº¤pª«¥ó¡A¥D­n¬O²Õ¸Ë¼t¡A¥t¥~ÁÙ¦³¤@¨Ç¿ì¤½¥Î«~¤§Ãşªº¡^¡C
-g.¸gºŞ¡]CM¡ACost Management¡^¡A­t³d°]°È¤è­±ªººŞ²z»P¦¨¥»±±¨î¡A·|¤ñ¸û»İ­n°]°È©Î¬O·|­p­I´ºªº¤H¡A¤]·|°w¹ï¥«³õ°µ°]°È¤ÀªR¤§Ãşªº¤u§@¡C
+a.äººåŠ›è³‡æºï¼ˆHRï¼‰ï¼Œé€™å€‹è·Ÿå­¸æ ¡è£¡é¢å­¸çš„å·®ä¸å¤šï½
+b.å·¥æ¥­å·¥ç¨‹ï¼ˆIEï¼‰ï¼Œä¸»è¦æ˜¯åˆ©ç”¨IEçš„æ‰‹æ³•ï¼ˆå°±æ˜¯ç”Ÿç”¢åŠä½œæ¥­ç®¡ç†å­¸çš„é‚£äº›ï¼‰ä¾†é€²è¡Œç”Ÿç”¢è£½ç¨‹(åŒ…å«ç”¢ç·šé…ç½®ã€ç”Ÿç”¢æ’è¡¨åŠåˆ†é…ã€ç”¢ç·šå…§å„å·¥ä½å·¥ä½œåˆ†æ“”ç­‰)ï¼Œæˆ–æ˜¯å„å–®ä½é–“ä½œæ¥­æµç¨‹çš„æœ€ä½³åŒ–ã€‚
+c.å°ˆæ¡ˆç®¡ç†ï¼ˆPMï¼‰ï¼Œä¸€èˆ¬ä¾†èªªå…¶æ¥­å‹™åŒ…æ‹¬å„ç”Ÿç”¢å–®ä½é–“å”èª¿ã€èˆ‡å®¢æˆ¶æ¥è§¸ä¹‹çª—å£ã€å ±åƒ¹ï¼ˆçœ‹åˆ°å®¢æˆ¶ç”¢å“å°±è¦æœƒæ ¹æ“šå…¶æ‰€éœ€å·¥è—æŠ€è¡“åŠå„ç¨®ææ–™ä¼°ç®—å¤§ç´„çš„æˆæœ¬ï¼‰ã€è­°åƒ¹ï¼ˆè·Ÿsaleså·®ä¸å¤šï¼Œè¨åƒ¹é‚„åƒ¹åšæ„Ÿæƒ…ï¼‰ã€å®¢æˆ¶èˆ‡å» é–“çš„æºé€šå”èª¿ã€‚å¦å¤–é‚„æœ‰éƒ¨åˆ†çš„æ–°å¸‚å ´é–‹ç™¼éƒ¨åˆ†ã€‚éœ€æ±‚çŸ¥è­˜åŒ…æ‹¬å¸‚å ´åˆ†æï¼ˆç”¢æ¥­åˆ†æã€ç«¶çˆ­å°æ‰‹åˆ†æã€ä¾›æ‡‰å•†åˆ†æç­‰ç­‰ï¼‰ã€è­°åƒ¹èƒ½åŠ›ã€æ–‡æ›¸è™•ç†ï¼ˆWORDã€EXCELã€POWERPOINTï¼‰ç­‰ã€‚
+d.ç”Ÿç”¢é–‹ç™¼ï¼ˆPEï¼‰ï¼Œè² è²¬ä¸»å°æ–°æ©Ÿç¨®çš„æŠ€è¡“é–‹ç™¼ï¼Œæ‰€æœ‰æŠ€è¡“å•é¡Œå‡æ˜¯ç”±ä»–å€‘è™•ç†ï¼Œå”èª¿ï¼Œä¸¦è§£æ±ºã€‚é€™éƒ¨åˆ†å¤šåŠéœ€è¦çš„æ˜¯ç†å·¥èƒŒæ™¯çš„äººï¼
+e.å“è³ªä¿è­‰ï¼ˆQAï¼‰ï¼Œè² è²¬å„ç”Ÿç”¢å–®ä½çš„æˆå“å“è³ªå•é¡Œã€‚æœƒç”¨åˆ°å¾ˆå¤šçµ±è¨ˆæ–¹æ³•å»æŸ¥é©—ç”¢å“è‰¯ç‡ï¼Œä»¥åŠæ”¹é€²è‰¯ç‡å•é¡Œã€‚æ‰€ä»¥ï¼ˆæ„Ÿè¦ºï¼‰å¾ˆéœ€è¦çµ±è¨ˆçš„èƒ½åŠ›ï¼ï¼
+f.ä¾›æ‡‰éˆç®¡ç†ï¼ˆSCMï¼‰ï¼Œåˆ†ç‚ºå››å¡Šï¼Œå¤šåŠæ˜¯éœ€è¦ç‰©æµæ–¹é¢çš„äººæ‰ï¼Œåœ¨æˆå¤§å°±æ˜¯äº¤é€šç®¡ç†ç§‘å­¸ç³»é‚£ä¸€å¡Šï¼äº¤ç®¡ï¼ˆç”¢å“é‡ç”¢å¾Œè² è²¬å‡ºè²¨ç›¸é—œäº‹å®œï¼‰ã€ä¼åŠƒï¼ˆå¾—çŸ¥å®¢æˆ¶å‡ºè²¨éœ€æ±‚å¾Œæ’é…å„å» çš„ç”¢ç·šåŠæ™‚é–“æ’é…ç­‰ï¼‰ã€é—œå‹™ç‰©æµï¼ˆè² è²¬æµ·é—œé€²å‡ºå£ç›¸é—œç¨‹å¼ä»¥åŠè²¨é‹é‹è¼¸èª¿é…äº‹å®œï¼‰ã€æ¡è³¼ï¼ˆè² è²¬æ¡è²·ä¸€äº›ç”Ÿç”¢éç¨‹ä¸­æ‰€éœ€çš„å°ç‰©ä»¶ï¼Œä¸»è¦æ˜¯çµ„è£å» ï¼Œå¦å¤–é‚„æœ‰ä¸€äº›è¾¦å…¬ç”¨å“ä¹‹é¡çš„ï¼‰ã€‚
+g.ç¶“ç®¡ï¼ˆCMï¼ŒCost Managementï¼‰ï¼Œè² è²¬è²¡å‹™æ–¹é¢çš„ç®¡ç†èˆ‡æˆæœ¬æ§åˆ¶ï¼Œæœƒæ¯”è¼ƒéœ€è¦è²¡å‹™æˆ–æ˜¯æœƒè¨ˆèƒŒæ™¯çš„äººï¼Œä¹Ÿæœƒé‡å°å¸‚å ´åšè²¡å‹™åˆ†æä¹‹é¡çš„å·¥ä½œã€‚
 
-PM(±M®×¸g²z)
-ID(¤u·~³]­p)
-ME(¾÷ºc¤uµ{)
-EE(¹q¤l¤uµ{)
-PE (¥Í§Ş³æ¦ì)
+PM(å°ˆæ¡ˆç¶“ç†)
+ID(å·¥æ¥­è¨­è¨ˆ)
+ME(æ©Ÿæ§‹å·¥ç¨‹)
+EE(é›»å­å·¥ç¨‹)
+PE (ç”ŸæŠ€å–®ä½)
 
-·~°È´N­t³d¸ò«È¤á½Í»ù¿úÁÙ¦³¥æ´Á
-PM°ò¥»¤W´N¬O¸òµÛ²£«~§¹¦¨¶],¥L¬O§A¸ò«È¤á¥H¤Î¼t¤º·¾³q³Ì¥D­nªº¾ô¼Ù.
-¤u·~³]­pºâ¬O¬ãµoªº³¡¥÷.
-ME EE´N¬O¶}®×«á­t³d§âªF¦è³]­p¥X¨Óªº.
-PE¬O»s³y²{³õªº§Ş³N¤ä´©.
+æ¥­å‹™å°±è² è²¬è·Ÿå®¢æˆ¶è«‡åƒ¹éŒ¢é‚„æœ‰äº¤æœŸ
+PMåŸºæœ¬ä¸Šå°±æ˜¯è·Ÿè‘—ç”¢å“å®Œæˆè·‘,ä»–æ˜¯ä½ è·Ÿå®¢æˆ¶ä»¥åŠå» å…§æºé€šæœ€ä¸»è¦çš„æ©‹æ¨‘.
+å·¥æ¥­è¨­è¨ˆç®—æ˜¯ç ”ç™¼çš„éƒ¨ä»½.
+ME EEå°±æ˜¯é–‹æ¡ˆå¾Œè² è²¬æŠŠæ±è¥¿è¨­è¨ˆå‡ºä¾†çš„.
+PEæ˜¯è£½é€ ç¾å ´çš„æŠ€è¡“æ”¯æ´.
 
-¬ì§Ş·~¤uµ{³æ¦ìªºÂ¾ºÙ
-RD:¬ãµo³]­pÃşªº¤uµ{®v
-QA:«~½èºŞ²z¤uµ{®v
-SQE: Supplier Quality Engineer ¨ÑÀ³°Ó«~ºŞ¤uµ{®v
-IE: Industrial Engineer ¤u·~¤uµ{®v
-TE: Test Engineer ´ú¸Õ¤uµ{®v
-EE: Equipment Engineer ³]³Æ¤uµ{®v
-EE: Electronic Engineer ¹q¤l¤uµ{®v
-OP:  Operator , §@·~­û
-QA:  quality assurance engineer , «~«O¤uµ{®v
-QE:  quality (control) engineer, «~ºŞ¤uµ{®v
-QS:  quality system engineer , «~½è¨t²Î¤uµ{®v
-SQE: supplier quality engineer , ¨ÑÀ³°Ó«~ºŞ¤uµ{®v
-ME:  manufacturing engineer , ¾÷»s¤uµ{®v
-PM:  Project Manager , ±M®×¸g²z
-PE : Product Engineer , ²£«~¤uµ{®v 
-PE:project engineer , ±M®×¤uµ{®v
-PE:procurement engineer , ±ÄÁÊ¤uµ{®v
-PIE: Process Integration Engineer , »sµ{¾ã¦X¤uµ{
-PC:  Production Control , ¥Í²£±±ºŞ
-TF:  Thin Film , Á¡½¤»sµ{
-ET:  Etch , »k¨è»sµ{
-LIT: Litho or Photo , ¶À¥ú»sµ{
-DF:  Diffusion , ÂX´²»sµ{
-IE:  industrial engineer , ¤u·~¤uµ{®v
-MIS:¸ê°TºŞ²z¤H­û
-IE:  industrial engineer , ¤u·~¤uµ{®v
-IE:  test engineer , ´ú¸Õ¤uµ{®v
-ID:  Industrial Designer ¤u·~³]­p®v
-CIM: Computer Integrated Manufacturing CIM¤uµ{®v 
+ç§‘æŠ€æ¥­å·¥ç¨‹å–®ä½çš„è·ç¨±
+RD:ç ”ç™¼è¨­è¨ˆé¡çš„å·¥ç¨‹å¸«
+QA:å“è³ªç®¡ç†å·¥ç¨‹å¸«
+SQE: Supplier Quality Engineer ä¾›æ‡‰å•†å“ç®¡å·¥ç¨‹å¸«
+IE: Industrial Engineer å·¥æ¥­å·¥ç¨‹å¸«
+TE: Test Engineer æ¸¬è©¦å·¥ç¨‹å¸«
+EE: Equipment Engineer è¨­å‚™å·¥ç¨‹å¸«
+EE: Electronic Engineer é›»å­å·¥ç¨‹å¸«
+OP:  Operator , ä½œæ¥­å“¡
+QA:  quality assurance engineer , å“ä¿å·¥ç¨‹å¸«
+QE:  quality (control) engineer, å“ç®¡å·¥ç¨‹å¸«
+QS:  quality system engineer , å“è³ªç³»çµ±å·¥ç¨‹å¸«
+SQE: supplier quality engineer , ä¾›æ‡‰å•†å“ç®¡å·¥ç¨‹å¸«
+ME:  manufacturing engineer , æ©Ÿè£½å·¥ç¨‹å¸«
+PM:  Project Manager , å°ˆæ¡ˆç¶“ç†
+PE : Product Engineer , ç”¢å“å·¥ç¨‹å¸« 
+PE:project engineer , å°ˆæ¡ˆå·¥ç¨‹å¸«
+PE:procurement engineer , æ¡è³¼å·¥ç¨‹å¸«
+PIE: Process Integration Engineer , è£½ç¨‹æ•´åˆå·¥ç¨‹
+PC:  Production Control , ç”Ÿç”¢æ§ç®¡
+TF:  Thin Film , è–„è†œè£½ç¨‹
+ET:  Etch , è•åˆ»è£½ç¨‹
+LIT: Litho or Photo , é»ƒå…‰è£½ç¨‹
+DF:  Diffusion , æ“´æ•£è£½ç¨‹
+IE:  industrial engineer , å·¥æ¥­å·¥ç¨‹å¸«
+MIS:è³‡è¨Šç®¡ç†äººå“¡
+IE:  industrial engineer , å·¥æ¥­å·¥ç¨‹å¸«
+IE:  test engineer , æ¸¬è©¦å·¥ç¨‹å¸«
+ID:  Industrial Designer å·¥æ¥­è¨­è¨ˆå¸«
+CIM: Computer Integrated Manufacturing CIMå·¥ç¨‹å¸« 
 
-Â¾°ÈÁY¼gªº¥ş¦W¤Î¨ä©w¸q
-SA(SA: System Analyst) ¨t²Î¤ÀªR®v¡G
-¦b³nÅé¶}µo¹Î¶¤¤¤¡AÄİ©ó¤¤°ª¶¥ªº°ò¼hºŞ²zªÌ»P»â¾ÉªÌ¡C
-¥L­Ì°£¤F¶·¨ã³ÆÀu¨qªº¤å¦r¡B»y¨¥·¾³q¯à¤O¤§¥~¡AÁÙ­n¦³¨}¦nªº¤ÀªR¡B²ÕÂ´¡BÅŞ¿è«ä¦Ò¯à¤O¡C
-·íµM¤]»İ­n¦³¨}¦nªº¤H»ÚÃö«Y¡A¥H¤Î²`«pªº§Ş³N­I´º»Pª¾ÃÑ¡C
-¨t²Î¤ÀªR®vªº¤u§@¤º®e¡A¨Ì¶¥¬q¹º¤À¤j­P¥i¤À¬°¤U­z´X­Ó¶¥¬q¡G
-¨t²Î¤ÀªR¡G¤ÀªR²{¦æ¨t²Î:½T©w¨t²Îªº¥\¯à»İ¨D;½T©w¨t²Îªº¸ê·½:«OÅ@¤ÎÁZ®Ä»İ¨D¡A
-µo®i¨t²Î¬[ºc½T©w¨Ï¥Î³æ¦ì±N­±Á{ªºÀô¹Ò¤Î²ÕÂ´ÅÜ¾E¡C
-ªì¨B³]­p¡G¹º¤À§@·~¤l¨t²Î¡DÀÀ©w¤l¨t²Îªº¿é¤J¡B¿é¥X¡B¤¶­±¤Î§@·~³B²z¬yµ{:
-¤l¨t²Î¤H¤u§@·~³W®æ:ÅŞ¿è½è®Æ®w³]­p:¶}¦C¨t²Î³n¡BµwÅé³W®æ¡C
-²Ó¨B³]­p¡G³]­p¹êÅé¸ê®Æ®w:³]­p¤H¤u§@·~µ{¦¡;³]­p¤å¥óªí®æ¤Î¿é¥X¡B¤J®æ¦¡;
-ÀÀ­qµ{¦¡³W®æ¤Î²Ó¨B¬yµ{:½T©w¤½¥Î±`¦¡»P¦@¥Îµ{¦¡¡C
-¨t²Î´ú¸Õ¡G®Ú¾Ú¤ÀªR¶¥¬q©Ò­q©wªº¦UºØ¥\¯à¡D¥[¥H´ú¸Õ¡A¿ù»~¸ê®Æ¦¬¶°»P¤ÀªR¡C
-¸ê®ÆÂà´«¡G¾ã²z¤Î·J½s¤å¥ó¡D«ü¬£¤u§@¤H­û¤Î¶i¦æ°V½m¡D¶i¦æ¸ê®ÆÂà´«¡C
-¨t²ÎºûÅ@¡G§ó¥¿¨t²Î¤º¼ç¥ñªº¿ù»~:¦]¾AÀ³Àô¹Òªº§ïÅÜ¦Ó°µ¾A«×ªº½Õ¾ã
+è·å‹™ç¸®å¯«çš„å…¨ååŠå…¶å®šç¾©
+SA(SA: System Analyst) ç³»çµ±åˆ†æå¸«ï¼š
+åœ¨è»Ÿé«”é–‹ç™¼åœ˜éšŠä¸­ï¼Œå±¬æ–¼ä¸­é«˜éšçš„åŸºå±¤ç®¡ç†è€…èˆ‡é ˜å°è€…ã€‚
+ä»–å€‘é™¤äº†é ˆå…·å‚™å„ªç§€çš„æ–‡å­—ã€èªè¨€æºé€šèƒ½åŠ›ä¹‹å¤–ï¼Œé‚„è¦æœ‰è‰¯å¥½çš„åˆ†æã€çµ„ç¹”ã€é‚è¼¯æ€è€ƒèƒ½åŠ›ã€‚
+ç•¶ç„¶ä¹Ÿéœ€è¦æœ‰è‰¯å¥½çš„äººéš›é—œä¿‚ï¼Œä»¥åŠæ·±åšçš„æŠ€è¡“èƒŒæ™¯èˆ‡çŸ¥è­˜ã€‚
+ç³»çµ±åˆ†æå¸«çš„å·¥ä½œå…§å®¹ï¼Œä¾éšæ®µåŠƒåˆ†å¤§è‡´å¯åˆ†ç‚ºä¸‹è¿°å¹¾å€‹éšæ®µï¼š
+ç³»çµ±åˆ†æï¼šåˆ†æç¾è¡Œç³»çµ±:ç¢ºå®šç³»çµ±çš„åŠŸèƒ½éœ€æ±‚;ç¢ºå®šç³»çµ±çš„è³‡æº:ä¿è­·åŠç¸¾æ•ˆéœ€æ±‚ï¼Œ
+ç™¼å±•ç³»çµ±æ¶æ§‹ç¢ºå®šä½¿ç”¨å–®ä½å°‡é¢è‡¨çš„ç’°å¢ƒåŠçµ„ç¹”è®Šé·ã€‚
+åˆæ­¥è¨­è¨ˆï¼šåŠƒåˆ†ä½œæ¥­å­ç³»çµ±ï¼æ“¬å®šå­ç³»çµ±çš„è¼¸å…¥ã€è¼¸å‡ºã€ä»‹é¢åŠä½œæ¥­è™•ç†æµç¨‹:
+å­ç³»çµ±äººå·¥ä½œæ¥­è¦æ ¼:é‚è¼¯è³ªæ–™åº«è¨­è¨ˆ:é–‹åˆ—ç³»çµ±è»Ÿã€ç¡¬é«”è¦æ ¼ã€‚
+ç´°æ­¥è¨­è¨ˆï¼šè¨­è¨ˆå¯¦é«”è³‡æ–™åº«:è¨­è¨ˆäººå·¥ä½œæ¥­ç¨‹å¼;è¨­è¨ˆæ–‡ä»¶è¡¨æ ¼åŠè¼¸å‡ºã€å…¥æ ¼å¼;
+æ“¬è¨‚ç¨‹å¼è¦æ ¼åŠç´°æ­¥æµç¨‹:ç¢ºå®šå…¬ç”¨å¸¸å¼èˆ‡å…±ç”¨ç¨‹å¼ã€‚
+ç³»çµ±æ¸¬è©¦ï¼šæ ¹æ“šåˆ†æéšæ®µæ‰€è¨‚å®šçš„å„ç¨®åŠŸèƒ½ï¼åŠ ä»¥æ¸¬è©¦ï¼ŒéŒ¯èª¤è³‡æ–™æ”¶é›†èˆ‡åˆ†æã€‚
+è³‡æ–™è½‰æ›ï¼šæ•´ç†åŠå½™ç·¨æ–‡ä»¶ï¼æŒ‡æ´¾å·¥ä½œäººå“¡åŠé€²è¡Œè¨“ç·´ï¼é€²è¡Œè³‡æ–™è½‰æ›ã€‚
+ç³»çµ±ç¶­è­·ï¼šæ›´æ­£ç³»çµ±å…§æ½›ä¼çš„éŒ¯èª¤:å› é©æ‡‰ç’°å¢ƒçš„æ”¹è®Šè€Œåšé©åº¦çš„èª¿æ•´
 
-SD(System Analyst)¨t²Î³]­p®v¡G
-¨t²Î³]­p®v»P SA ©Ò¤£¦Pªº¬O¡A
-SA ©Ò«Øºcªº¬OÄİ©ó°¾¦V©ó»â°ìªº·§©À¼Ò«¬¡F¦Ó SD «h¬O®Ú¾Ú»â°ì¼Ò«¬¡A
-¦A°t¦X¹êÅéªº¥­¥x¡A¦Ò¶q¨ä®Ä¯à¡BÃ­©w¡B¤À´²»P¦w¥ş©Êµ¥¡A©Ò«Øºc¦Ó±oªº³nÅé³W®æ¼Ò«¬¡C
-SD ªº¥D­n²£¥X¡A¤´¥]¬A¤FÃş§O¹Ï¡B´`§Ç¹Ï¥H¤Î Database Schema¡A
-¦Ó³o¨Ç²£¥X¡A³£·|»P¹êÅéªº¥­¥x¬Û¨Ì¡C
-¦Ó¨t²Î¤º³¡ªº¤ÀªR»P³]­p¡A¬O¥æ¥Ñ SA »P SD ¨Ó­t³dªº¡A¦Ó SA »P SD ªº¬É­­¡A
-¥i¥H¥H¬O§_¦³»P¹êÅéªº¥­¥x¬Û¨Ì¨Ó¬É©w¡C
-§Ú­Ì¤]¥i¥H¥H¨â¥y¸Ü¨Ó»¡©ú¤ÀªR»P³]­pªºÃö«Y¡G
-¡uDo the right thing (¤ÀªR)¡vand ¡uDo the thing right (³]­p)¡v¡C
+SD(System Analyst)ç³»çµ±è¨­è¨ˆå¸«ï¼š
+ç³»çµ±è¨­è¨ˆå¸«èˆ‡ SA æ‰€ä¸åŒçš„æ˜¯ï¼Œ
+SA æ‰€å»ºæ§‹çš„æ˜¯å±¬æ–¼åå‘æ–¼é ˜åŸŸçš„æ¦‚å¿µæ¨¡å‹ï¼›è€Œ SD å‰‡æ˜¯æ ¹æ“šé ˜åŸŸæ¨¡å‹ï¼Œ
+å†é…åˆå¯¦é«”çš„å¹³å°ï¼Œè€ƒé‡å…¶æ•ˆèƒ½ã€ç©©å®šã€åˆ†æ•£èˆ‡å®‰å…¨æ€§ç­‰ï¼Œæ‰€å»ºæ§‹è€Œå¾—çš„è»Ÿé«”è¦æ ¼æ¨¡å‹ã€‚
+SD çš„ä¸»è¦ç”¢å‡ºï¼Œä»åŒ…æ‹¬äº†é¡åˆ¥åœ–ã€å¾ªåºåœ–ä»¥åŠ Database Schemaï¼Œ
+è€Œé€™äº›ç”¢å‡ºï¼Œéƒ½æœƒèˆ‡å¯¦é«”çš„å¹³å°ç›¸ä¾ã€‚
+è€Œç³»çµ±å…§éƒ¨çš„åˆ†æèˆ‡è¨­è¨ˆï¼Œæ˜¯äº¤ç”± SA èˆ‡ SD ä¾†è² è²¬çš„ï¼Œè€Œ SA èˆ‡ SD çš„ç•Œé™ï¼Œ
+å¯ä»¥ä»¥æ˜¯å¦æœ‰èˆ‡å¯¦é«”çš„å¹³å°ç›¸ä¾ä¾†ç•Œå®šã€‚
+æˆ‘å€‘ä¹Ÿå¯ä»¥ä»¥å…©å¥è©±ä¾†èªªæ˜åˆ†æèˆ‡è¨­è¨ˆçš„é—œä¿‚ï¼š
+ã€ŒDo the right thing (åˆ†æ)ã€and ã€ŒDo the thing right (è¨­è¨ˆ)ã€ã€‚
 
-RD¡]"R"esearch and "D"evelopment engineer¡^¬ãµo³]­p¤uµ{®v¡AÂ²ºÙ¬ãµo¤uµ{®v¡G
-RDªº¤ÀÃş: 
-¤@¯ë¦³¥i¯à·|¹J¨ì¤GºØRD¡G¤@ºØ¬O·|¤£Â_µo°İªºRD. ¤@ºØ¬O³£¨S¦³°İÃDªºRD. 
-µM¦Ó¡A±`°İ°İÃDªº¤H¤j¦h¼Æ¬OKey man. ¬O¤½¥q­«­nªº¤Hª«. 
-·|°İ°İÃD¥NªíµÛ¾Ç²ß¤ß±j. ªí¹F¯à¤O¨}¦n¡C
-RD¦b¤½¥qªº¦a¦ì: 
-RD³¡ªù¦b¤½¥q¬O­«­nªº³æ¦ì. ¦ı¤£¥Nªí¦³¦a¦ì.
-¥u­n¥ø¹º, ·~°È©ÎªÌ¬O¦ÑÁó¦³¤F·Qªk, 
-¤£ºŞ¦³²zµL²z, RD´N­n·Q¿ìªk§â¥L­Ìªº·Qªk¨ãÅéªº¹ê²{¥X¨Ó. 
-±ÄÁÊ, ­ÜºŞ,¤uµ{¨C¤Ñ°lµÛRD­n¨D°t¦X, 
-¥Í²£½uªº¶ı¶ı,¤j©j­Ì§ó¬O±o¸o¤£±o, 
-¦o­Ì·|¬°¤F¤@Áû¹q®eÂ\©ñ¦ì¸m¤£¦n²k¨Ó¸ò§A§n¥b¤Ñ. §ó§O´£«ÈªA³¡ªùªº©ê«è. 
+RDï¼ˆ"R"esearch and "D"evelopment engineerï¼‰ç ”ç™¼è¨­è¨ˆå·¥ç¨‹å¸«ï¼Œç°¡ç¨±ç ”ç™¼å·¥ç¨‹å¸«ï¼š
+RDçš„åˆ†é¡: 
+ä¸€èˆ¬æœ‰å¯èƒ½æœƒé‡åˆ°äºŒç¨®RDï¼šä¸€ç¨®æ˜¯æœƒä¸æ–·ç™¼å•çš„RD. ä¸€ç¨®æ˜¯éƒ½æ²’æœ‰å•é¡Œçš„RD. 
+ç„¶è€Œï¼Œå¸¸å•å•é¡Œçš„äººå¤§å¤šæ•¸æ˜¯Key man. æ˜¯å…¬å¸é‡è¦çš„äººç‰©. 
+æœƒå•å•é¡Œä»£è¡¨è‘—å­¸ç¿’å¿ƒå¼·. è¡¨é”èƒ½åŠ›è‰¯å¥½ã€‚
+RDåœ¨å…¬å¸çš„åœ°ä½: 
+RDéƒ¨é–€åœ¨å…¬å¸æ˜¯é‡è¦çš„å–®ä½. ä½†ä¸ä»£è¡¨æœ‰åœ°ä½.
+åªè¦ä¼åŠƒ, æ¥­å‹™æˆ–è€…æ˜¯è€é—†æœ‰äº†æƒ³æ³•, 
+ä¸ç®¡æœ‰ç†ç„¡ç†, RDå°±è¦æƒ³è¾¦æ³•æŠŠä»–å€‘çš„æƒ³æ³•å…·é«”çš„å¯¦ç¾å‡ºä¾†. 
+æ¡è³¼, å€‰ç®¡,å·¥ç¨‹æ¯å¤©è¿½è‘—RDè¦æ±‚é…åˆ, 
+ç”Ÿç”¢ç·šçš„åª½åª½,å¤§å§å€‘æ›´æ˜¯å¾—ç½ªä¸å¾—, 
+å¥¹å€‘æœƒç‚ºäº†ä¸€é¡†é›»å®¹æ“ºæ”¾ä½ç½®ä¸å¥½ç„Šä¾†è·Ÿä½ åµåŠå¤©. æ›´åˆ¥æå®¢æœéƒ¨é–€çš„æŠ±æ€¨. 
 
-PG¡]Programming¡^µ{¦¡³]­p®v¡G
-±q¨C¤@­Ó¸ê°Tªº±M·~Â¾¦ì¨Ó¬İ,µ{¦¡³]­p®vªº©w¸q³£¦³¤@ÂI®t²§,
-¦ı°ò¥»¤W§A¥²¶·­n¨ã³Æ´X¶µ°ò¥»ªº¸ê°T§Ş³N,
-¤~±o¥H³Ó¥ô¦h¼Æªº¸ê°T¤u§@Â¾¦ì,¥H¤Uªº«ØÄ³´£¨Ñ°Ñ¦Ò: 
-1. ¥²¶·¦Ü¤Ö±Mºë¤@ºØµ{¦¡»y¨¥.C,C++,Java³£¥i¥H. 
-2. ¥²¶·¦Ü¤Ö±Mºë¤@ºØ§@·~¨t²Î.Windows,Linux.(¥i¥HºŞ²z»P¬[³]¦øªA¾¹) 
-3. ÁA¸Ñ¸ê®Æ®w. 
-4. ¼ô±xºô¸ô¬[ºc. 
-5. ­n¯àÅªÀ´­^¤åªº§Ş³N¤å¥ó. 
+PGï¼ˆProgrammingï¼‰ç¨‹å¼è¨­è¨ˆå¸«ï¼š
+å¾æ¯ä¸€å€‹è³‡è¨Šçš„å°ˆæ¥­è·ä½ä¾†çœ‹,ç¨‹å¼è¨­è¨ˆå¸«çš„å®šç¾©éƒ½æœ‰ä¸€é»å·®ç•°,
+ä½†åŸºæœ¬ä¸Šä½ å¿…é ˆè¦å…·å‚™å¹¾é …åŸºæœ¬çš„è³‡è¨ŠæŠ€è¡“,
+æ‰å¾—ä»¥å‹ä»»å¤šæ•¸çš„è³‡è¨Šå·¥ä½œè·ä½,ä»¥ä¸‹çš„å»ºè­°æä¾›åƒè€ƒ: 
+1. å¿…é ˆè‡³å°‘å°ˆç²¾ä¸€ç¨®ç¨‹å¼èªè¨€.C,C++,Javaéƒ½å¯ä»¥. 
+2. å¿…é ˆè‡³å°‘å°ˆç²¾ä¸€ç¨®ä½œæ¥­ç³»çµ±.Windows,Linux.(å¯ä»¥ç®¡ç†èˆ‡æ¶è¨­ä¼ºæœå™¨) 
+3. ç­è§£è³‡æ–™åº«. 
+4. ç†Ÿæ‚‰ç¶²è·¯æ¶æ§‹. 
+5. è¦èƒ½è®€æ‡‚è‹±æ–‡çš„æŠ€è¡“æ–‡ä»¶. 
 
-PM (Project Manager) ±M®×¸g²z¡G
-¤@¯ë¦Ó¨¥¡A¤ñ¸û¤jªº¤½¥q¤~·|¦³±M®×ºŞ²z³¡ (Project Management Department)¡C
-­t³d¸Ñ¨M·s¾÷ºØ¥Í²£¡BÁÙ¦³·s²£«~¬ãµo¹Lµ{¤¤©Ò¦³ªº°İÃD¡C
-PM±M®×ºŞ²z®vÁõÄİ©ó±M®×ºŞ²z³¡¡A³qºÙ¡u±M®×¸g²z¡v¡AÂ²ºÙ PM (Project Manager)¡A
-¥t¥~¨Ì¥\¯à¤£¦P¡A¤S¥iºÙ¬°¡u²£«~¸g²z¡v (Product Manager)¡C
-©Ò¥H¡A§@¬°¤@­Ó¦nªºPM¡A¥²¶· 
-1.¼ô±x¸Ó²£·~ªº¥Í²£»s³y¬yµ{¡F
-2.¦³¦nªº·¾³q¨ó½Õ¡BºŞ²z¯à¤O¡F
-3.¨}¦nªº¥~»y¯à¤O(­^¡B¤é»y¬°¥D)
-­nÁA¸Ñ¤u¼t¤º¦U³¡ªù(»s³y³¡¡B¤uµ{³¡¡B´ú¸Õ¤uµ{³¡¡B²£«~½u¡B
-¶}µo±ÄÁÊ¡B­ÜÀx¡Bª«¬y³B¡BÃö°È...µ¥µ¥)ªº¹B§@¡A
-ÁÙ¦³¬ãµo¤¤¤ß¦U³¡ªù(¥]¬AEE¡BME¡BLayout¡B¦w³W¡BEMI)ªº¶D¨D©M¦Ò¶q¡C
+PM (Project Manager) å°ˆæ¡ˆç¶“ç†ï¼š
+ä¸€èˆ¬è€Œè¨€ï¼Œæ¯”è¼ƒå¤§çš„å…¬å¸æ‰æœƒæœ‰å°ˆæ¡ˆç®¡ç†éƒ¨ (Project Management Department)ã€‚
+è² è²¬è§£æ±ºæ–°æ©Ÿç¨®ç”Ÿç”¢ã€é‚„æœ‰æ–°ç”¢å“ç ”ç™¼éç¨‹ä¸­æ‰€æœ‰çš„å•é¡Œã€‚
+PMå°ˆæ¡ˆç®¡ç†å¸«éš¸å±¬æ–¼å°ˆæ¡ˆç®¡ç†éƒ¨ï¼Œé€šç¨±ã€Œå°ˆæ¡ˆç¶“ç†ã€ï¼Œç°¡ç¨± PM (Project Manager)ï¼Œ
+å¦å¤–ä¾åŠŸèƒ½ä¸åŒï¼Œåˆå¯ç¨±ç‚ºã€Œç”¢å“ç¶“ç†ã€ (Product Manager)ã€‚
+æ‰€ä»¥ï¼Œä½œç‚ºä¸€å€‹å¥½çš„PMï¼Œå¿…é ˆ 
+1.ç†Ÿæ‚‰è©²ç”¢æ¥­çš„ç”Ÿç”¢è£½é€ æµç¨‹ï¼›
+2.æœ‰å¥½çš„æºé€šå”èª¿ã€ç®¡ç†èƒ½åŠ›ï¼›
+3.è‰¯å¥½çš„å¤–èªèƒ½åŠ›(è‹±ã€æ—¥èªç‚ºä¸»)
+è¦ç­è§£å·¥å» å…§å„éƒ¨é–€(è£½é€ éƒ¨ã€å·¥ç¨‹éƒ¨ã€æ¸¬è©¦å·¥ç¨‹éƒ¨ã€ç”¢å“ç·šã€
+é–‹ç™¼æ¡è³¼ã€å€‰å„²ã€ç‰©æµè™•ã€é—œå‹™...ç­‰ç­‰)çš„é‹ä½œï¼Œ
+é‚„æœ‰ç ”ç™¼ä¸­å¿ƒå„éƒ¨é–€(åŒ…æ‹¬EEã€MEã€Layoutã€å®‰è¦ã€EMI)çš„è¨´æ±‚å’Œè€ƒé‡ã€‚
 
-DBA (Database Administrator) ¸ê®Æ®w³]­p»PºŞ²z¤H­û¡G
-¸ê®Æ®w³]­p»PºŞ²z¤H­û¡A³Ì¦n¥»¨­¤]¦³¼gµ{¦¡ªº¯à¤O¡A³o¼Ë¦bºŞ²z¤W·|¦pªê²KÁl¡A
-´N³o³¡¥÷ªº·Ç³Æ¤è¦¡¸ò¨t²Î¥­¥xÃş¦ü¡A¼öªùªºSQL¡BOracle¡BSybase...µ¥¡A
-­n¯à¦³¤@¼Ë¬O³Ì¾Õªøªº¡A¨ä¥Lªº¦h¤Ö³£­nÀ´¤@ÂI¡A¦³«Ü¦h¤½¥q³£¬O±qSQL¶}©l¡A
-¨ì«á¨ÓÂà¦¨Oracle¡A©Ò¥H¦pªG¸ò¤£¤W¥ø·~ªºÂàÅÜ¡A·|¬O«Ü¤jªº¯Ê¾Ñ¡C
+DBA (Database Administrator) è³‡æ–™åº«è¨­è¨ˆèˆ‡ç®¡ç†äººå“¡ï¼š
+è³‡æ–™åº«è¨­è¨ˆèˆ‡ç®¡ç†äººå“¡ï¼Œæœ€å¥½æœ¬èº«ä¹Ÿæœ‰å¯«ç¨‹å¼çš„èƒ½åŠ›ï¼Œé€™æ¨£åœ¨ç®¡ç†ä¸Šæœƒå¦‚è™æ·»ç¿¼ï¼Œ
+å°±é€™éƒ¨ä»½çš„æº–å‚™æ–¹å¼è·Ÿç³»çµ±å¹³å°é¡ä¼¼ï¼Œç†±é–€çš„SQLã€Oracleã€Sybase...ç­‰ï¼Œ
+è¦èƒ½æœ‰ä¸€æ¨£æ˜¯æœ€æ“…é•·çš„ï¼Œå…¶ä»–çš„å¤šå°‘éƒ½è¦æ‡‚ä¸€é»ï¼Œæœ‰å¾ˆå¤šå…¬å¸éƒ½æ˜¯å¾SQLé–‹å§‹ï¼Œ
+åˆ°å¾Œä¾†è½‰æˆOracleï¼Œæ‰€ä»¥å¦‚æœè·Ÿä¸ä¸Šä¼æ¥­çš„è½‰è®Šï¼Œæœƒæ˜¯å¾ˆå¤§çš„ç¼ºæ†¾ã€‚
 
-MIS (Management Information System)ºŞ²z¸ê°T¨t²Î¡A§YºôºŞ¤H­û¡G
-MIS¨ÌºŞ²z¨Mµ¦¤§»İ­n¡AÀ³¥Î¸ê®Æ®w±N¤@­Ó¾÷ºc¤§¸ê°T¾ã¦X³B²z¤ÀªR¡A
-¥H«K§Y®É´£¨Ñ¦U¶¥¼hºŞ²zªÌ¨Ï¥Î¡C
+MIS (Management Information System)ç®¡ç†è³‡è¨Šç³»çµ±ï¼Œå³ç¶²ç®¡äººå“¡ï¼š
+MISä¾ç®¡ç†æ±ºç­–ä¹‹éœ€è¦ï¼Œæ‡‰ç”¨è³‡æ–™åº«å°‡ä¸€å€‹æ©Ÿæ§‹ä¹‹è³‡è¨Šæ•´åˆè™•ç†åˆ†æï¼Œ
+ä»¥ä¾¿å³æ™‚æä¾›å„éšå±¤ç®¡ç†è€…ä½¿ç”¨ã€‚
 
  
 /******************************************************************************/
-¥ø·~ºŞ²z±`¥ÎÁY¼g³N»y¤¤­^¤å¹ï·Ó
+ä¼æ¥­ç®¡ç†å¸¸ç”¨ç¸®å¯«è¡“èªä¸­è‹±æ–‡å°ç…§
 /******************************************************************************/
-5S:¡@5SºŞ²z
-6£m¡G¤»¦è®æº¿ºŞ²z
+5S:ã€€5Sç®¡ç†
+6Ïƒï¼šå…­è¥¿æ ¼ç‘ªç®¡ç†
 A
-ABC: §@·~»s¦¨¥»¨î«× (Activity-Based Costing)
-ABB: ¹ê¬I§@·~¨î¹wºâ¨î«× (Activity-Based Budgeting)
-ABM: §@·~»s¦¨¥»ºŞ²z (Activity-Base Management)
-APS: ¥ı¶i³W¹º»P±Æµ{¨t²Î (Advanced Planning and Scheduling)
-ASP: À³¥Îµ{¦¡ªA°È¨Ñ³f°Ó¡]Application Service Provider¡^
-ATP: ¥i©Ó¿Õ¶q (Available To Promise)
-AVL: »{¥iªº¨Ñ³f°Ó²M³æ(Approved Vendor List)
+ABC: ä½œæ¥­è£½æˆæœ¬åˆ¶åº¦ (Activity-Based Costing)
+ABB: å¯¦æ–½ä½œæ¥­åˆ¶é ç®—åˆ¶åº¦ (Activity-Based Budgeting)
+ABM: ä½œæ¥­è£½æˆæœ¬ç®¡ç† (Activity-Base Management)
+APS: å…ˆé€²è¦åŠƒèˆ‡æ’ç¨‹ç³»çµ± (Advanced Planning and Scheduling)
+ASP: æ‡‰ç”¨ç¨‹å¼æœå‹™ä¾›è²¨å•†ï¼ˆApplication Service Providerï¼‰
+ATP: å¯æ‰¿è«¾é‡ (Available To Promise)
+AVL: èªå¯çš„ä¾›è²¨å•†æ¸…å–®(Approved Vendor List)
 B
-BOM:¡@ª«®Æ²M³æ (Bill Of Material)
-BPR:¡@¥ø·~¬yµ{¦A³y (Business Process Reengineering)
-BSC:¡@¥­¿Å°O¤À¥d (Balanced ScoreCard)
-BTF:¡@­p¹º¥Í²£ (Build To Forecast)
-BTO:¡@­q³æ¥Í²£ (Build To Order)
+BOM:ã€€ç‰©æ–™æ¸…å–® (Bill Of Material)
+BPR:ã€€ä¼æ¥­æµç¨‹å†é€  (Business Process Reengineering)
+BSC:ã€€å¹³è¡¡è¨˜åˆ†å¡ (Balanced ScoreCard)
+BTF:ã€€è¨ˆåŠƒç”Ÿç”¢ (Build To Forecast)
+BTO:ã€€è¨‚å–®ç”Ÿç”¢ (Build To Order)
 C
-CPM:¡@­n®|ªk (Critical Path Method)
-CPM:¡@¨C¤@¦Ê¸U­Ó¨Ï¥ÎªÌ·|¦³´X¦¸©ê«è(Complaint per Million)
-CRM:¡@«È¤áÃö«YºŞ²z (Customer Relationship Management)
-CRP:¡@²£¯à»İ¨D³W¹º (Capacity Requirements Planning)
-CTO:¡@«È¨î¤Æ¥Í²£ (Configuration To Order)
+CPM:ã€€è¦å¾‘æ³• (Critical Path Method)
+CPM:ã€€æ¯ä¸€ç™¾è¬å€‹ä½¿ç”¨è€…æœƒæœ‰å¹¾æ¬¡æŠ±æ€¨(Complaint per Million)
+CRM:ã€€å®¢æˆ¶é—œä¿‚ç®¡ç† (Customer Relationship Management)
+CRP:ã€€ç”¢èƒ½éœ€æ±‚è¦åŠƒ (Capacity Requirements Planning)
+CTO:ã€€å®¢åˆ¶åŒ–ç”Ÿç”¢ (Configuration To Order)
 D
-DBR:¡@­­¨îÅX¾É¦¡±Æµ{ªk (Drum-Buffer-Rope)
-DMT¡G ¦¨¼ô«×ÅçÃÒ(Design Maturing Testing)
-DVT:¡@³]­pÅçÃÒ(Design Verification Testing)
-DRP:¡@¹B¾P¸ê·½­p¹º (Distribution Resource Planning)
-DSS:¡@¨Mµ¦¤ä´©¨t²Î (Decision Support System)
-DP¡G »İ¨D­p¹º¡]Demand Planning¡^
+DBR:ã€€é™åˆ¶é©…å°å¼æ’ç¨‹æ³• (Drum-Buffer-Rope)
+DMTï¼š æˆç†Ÿåº¦é©—è­‰(Design Maturing Testing)
+DVT:ã€€è¨­è¨ˆé©—è­‰(Design Verification Testing)
+DRP:ã€€é‹éŠ·è³‡æºè¨ˆåŠƒ (Distribution Resource Planning)
+DSS:ã€€æ±ºç­–æ”¯æ´ç³»çµ± (Decision Support System)
+DPï¼š éœ€æ±‚è¨ˆåŠƒï¼ˆDemand Planningï¼‰
 E
-ECN¡G[³]­pÅÜ§ó]]¡ş¤uµ{ÅÜ§ó (Engineer Change)
-     ¤uµ{ÅÜ§ó³qª¾®Ñ¡]Engineering Change Notice¡^
-ECR¡G³]­pÅÜ§ó¥Ó½Ğ³æ¡]Engineering Change Request)
-EC¡G ¹q¤l°Ó°È (Electronic Commerce)
-ECRN: ­ì¥ó³W®æ§ó§ï³qª¾(Engineer Change Request Notice)
-EDI:¡@¹q¤l¼Æ¾Ú¥æ´« (Electronic Data Interchange)
-EIS:¡@¥DºŞ¨Mµ¦¨t²Î (Executive Information System)
-EMC:¡@¹qºÏ¬Û®e(Electric Magnetic Capability)
-EOQ:¡@°ò¥»¸gÀÙ­qÁÊ¶q (Economic Order Quantity)
-ERP:¡@¥ø·~¸ê·½³W¹º (Enterprise Resource Planning)
+ECNï¼š[è¨­è¨ˆè®Šæ›´]]ï¼å·¥ç¨‹è®Šæ›´ (Engineer Change)
+     å·¥ç¨‹è®Šæ›´é€šçŸ¥æ›¸ï¼ˆEngineering Change Noticeï¼‰
+ECRï¼šè¨­è¨ˆè®Šæ›´ç”³è«‹å–®ï¼ˆEngineering Change Request)
+ECï¼š é›»å­å•†å‹™ (Electronic Commerce)
+ECRN: åŸä»¶è¦æ ¼æ›´æ”¹é€šçŸ¥(Engineer Change Request Notice)
+EDI:ã€€é›»å­æ•¸æ“šäº¤æ› (Electronic Data Interchange)
+EIS:ã€€ä¸»ç®¡æ±ºç­–ç³»çµ± (Executive Information System)
+EMC:ã€€é›»ç£ç›¸å®¹(Electric Magnetic Capability)
+EOQ:ã€€åŸºæœ¬ç¶“æ¿Ÿè¨‚è³¼é‡ (Economic Order Quantity)
+ERP:ã€€ä¼æ¥­è³‡æºè¦åŠƒ (Enterprise Resource Planning)
 F
-FAE:¡@À³¥Î¤uµ{(Field Application Engineer)
-FCST: ¹w¦ô(Forecast)
-FMS:¡@¼u©Ê»s³y¨t²Î (Flexible Manufacture System)
-FQC:¡@¦¨«~½è¶qºŞ²z (Finish or Final Quality Control)
+FAE:ã€€æ‡‰ç”¨å·¥ç¨‹(Field Application Engineer)
+FCST: é ä¼°(Forecast)
+FMS:ã€€å½ˆæ€§è£½é€ ç³»çµ± (Flexible Manufacture System)
+FQC:ã€€æˆå“è³ªé‡ç®¡ç† (Finish or Final Quality Control)
 I
-IE: ¤u·~¤uµ{ (Industrial Engineering)
-IPQC:¡@»sµ{½è¶qºŞ²z (In-Process Quality Control)
-IQC:¡@ ¶i®Æ½è¶qºŞ²z (Incoming Quality Control)
-ISO:¡@ °ê»Ú¼Ğ·Ç²ÕÂ´ (International Organization for Standardization)
-ISAR:¡@­º§å¼Ë«~»{¥i(Initial Sample Approval Request)
+IE: å·¥æ¥­å·¥ç¨‹ (Industrial Engineering)
+IPQC:ã€€è£½ç¨‹è³ªé‡ç®¡ç† (In-Process Quality Control)
+IQC:ã€€ é€²æ–™è³ªé‡ç®¡ç† (Incoming Quality Control)
+ISO:ã€€ åœ‹éš›æ¨™æº–çµ„ç¹” (International Organization for Standardization)
+ISAR:ã€€é¦–æ‰¹æ¨£å“èªå¯(Initial Sample Approval Request)
 J
-JIT:¡@ ¹ê®ÉºŞ²z (Just In Time)
+JIT:ã€€ å¯¦æ™‚ç®¡ç† (Just In Time)
 K
-KM¡G¡@ ª¾ÃÑºŞ²z (Knowledge Management)
+KMï¼šã€€ çŸ¥è­˜ç®¡ç† (Knowledge Management)
 L
-L4L:¡@ ³v§å­qÁÊªk (Lot-for-Lot)
-LTC:¡@ ³Ì¤pÁ`¦¨¥»ªk (Least Total Cost)
-LUC:¡@ ³Ì¤p³æ¦ì¦¨¥» (Least Unit Cost)
+L4L:ã€€ é€æ‰¹è¨‚è³¼æ³• (Lot-for-Lot)
+LTC:ã€€ æœ€å°ç¸½æˆæœ¬æ³• (Least Total Cost)
+LUC:ã€€ æœ€å°å–®ä½æˆæœ¬ (Least Unit Cost)
 M
-MES:¡@ »s³y°õ¦æ¨t²Î (Manufacturing Execution System)
-MO:¡@¡@¨î¥O(Manufacture Order)
-MPS:¡@ ¥D¥Í²£±Æµ{ (Master Production Schedule)
-MRO:¡@ ½Ğ­×(ÁÊ)³æ(Maintenance Repair Operation)
-MRP:¡@ ª«®Æ»İ¨D³W¹º (Material Requirement Planning)
-MRPII: »s³y¸ê·½­p¹º (Manufacturing Resource Planning)
+MES:ã€€ è£½é€ åŸ·è¡Œç³»çµ± (Manufacturing Execution System)
+MO:ã€€ã€€åˆ¶ä»¤(Manufacture Order)
+MPS:ã€€ ä¸»ç”Ÿç”¢æ’ç¨‹ (Master Production Schedule)
+MRO:ã€€ è«‹ä¿®(è³¼)å–®(Maintenance Repair Operation)
+MRP:ã€€ ç‰©æ–™éœ€æ±‚è¦åŠƒ (Material Requirement Planning)
+MRPII: è£½é€ è³‡æºè¨ˆåŠƒ (Manufacturing Resource Planning)
 N
-NFCF:¡@§ó§ï¹w¦ô¶qªº³qª¾¡]Notice for Changing Forecast¡^
+NFCF:ã€€æ›´æ”¹é ä¼°é‡çš„é€šçŸ¥ï¼ˆNotice for Changing Forecastï¼‰
 O
-OEM:¡@ ©e°U¥N¤u (Original Equipment Manufacture)
-ODM:¡@ ©e°U³]­p»P»s³y (Original Design & Manufacture)
-OLAP:¡@½u¤W¤ÀªR³B²z (On-Line Analytical Processing)
-OLTP:¡@½u¤W¥æ©ö³B²z (On-Line Transaction Processing)
-OPT:¡@ ³Ì¨Î¥Í²£§Ş³N (Optimized Production Technology)
-OQC:¡@ ¥X³f½è¶qºŞ²z (Out-going Quality Control)
+OEM:ã€€ å§”è¨—ä»£å·¥ (Original Equipment Manufacture)
+ODM:ã€€ å§”è¨—è¨­è¨ˆèˆ‡è£½é€  (Original Design & Manufacture)
+OLAP:ã€€ç·šä¸Šåˆ†æè™•ç† (On-Line Analytical Processing)
+OLTP:ã€€ç·šä¸Šäº¤æ˜“è™•ç† (On-Line Transaction Processing)
+OPT:ã€€ æœ€ä½³ç”Ÿç”¢æŠ€è¡“ (Optimized Production Technology)
+OQC:ã€€ å‡ºè²¨è³ªé‡ç®¡ç† (Out-going Quality Control)
 P
-PDCA:¡@PDCAºŞ²z°j°é (Plan-Do-Check-Action)
-PDM:¡@ ²£«~¼Æ¾ÚºŞ²z¨t²Î (Product Data Management)
-PERT: ­p¹ºµû®Ö³N (Program Evaluation and Review Technique)
-PO:¡@¡@­q³æ(Purchase Order)
-POH:¡@ ¹w¦ô¦b¤â¶q (Product on Hand)
-PR:¡@¡@±ÄÁÊ¥Ó½Ğ¡]Purchase Request¡^
-PTP: ±qÁÊ¶R¨ì¥I´Ú¡]procure to pay¡^
+PDCA:ã€€PDCAç®¡ç†è¿´åœˆ (Plan-Do-Check-Action)
+PDM:ã€€ ç”¢å“æ•¸æ“šç®¡ç†ç³»çµ± (Product Data Management)
+PERT: è¨ˆåŠƒè©•æ ¸è¡“ (Program Evaluation and Review Technique)
+PO:ã€€ã€€è¨‚å–®(Purchase Order)
+POH:ã€€ é ä¼°åœ¨æ‰‹é‡ (Product on Hand)
+PR:ã€€ã€€æ¡è³¼ç”³è«‹ï¼ˆPurchase Requestï¼‰
+PTP: å¾è³¼è²·åˆ°ä»˜æ¬¾ï¼ˆprocure to payï¼‰
 Q
-QA:¡@¡@½è¶q«OÃÒ(Quality Assurance)
-QC:¡@¡@½è¶qºŞ²z(Quality Control)
-QCC:¡@ «~ºŞ°é (Quality Control Circle)
-QE:¡@¡@½è¶q¤uµ{(Quality Engineering)
+QA:ã€€ã€€è³ªé‡ä¿è­‰(Quality Assurance)
+QC:ã€€ã€€è³ªé‡ç®¡ç†(Quality Control)
+QCC:ã€€ å“ç®¡åœˆ (Quality Control Circle)
+QE:ã€€ã€€è³ªé‡å·¥ç¨‹(Quality Engineering)
 R
-RCCP:¡@²Ê²¤²£¯à³W¹º (Rough Cut Capacity Planning)
-RMA:¡@ °h³fÅç¦¬Returned Material Approval
-ROP:¡@ ¦A­qÁÊÂI (Re-Order Point)
+RCCP:ã€€ç²—ç•¥ç”¢èƒ½è¦åŠƒ (Rough Cut Capacity Planning)
+RMA:ã€€ é€€è²¨é©—æ”¶Returned Material Approval
+ROP:ã€€ å†è¨‚è³¼é» (Re-Order Point)
 S
-SCM:¡@ ¨ÑÀ³ÃìºŞ²z (Supply Chain Management)
-SFC:¡@ ²{³õ±±¨î (Shop Floor Control)
-SIS:¡@ µ¦²¤¸ê°T¨t²Î (Strategic Information System)
-SO:¡@¡@­q³æ(Sales Order)
-SOR:¡@ ¯S®í­q³æ»İ¨D(Special Order Request)
-SPC:¡@ ²Î­p»sµ{ºŞ¨î (Statistic Process Control)
-SQE:¨ÑÀ³°Ó½è¶q¤uµ{®v¡]Supplier Quality Engineer¡^
+SCM:ã€€ ä¾›æ‡‰éˆç®¡ç† (Supply Chain Management)
+SFC:ã€€ ç¾å ´æ§åˆ¶ (Shop Floor Control)
+SIS:ã€€ ç­–ç•¥è³‡è¨Šç³»çµ± (Strategic Information System)
+SO:ã€€ã€€è¨‚å–®(Sales Order)
+SOR:ã€€ ç‰¹æ®Šè¨‚å–®éœ€æ±‚(Special Order Request)
+SPC:ã€€ çµ±è¨ˆè£½ç¨‹ç®¡åˆ¶ (Statistic Process Control)
+SQE:ä¾›æ‡‰å•†è³ªé‡å·¥ç¨‹å¸«ï¼ˆSupplier Quality Engineerï¼‰
 T
-TOC:¡@ ­­¨î²z½× (Theory of Constraints)
-TPM:¡@ ¥ş­±¥Í²£ºŞ²zTotal Production Management
-TQC:¡@ ¥ş­±½è¶q±±¨î (Total Quality Control)
-TQM:¡@ ¥ş­±½è¶qºŞ²z (Total Quality Management)
+TOC:ã€€ é™åˆ¶ç†è«– (Theory of Constraints)
+TPM:ã€€ å…¨é¢ç”Ÿç”¢ç®¡ç†Total Production Management
+TQC:ã€€ å…¨é¢è³ªé‡æ§åˆ¶ (Total Quality Control)
+TQM:ã€€ å…¨é¢è³ªé‡ç®¡ç† (Total Quality Management)
 W
-WIP:¡@ ¦b»s«~ (Work In Process)
+WIP:ã€€ åœ¨è£½å“ (Work In Process)
 
 /******************************************************************************/
-»s³y·~¤¤±`¥Îªº­^¤åÁY¼g
+è£½é€ æ¥­ä¸­å¸¸ç”¨çš„è‹±æ–‡ç¸®å¯«
 /******************************************************************************/
-«~½è¤H­û¦WºÙÃş
-QC      quality control              «~½èºŞ²z¤H­û
-FQC     final quality control        ²×ÂI½è¶qºŞ²z¤H­û
-IPQC    in process quality control  »sµ{¤¤ªº½è¶qºŞ²z¤H­û
-OQC     output quality control       ³Ì²×¥X³f½è¶qºŞ²z¤H­û
-IQC     incoming quality control     ¶i®Æ½è¶qºŞ²z¤H­û
-TQC     total quality control        ¥ş­±½è¶qºŞ²z 
-POC     passage quality control      ¬qÀË¤H­û
-QA      quality assurance            ½è¶q«OÃÒ¤H­û
-OQA     output quality assurance     ¥X³f½è¶q«OÃÒ¤H­û
-QE      quality engineering          «~½è¤uµ{¤H­û
+å“è³ªäººå“¡åç¨±é¡
+QC      quality control              å“è³ªç®¡ç†äººå“¡
+FQC     final quality control        çµ‚é»è³ªé‡ç®¡ç†äººå“¡
+IPQC    in process quality control  è£½ç¨‹ä¸­çš„è³ªé‡ç®¡ç†äººå“¡
+OQC     output quality control       æœ€çµ‚å‡ºè²¨è³ªé‡ç®¡ç†äººå“¡
+IQC     incoming quality control     é€²æ–™è³ªé‡ç®¡ç†äººå“¡
+TQC     total quality control        å…¨é¢è³ªé‡ç®¡ç† 
+POC     passage quality control      æ®µæª¢äººå“¡
+QA      quality assurance            è³ªé‡ä¿è­‰äººå“¡
+OQA     output quality assurance     å‡ºè²¨è³ªé‡ä¿è­‰äººå“¡
+QE      quality engineering          å“è³ªå·¥ç¨‹äººå“¡
 
-«~½è«OÃÒÃş
-FAI     first article inspection               ·s«~­º¥óÀË¬d 
-FAA     first article assurance                ­º¥ó½T»{
-CP      capability index                        ¯à¤O«ü¼Æ Üù
-CPK     capability process index               ¼Ò¨ã»sµ{¯à¤O°Ñ¼Æ
-SSQA    standardized supplier quality audit   ¦X®æ¨Ñ³f°Ó«~½èµû¦ô
-FMEA    failure model effectiveness analysis  ¥¢®Ä¼Ò¦¡¤ÀªR
+å“è³ªä¿è­‰é¡
+FAI     first article inspection               æ–°å“é¦–ä»¶æª¢æŸ¥ 
+FAA     first article assurance                é¦–ä»¶ç¢ºèª
+CP      capability index                        èƒ½åŠ›æŒ‡æ•¸ åªµ
+CPK     capability process index               æ¨¡å…·è£½ç¨‹èƒ½åŠ›åƒæ•¸
+SSQA    standardized supplier quality audit   åˆæ ¼ä¾›è²¨å•†å“è³ªè©•ä¼°
+FMEA    failure model effectiveness analysis  å¤±æ•ˆæ¨¡å¼åˆ†æ
 
-FQC¹B§@Ãş
-AQL     Acceptable Quality Level        ¹B§@Ãş¤¹¦¬«~½è¤ô·Ç 
-S/S     Sample size                     ©â¼ËÀËÅç¼Ë¥»¤j¤p
-ACC     Accept                          ¤¹¦¬
-REE     Reject                          ©Ú¦¬
-CR      Critical                        ·¥ÄY­«ªº
-MAJ     Major                           ¥D­nªº
-MIN     Minor                           »´·Lªº 
-Q/R/S   Quality/Reliability/Service     «~½è/¥i¾a«×/ªA°È
-P/N     Part Number                     ®Æ¸¹ ãH
-L/N     Lot Number                      §å¸¹
-AOD     Accept On Deviation             ¯Sªö
-UAI     Use As It                       ¯Sªö
-FPIR    First Piece Inspection Report   ­º¥óÀË¬d³ø§i
-PPM     Percent Per Million             ¦Ê¸U¤À¤§¤@
+FQCé‹ä½œé¡
+AQL     Acceptable Quality Level        é‹ä½œé¡å…æ”¶å“è³ªæ°´æº– 
+S/S     Sample size                     æŠ½æ¨£æª¢é©—æ¨£æœ¬å¤§å°
+ACC     Accept                          å…æ”¶
+REE     Reject                          æ‹’æ”¶
+CR      Critical                        æ¥µåš´é‡çš„
+MAJ     Major                           ä¸»è¦çš„
+MIN     Minor                           è¼•å¾®çš„ 
+Q/R/S   Quality/Reliability/Service     å“è³ª/å¯é åº¦/æœå‹™
+P/N     Part Number                     æ–™è™Ÿ ç¨¨
+L/N     Lot Number                      æ‰¹è™Ÿ
+AOD     Accept On Deviation             ç‰¹é‡‡
+UAI     Use As It                       ç‰¹é‡‡
+FPIR    First Piece Inspection Report   é¦–ä»¶æª¢æŸ¥å ±å‘Š
+PPM     Percent Per Million             ç™¾è¬åˆ†ä¹‹ä¸€
 
-»sµ{²Î­p«~ºŞ±MÃş
-SPC     Statistical Process Control     ²Î­p»sµ{ºŞ¨î
-SQC     Statistical Quality Control     ²Î­p½è¶qºŞ²z 
-GRR     Gauge Reproductiveness & Repeatability ¶q¨ã¤§¦A»s©Ê¤Î­«´ú©Ê§PÂ_¶q¥i¾a»P§_
-DIM     Dimension  ¤Ø¤o
-DIA     Diameter   ª½®| 
-N       Number     ¼Ë«~¼Æ
+è£½ç¨‹çµ±è¨ˆå“ç®¡å°ˆé¡
+SPC     Statistical Process Control     çµ±è¨ˆè£½ç¨‹ç®¡åˆ¶
+SQC     Statistical Quality Control     çµ±è¨ˆè³ªé‡ç®¡ç† 
+GRR     Gauge Reproductiveness & Repeatability é‡å…·ä¹‹å†è£½æ€§åŠé‡æ¸¬æ€§åˆ¤æ–·é‡å¯é èˆ‡å¦
+DIM     Dimension  å°ºå¯¸
+DIA     Diameter   ç›´å¾‘ 
+N       Number     æ¨£å“æ•¸
 
-¨ä¥¦«~½è³N»yÃş
-QIT     Quality Improvement Team     «~½è§ïµ½¤p²Õ  
-ZD      Zero Defect                  ¹s¯ÊÂI
-QI      Quality Improvement          «~½è§ïµ½ 
-QP      Quality Policy               ¥Ø¼Ğ¤è°w
-TQM     Total Quality Management     ¥ş­±«~½èºŞ²z 
-RMA     Return Material Audit        °h®Æ»{¥i
-7QCTools  7 Quality Control Tools    «~ºŞ¤C¤j¤âªk
+å…¶å®ƒå“è³ªè¡“èªé¡
+QIT     Quality Improvement Team     å“è³ªæ”¹å–„å°çµ„  
+ZD      Zero Defect                  é›¶ç¼ºé»
+QI      Quality Improvement          å“è³ªæ”¹å–„ 
+QP      Quality Policy               ç›®æ¨™æ–¹é‡
+TQM     Total Quality Management     å…¨é¢å“è³ªç®¡ç† 
+RMA     Return Material Audit        é€€æ–™èªå¯
+7QCTools  7 Quality Control Tools    å“ç®¡ä¸ƒå¤§æ‰‹æ³•
 
-³q¥Î¤§¥óÃş
-ECN     Engineering Change Notice    ¤uµ{ÅÜ§ó³qª¾(¨Ñ³f°Ó)
-ECO     Engineering Change Order     ¤uµ{§ï°Ê­n¨D(«È¤á)  
-PCN     Process Change Notice        ¤u§Ç§ï°Ê³qª¾
-PMP     Product Management Plan      ¥Í²£ºŞ¨î­p¹º
-SIP     Standard Inspection Procedure    »sµ{ÀËÅç¼Ğ·Çµ{¦¡  
-SOP     Standard Operation Procedure     »s³y§@·~³W½d ¡¼  
-IS      Inspection Specification         ¦¨«~ÀËÅç³W½d   
-BOM     Bill Of Material       ª«®Æ²M³æ 
-PS      Package Specification   ¥]¸Ë³W½d  
-SPEC    Specification         ³W®æ 
-DWG     Drawing                ¹Ï­±
+é€šç”¨ä¹‹ä»¶é¡
+ECN     Engineering Change Notice    å·¥ç¨‹è®Šæ›´é€šçŸ¥(ä¾›è²¨å•†)
+ECO     Engineering Change Order     å·¥ç¨‹æ”¹å‹•è¦æ±‚(å®¢æˆ¶)  
+PCN     Process Change Notice        å·¥åºæ”¹å‹•é€šçŸ¥
+PMP     Product Management Plan      ç”Ÿç”¢ç®¡åˆ¶è¨ˆåŠƒ
+SIP     Standard Inspection Procedure    è£½ç¨‹æª¢é©—æ¨™æº–ç¨‹å¼  
+SOP     Standard Operation Procedure     è£½é€ ä½œæ¥­è¦ç¯„ â–¡  
+IS      Inspection Specification         æˆå“æª¢é©—è¦ç¯„   
+BOM     Bill Of Material       ç‰©æ–™æ¸…å–® 
+PS      Package Specification   åŒ…è£è¦ç¯„  
+SPEC    Specification         è¦æ ¼ 
+DWG     Drawing                åœ–é¢
 
-¨t²Î¤å¥óÃş
-ES      Engineering Standard                 ¤uµ{¼Ğ·Ç
-IWS     International Workman Standard       ¤uÃÀ¼Ğ·Ç   
-ISO     International Standard Organization  °ê»Ú¼Ğ·Ç¤Æ²ÕÂ´   
-GS      General Specification                 ¤@¯ë³W®æ
+ç³»çµ±æ–‡ä»¶é¡
+ES      Engineering Standard                 å·¥ç¨‹æ¨™æº–
+IWS     International Workman Standard       å·¥è—æ¨™æº–   
+ISO     International Standard Organization  åœ‹éš›æ¨™æº–åŒ–çµ„ç¹”   
+GS      General Specification                 ä¸€èˆ¬è¦æ ¼
 
-³¡Ãş 
-PMC     Production & Material Control   ¥Í²£©Mª«®Æ±±¨î
-PCC     Product control center          ¥Í²£ºŞ¨î¤¤¤ß
-PPC     Production Plan Control         ¥Í²£­p¹º±±¨î
-MC      Material Control                ª«®Æ±±¨î
-DC      Document Center                 ¸ê®Æ¤¤¤ß
-QE      Quality Engineering             «~½è¤uµ{(³¡)
-QA      Quality Assurance               «~½è«OÃÒ(³B)
-QC      Quality Control                 ½è¶qºŞ²z(½Ò)
-PD      Product Department              ¥Í²£³¡
-LAB     Laboratory                     ¹êÅç«Ç  
-IE      Industrial Engineering          ¤u·~¤uµ{   
-R&D     Research & Design              ³]­p¶}µo³¡
+éƒ¨é¡ 
+PMC     Production & Material Control   ç”Ÿç”¢å’Œç‰©æ–™æ§åˆ¶
+PCC     Product control center          ç”Ÿç”¢ç®¡åˆ¶ä¸­å¿ƒ
+PPC     Production Plan Control         ç”Ÿç”¢è¨ˆåŠƒæ§åˆ¶
+MC      Material Control                ç‰©æ–™æ§åˆ¶
+DC      Document Center                 è³‡æ–™ä¸­å¿ƒ
+QE      Quality Engineering             å“è³ªå·¥ç¨‹(éƒ¨)
+QA      Quality Assurance               å“è³ªä¿è­‰(è™•)
+QC      Quality Control                 è³ªé‡ç®¡ç†(èª²)
+PD      Product Department              ç”Ÿç”¢éƒ¨
+LAB     Laboratory                     å¯¦é©—å®¤  
+IE      Industrial Engineering          å·¥æ¥­å·¥ç¨‹   
+R&D     Research & Design              è¨­è¨ˆé–‹ç™¼éƒ¨
 
-¥Í²£Ãş 
-PCs     Pieces               ­Ó(®Ú,¶ôµ¥) 
-PRS     Pairs                Âù(¹ïµ¥)   
-CTN     Carton               ¥d³q½c   
-PAL     Pallet/skid          ´ÌªO  
-PO      Purchasing Order     ±ÄÁÊ­q³æ 
-MO      Manufacture Order    ¥Í²£³æ   
-D/C     Date Code            ¥Í²£¤é´Á½X  
-ID/C    Identification Code  (¨Ñ³f°Ó)ÃÑ§O½X]
-SWR     Special Work Request           ¯S®í¤u§@»İ¨D
-L/N     Lot Number                     §å¸¹ 
-P/N     Part Number                     ®Æ¸¹ 
-OEM     Original Equipment Manufacture  ­ì³]³Æ»s³y  
-PC      Personal Computer                ­Ó¤H¹q¸£ 
-CPU     Central Processing Unit         ¤¤¥¡³B²z¾¹ ¡¼  
-A.S.A.P As Soon As Possible         ¾¨¥i¯à§Öªº   
-E-MAIL  Electrical-Mail              ¹q¤l¶l¥ó
-N/A     Not Applicable       ¤£¾A¥Î 
-QTY     Quantity             ¼Æ¶q  
-I/O     input/output         ¿é¤J/¿é¥X   
-NG      Not Good              ¤£¦æ,¤£¦X®æ 
-C=0     Critical=0           ·¥ÄY­«¤£¤¹³\
-APP     Approve              ®Ö­ã,»{¥i,©Ó»{
-CHK     Check                ½T»{  
-ASS''Y  Assembly           ¸Ë°t,²Õ¸Ë  
-T/P     True Position        ¯u¦ì«× 
+ç”Ÿç”¢é¡ 
+PCs     Pieces               å€‹(æ ¹,å¡Šç­‰) 
+PRS     Pairs                é›™(å°ç­‰)   
+CTN     Carton               å¡é€šç®±   
+PAL     Pallet/skid          æ£§æ¿  
+PO      Purchasing Order     æ¡è³¼è¨‚å–® 
+MO      Manufacture Order    ç”Ÿç”¢å–®   
+D/C     Date Code            ç”Ÿç”¢æ—¥æœŸç¢¼  
+ID/C    Identification Code  (ä¾›è²¨å•†)è­˜åˆ¥ç¢¼]
+SWR     Special Work Request           ç‰¹æ®Šå·¥ä½œéœ€æ±‚
+L/N     Lot Number                     æ‰¹è™Ÿ 
+P/N     Part Number                     æ–™è™Ÿ 
+OEM     Original Equipment Manufacture  åŸè¨­å‚™è£½é€   
+PC      Personal Computer                å€‹äººé›»è…¦ 
+CPU     Central Processing Unit         ä¸­å¤®è™•ç†å™¨ â–¡  
+A.S.A.P As Soon As Possible         å„˜å¯èƒ½å¿«çš„   
+E-MAIL  Electrical-Mail              é›»å­éƒµä»¶
+N/A     Not Applicable       ä¸é©ç”¨ 
+QTY     Quantity             æ•¸é‡  
+I/O     input/output         è¼¸å…¥/è¼¸å‡º   
+NG      Not Good              ä¸è¡Œ,ä¸åˆæ ¼ 
+C=0     Critical=0           æ¥µåš´é‡ä¸å…è¨±
+APP     Approve              æ ¸å‡†,èªå¯,æ‰¿èª
+CHK     Check                ç¢ºèª  
+ASS''Y  Assembly           è£é…,çµ„è£  
+T/P     True Position        çœŸä½åº¦ 
 5WIH    When, Where, Who, What, Why, How to 
 6M      Man, Machine, Material, Method, Measurement, Message 
-4MTH    Man, Material, Money, Method, Time, How   ¤H¤O,ª«¤O,°]°È,§Ş³N,®É¶¡(¸ê·½) 
-SQA     Strategy Quality Assurance              µ¦²¤«~½è«OÃÒ
-DQA     Design Quality Assurance                ³]­p«~½è«OÃÒ  
-MQA     Manufacture Quality Assurance            »s³y«~½è«OÃÒ
-SSQA    Sales and service Quality Assurance     ¾P°â¤ÎªA°È«~½è«OÃÒ  
-LRR     Lot Reject Rate                           §å°h²v
+4MTH    Man, Material, Money, Method, Time, How   äººåŠ›,ç‰©åŠ›,è²¡å‹™,æŠ€è¡“,æ™‚é–“(è³‡æº) 
+SQA     Strategy Quality Assurance              ç­–ç•¥å“è³ªä¿è­‰
+DQA     Design Quality Assurance                è¨­è¨ˆå“è³ªä¿è­‰  
+MQA     Manufacture Quality Assurance            è£½é€ å“è³ªä¿è­‰
+SSQA    Sales and service Quality Assurance     éŠ·å”®åŠæœå‹™å“è³ªä¿è­‰  
+LRR     Lot Reject Rate                           æ‰¹é€€ç‡
 
 DVD     Digital Video Disk
 VCD     Video Compact Disk  
@@ -489,25 +489,25 @@ LCD     Liquid Crystal Display
 CAD     Computer Aided Design 
 CAM     Computer Aided Manufacturing 
 CAE     Computer Aided Engineering  
-PCB     Printed Circuit Board           ¦L¨ê¹q¸ôªO   
-CAR     Correction Action Report        §ïµ½³ø§i
-NG      Not Good                         ¤£¨} 
-WDR     Weekly Delivery Requirement     ©P¥X³f­n¨D   
-PPM     Percent Per Million             ¦Ê¸U¤À¤§¤@  
-TPM     Total Production Maintenance    ¥ş­±¥Í²£«O¾i  
-MRP     Material Requirement Planning   ª«®Æ»İ­p¹º
-OS      Operation System                 §@·~¨t²Î   
-TBA     To Be Assured                   «İ©w,©w¯Ê 
+PCB     Printed Circuit Board           å°åˆ·é›»è·¯æ¿   
+CAR     Correction Action Report        æ”¹å–„å ±å‘Š
+NG      Not Good                         ä¸è‰¯ 
+WDR     Weekly Delivery Requirement     å‘¨å‡ºè²¨è¦æ±‚   
+PPM     Percent Per Million             ç™¾è¬åˆ†ä¹‹ä¸€  
+TPM     Total Production Maintenance    å…¨é¢ç”Ÿç”¢ä¿é¤Š  
+MRP     Material Requirement Planning   ç‰©æ–™éœ€è¨ˆåŠƒ
+OS      Operation System                 ä½œæ¥­ç³»çµ±   
+TBA     To Be Assured                   å¾…å®š,å®šç¼º 
 D/C     Drawing Change 
 P/P     Plans & Procedure 
-EMI     Electrical-Music Industry       ¹q¤l­µ¼Ö¤u·~ 
-        Electrical Magnetic Interference    ¹q¤l¤zÂZ
-RFI     Read Frequency Input            ÅªÀW¿é¤J
+EMI     Electrical-Music Industry       é›»å­éŸ³æ¨‚å·¥æ¥­ 
+        Electrical Magnetic Interference    é›»å­å¹²æ“¾
+RFI     Read Frequency Input            è®€é »è¼¸å…¥
 MMC     Maximum Material Condition  
 MMS     Maximum Material Size Xs
 LMC     Least Material Condition
 LMS     Least Material Size Um  
-LED     lighting-emitting diode           µo¥ú¤G·¥ºŞ
+LED     lighting-emitting diode           ç™¼å…‰äºŒæ¥µç®¡
 QBR     Quarter Business Record
 CIP     Continuous improvement process
 FGI     Forecasted Goal Inventory
@@ -525,157 +525,157 @@ A/P     Accounting payable
 
 
 /******************************************************************************/
-¤u·~±`¥Îªº­^¤åÁY¼g
+å·¥æ¥­å¸¸ç”¨çš„è‹±æ–‡ç¸®å¯«
 /******************************************************************************/
-«~½è¤H­û¦WºÙÃş
-QC      quality control      «~½èºŞ²z¤H­û
-FQC     final quality control      ²×ÂI«~½èºŞ¨î¤H­û
-IPQC    in process quality control      »sµ{¤¤ªº«~½èºŞ¨î¤H­û
-OQC     output quality control      ³Ì²×¥X³f«~½èºŞ¨î¤H­û
-IQC     incoming quality control      ¶i®Æ«~½èºŞ¨î¤H­û
-TQC     total quality control      ¥ş­±½è¶qºŞ²z
-POC     passage quality control      ¬qÀË¤H­û
-QA      quality assurance      ½è¶q«OÃÒ¤H­û
-OQA     output quality assurance      ¥X³f½è¶q«OÃÒ¤H­û
-QE      quality engineering      «~½è¤uµ{¤H­û
+å“è³ªäººå“¡åç¨±é¡
+QC      quality control      å“è³ªç®¡ç†äººå“¡
+FQC     final quality control      çµ‚é»å“è³ªç®¡åˆ¶äººå“¡
+IPQC    in process quality control      è£½ç¨‹ä¸­çš„å“è³ªç®¡åˆ¶äººå“¡
+OQC     output quality control      æœ€çµ‚å‡ºè²¨å“è³ªç®¡åˆ¶äººå“¡
+IQC     incoming quality control      é€²æ–™å“è³ªç®¡åˆ¶äººå“¡
+TQC     total quality control      å…¨é¢è³ªé‡ç®¡ç†
+POC     passage quality control      æ®µæª¢äººå“¡
+QA      quality assurance      è³ªé‡ä¿è­‰äººå“¡
+OQA     output quality assurance      å‡ºè²¨è³ªé‡ä¿è­‰äººå“¡
+QE      quality engineering      å“è³ªå·¥ç¨‹äººå“¡
 
-«~½è«OÃÒÃş
-FAI     first article inspection      ·s«~­º¥óÀË¬d
-FAA     first article assurance      ­º¥ó½T»{
-CP      capability index      ¯à¤O«ü¼Æ
-CPK     capability process index      ¼Ò¨ã»sµ{¯à¤O°Ñ¼Æ
-SSQA    standardized supplier quality audit      ¦X®æ¨ÑÀ³°Ó«~½èµû¦ô
-FMEA    failure model effectiveness analysis      ¥¢®Ä¼Ò¦¡¤ÀªR
+å“è³ªä¿è­‰é¡
+FAI     first article inspection      æ–°å“é¦–ä»¶æª¢æŸ¥
+FAA     first article assurance      é¦–ä»¶ç¢ºèª
+CP      capability index      èƒ½åŠ›æŒ‡æ•¸
+CPK     capability process index      æ¨¡å…·è£½ç¨‹èƒ½åŠ›åƒæ•¸
+SSQA    standardized supplier quality audit      åˆæ ¼ä¾›æ‡‰å•†å“è³ªè©•ä¼°
+FMEA    failure model effectiveness analysis      å¤±æ•ˆæ¨¡å¼åˆ†æ
 
-FQC¹B§@Ãş
-AQL     Acceptable Quality Level      ¹B§@Ãş¤¹¦¬«~½è¤ô·Ç
-S/S     Sample size      ©â¼ËÀËÅç¼Ë¥»¤j¤p
-ACC     Accept      ¤¹¦¬
-REE     Reject      ©Ú¦¬
-CR      Critical      ·¥ÄY­«ªº
-MAJ     Major      ¥D­nªº
-MIN     Minor      »´·Lªº
-Q/R/S   Quality/Reliability/Service      «~½è/¥i¾a«×/ªA°È
-P/N     Part Number      ®Æ¸¹
-L/N     Lot Number      §å¸¹
-AOD     Accept On Deviation      ¯Sªö
-UAI     Use As It      ¯Sªö
-FPIR    First Piece Inspection Report         ­º¥óÀË¬d³ø§i
-PPM     Percent Per Million      ¦Ê¸U¤À¤§¤@
+FQCé‹ä½œé¡
+AQL     Acceptable Quality Level      é‹ä½œé¡å…æ”¶å“è³ªæ°´æº–
+S/S     Sample size      æŠ½æ¨£æª¢é©—æ¨£æœ¬å¤§å°
+ACC     Accept      å…æ”¶
+REE     Reject      æ‹’æ”¶
+CR      Critical      æ¥µåš´é‡çš„
+MAJ     Major      ä¸»è¦çš„
+MIN     Minor      è¼•å¾®çš„
+Q/R/S   Quality/Reliability/Service      å“è³ª/å¯é åº¦/æœå‹™
+P/N     Part Number      æ–™è™Ÿ
+L/N     Lot Number      æ‰¹è™Ÿ
+AOD     Accept On Deviation      ç‰¹é‡‡
+UAI     Use As It      ç‰¹é‡‡
+FPIR    First Piece Inspection Report         é¦–ä»¶æª¢æŸ¥å ±å‘Š
+PPM     Percent Per Million      ç™¾è¬åˆ†ä¹‹ä¸€
 
-»sµ{²Î­p«~ºŞ±MÃş
-SPC     Statistical Process Control      ²Î­p»sµ{ºŞ¨î
-SQC     Statistical Quality Control      ²Î­p«~½èºŞ¨î
-GRR     Gauge Reproductiveness & Repeatability      ¶q¨ã¤§¦A¨î©Ê¤Î­«´ú©Ê§PÂ_¶q¥i¾a»P§_
-DIM     Dimension      ¤Ø¤o
-DIA     Diameter      ª½®|
-N       Number      ¼Ë«~¼Æ
+è£½ç¨‹çµ±è¨ˆå“ç®¡å°ˆé¡
+SPC     Statistical Process Control      çµ±è¨ˆè£½ç¨‹ç®¡åˆ¶
+SQC     Statistical Quality Control      çµ±è¨ˆå“è³ªç®¡åˆ¶
+GRR     Gauge Reproductiveness & Repeatability      é‡å…·ä¹‹å†åˆ¶æ€§åŠé‡æ¸¬æ€§åˆ¤æ–·é‡å¯é èˆ‡å¦
+DIM     Dimension      å°ºå¯¸
+DIA     Diameter      ç›´å¾‘
+N       Number      æ¨£å“æ•¸
 
-¨ä¥¦«~½è³N»yÃş
-QIT     Quality Improvement Team      «~½è§ïµ½¤p²Õ
-ZD      Zero Defect      ¹s¯ÊÂI
-QI      Quality Improvement      «~½è§ïµ½
-QP      Quality Policy      ¥Ø¼Ğ¤è°w
-TQM     Total Quality Management      ¥ş­±«~½èºŞ²z
-RMA     Return Material Audit      °h®Æ»{¥i
-7QCTools      7 Quality Control Tools      «~ºŞ¤C¤j¤âªk
+å…¶å®ƒå“è³ªè¡“èªé¡
+QIT     Quality Improvement Team      å“è³ªæ”¹å–„å°çµ„
+ZD      Zero Defect      é›¶ç¼ºé»
+QI      Quality Improvement      å“è³ªæ”¹å–„
+QP      Quality Policy      ç›®æ¨™æ–¹é‡
+TQM     Total Quality Management      å…¨é¢å“è³ªç®¡ç†
+RMA     Return Material Audit      é€€æ–™èªå¯
+7QCTools      7 Quality Control Tools      å“ç®¡ä¸ƒå¤§æ‰‹æ³•
 
-³q¥Î¤§¥óÃş
-ECN     Engineering Change Notice      ¤uµ{ÅÜ§ó³qª¾(¨ÑÀ³°Ó)
-ECO     Engineering Change Order      ¤uµ{§ï°Ê­n¨D(«È¤á)
-PCN     Process Change Notice      ¤u§Ç§ï°Ê³qª¾
-PMP     Product Management Plan      ¥Í²£ºŞ¨î­p¹º
-SIP     Standard Inspection Procedure      »sµ{ÀËÅç¼Ğ·Çµ{¦¡
-SOP     Standard Operation Procedure      »s³y§@·~³W½d
-IS      Inspection Specification      ¦¨«~ÀËÅç³W½d
-BOM     Bill Of Material      ª«®Æ²M³æ
-PS      Package Specification      ¥]¸Ë³W½d
-SPEC    Specification      ³W®æ
-DWG     Drawing      ¹Ï­±
+é€šç”¨ä¹‹ä»¶é¡
+ECN     Engineering Change Notice      å·¥ç¨‹è®Šæ›´é€šçŸ¥(ä¾›æ‡‰å•†)
+ECO     Engineering Change Order      å·¥ç¨‹æ”¹å‹•è¦æ±‚(å®¢æˆ¶)
+PCN     Process Change Notice      å·¥åºæ”¹å‹•é€šçŸ¥
+PMP     Product Management Plan      ç”Ÿç”¢ç®¡åˆ¶è¨ˆåŠƒ
+SIP     Standard Inspection Procedure      è£½ç¨‹æª¢é©—æ¨™æº–ç¨‹å¼
+SOP     Standard Operation Procedure      è£½é€ ä½œæ¥­è¦ç¯„
+IS      Inspection Specification      æˆå“æª¢é©—è¦ç¯„
+BOM     Bill Of Material      ç‰©æ–™æ¸…å–®
+PS      Package Specification      åŒ…è£è¦ç¯„
+SPEC    Specification      è¦æ ¼
+DWG     Drawing      åœ–é¢
 
-¨t²Î¤å¥óÃş
-ES      Engineering Standard      ¤uµ{¼Ğ·Ç
-CGOO    China General      PCEÀsµØ¼t¤å¥ó
-IWS     International Workman Standard      ¤uÃÀ¼Ğ·Ç
-ISO     International Standard Organization      °ê»Ú¼Ğ·Ç¤Æ²ÕÂ´
-GS      General Specification      ¤@¯ë³W®æ
+ç³»çµ±æ–‡ä»¶é¡
+ES      Engineering Standard      å·¥ç¨‹æ¨™æº–
+CGOO    China General      PCEé¾è¯å» æ–‡ä»¶
+IWS     International Workman Standard      å·¥è—æ¨™æº–
+ISO     International Standard Organization      åœ‹éš›æ¨™æº–åŒ–çµ„ç¹”
+GS      General Specification      ä¸€èˆ¬è¦æ ¼
 
-³¡Ãş
-PMC     Production & Material Control      ¥Í²£©Mª«®Æ±±¨î
-PCC     Product control center             ¥Í²£ºŞ¨î¤¤¤ß
-PPC     Production Plan Control      ¥Í²£­p¹º±±¨î
-MC      Material Control      ª«®Æ±±¨î
-DC      Document Center      ¸ê®Æ¤¤¤ß
-QE      Quality Engineering      «~½è¤uµ{(³¡)
-QA      Quality Assurance      «~½è«OÃÒ(³B)
-QC      Quality Control      «~½èºŞ¨î(½Ò)
-PD      Product Department      ¥Í²£³¡
-LAB     Laboratory      ¹êÅç«Ç
-IE      Industrial Engineering      ¤u·~¤uµ{
-R&D      Research & Design      ³]­p¶}µo³¡
+éƒ¨é¡
+PMC     Production & Material Control      ç”Ÿç”¢å’Œç‰©æ–™æ§åˆ¶
+PCC     Product control center             ç”Ÿç”¢ç®¡åˆ¶ä¸­å¿ƒ
+PPC     Production Plan Control      ç”Ÿç”¢è¨ˆåŠƒæ§åˆ¶
+MC      Material Control      ç‰©æ–™æ§åˆ¶
+DC      Document Center      è³‡æ–™ä¸­å¿ƒ
+QE      Quality Engineering      å“è³ªå·¥ç¨‹(éƒ¨)
+QA      Quality Assurance      å“è³ªä¿è­‰(è™•)
+QC      Quality Control      å“è³ªç®¡åˆ¶(èª²)
+PD      Product Department      ç”Ÿç”¢éƒ¨
+LAB     Laboratory      å¯¦é©—å®¤
+IE      Industrial Engineering      å·¥æ¥­å·¥ç¨‹
+R&D      Research & Design      è¨­è¨ˆé–‹ç™¼éƒ¨
 
-¥Í²£Ãş
-PCs      Pieces      ­Ó(®Ú,¶ôµ¥)
-PRS      Pairs      Âù(¹ïµ¥)
-CTN      Carton      ¥d³q½c
-PAL      Pallet/skid      ´ÌªO
-PO      Purchasing Order      ±ÄÁÊ­q³æ
-MO      Manufacture Order      ¥Í²£³æ
-D/C      Date Code      ¥Í²£¤é´Á½X
-ID/C      Identification Code      (¨ÑÀ³°Ó)ÃÑ§O½X
-SWR      Special Work Request      ¯S®í¤u§@»İ¨D
-L/N      Lot Number      §å¸¹
-P/N      Part Number      ®Æ¸¹
-OEM      Original Equipment Manufacture      ­ì³]³Æ»s³y
-PC      Personal Computer      ­Ó¤H¹q¸£
-CPU      Central Processing Unit      ¤¤¥¡³B²z¾¹
-A.S.A.P      As Soon As Possible      ºÉ¥i¯à§Öªº
-E-MAIL      Electrical-Mail      ¹q¤l¶l¥ó
-N/A      Not Applicable      ¤£¾A¥Î
-QTY      Quantity      ¼Æ¶q
-I/O      input/output      ¿é¤J/¿é¥X
-NG      Not Good      ¤£¦æ,¤£¦X®æ
-C=0      Critical=0      ·¥ÄY­«¤£¤¹³\
-APP      Approve      ®Ö·Ç,»{¥i,©Ó»{
-CHK      Check      ½T»{
-ASS'Y      Assembly      ¸Ë°t,²Õ¸Ë
-T/P      True Position      ¯u¦ì«×
+ç”Ÿç”¢é¡
+PCs      Pieces      å€‹(æ ¹,å¡Šç­‰)
+PRS      Pairs      é›™(å°ç­‰)
+CTN      Carton      å¡é€šç®±
+PAL      Pallet/skid      æ£§æ¿
+PO      Purchasing Order      æ¡è³¼è¨‚å–®
+MO      Manufacture Order      ç”Ÿç”¢å–®
+D/C      Date Code      ç”Ÿç”¢æ—¥æœŸç¢¼
+ID/C      Identification Code      (ä¾›æ‡‰å•†)è­˜åˆ¥ç¢¼
+SWR      Special Work Request      ç‰¹æ®Šå·¥ä½œéœ€æ±‚
+L/N      Lot Number      æ‰¹è™Ÿ
+P/N      Part Number      æ–™è™Ÿ
+OEM      Original Equipment Manufacture      åŸè¨­å‚™è£½é€ 
+PC      Personal Computer      å€‹äººé›»è…¦
+CPU      Central Processing Unit      ä¸­å¤®è™•ç†å™¨
+A.S.A.P      As Soon As Possible      ç›¡å¯èƒ½å¿«çš„
+E-MAIL      Electrical-Mail      é›»å­éƒµä»¶
+N/A      Not Applicable      ä¸é©ç”¨
+QTY      Quantity      æ•¸é‡
+I/O      input/output      è¼¸å…¥/è¼¸å‡º
+NG      Not Good      ä¸è¡Œ,ä¸åˆæ ¼
+C=0      Critical=0      æ¥µåš´é‡ä¸å…è¨±
+APP      Approve      æ ¸æº–,èªå¯,æ‰¿èª
+CHK      Check      ç¢ºèª
+ASS'Y      Assembly      è£é…,çµ„è£
+T/P      True Position      çœŸä½åº¦
 5WIH      When, Where, Who, What, Why, How to
 6M      Man, Machine, Material, Method, Measurement, Message
-4MTH      Man, Material, Money, Method, Time, How      ¤H¤O,ª«¤O,°]°È,§Ş³N,®É¶¡(¸ê·½)
-SQA      Strategy Quality Assurance      µ¦²¤«~½è«OÃÒ
-DQA      Design Quality Assurance      ³]­p«~½è«OÃÒ
-MQA      Manufacture Quality Assurance      »s³y«~½è«OÃÒ
-SSQA      Sales and service Quality Assurance      ¾P°â¤ÎªA°È«~½è«OÃÒ
-LRR      Lot Reject Rate      §å°h²v
-SPS      Switching power supply      ¹q·½½c
-DT      Desk Top      ª×¦¡(¾÷½c)
-MT      Mini-Tower      ¥ß¦¡(¾÷½c)
+4MTH      Man, Material, Money, Method, Time, How      äººåŠ›,ç‰©åŠ›,è²¡å‹™,æŠ€è¡“,æ™‚é–“(è³‡æº)
+SQA      Strategy Quality Assurance      ç­–ç•¥å“è³ªä¿è­‰
+DQA      Design Quality Assurance      è¨­è¨ˆå“è³ªä¿è­‰
+MQA      Manufacture Quality Assurance      è£½é€ å“è³ªä¿è­‰
+SSQA      Sales and service Quality Assurance      éŠ·å”®åŠæœå‹™å“è³ªä¿è­‰
+LRR      Lot Reject Rate      æ‰¹é€€ç‡
+SPS      Switching power supply      é›»æºç®±
+DT      Desk Top      è‡¥å¼(æ©Ÿç®±)
+MT      Mini-Tower      ç«‹å¼(æ©Ÿç®±)
 DVD      Digital Video Disk
 VCD      Video Compact Disk
 LCD      Liquid Crystal Display
 CAD      Computer Aided Design
 CAM      Computer Aided Manufacturing
 CAE      Computer Aided Engineering
-PCB      Printed Circuit Board      ¦L¨ê¹q¸ôªO
-CAR      Correction Action Report      §ïµ½³ø§i
-NG      Not Good      ¤£¨}
-WDR      Weekly Delivery Requirement      ©P¥X³f­n¨D
-PPM      Percent Per Million      ¦Ê¸U¤À¤§¤@
-TPM      Total Production Maintenance      ¥ş­±¥Í²£«O¾i
-MRP      Material Requirement Planning      ª«®Æ»İ­p¹º
-OS      Operation System      §@·~¨t²Î
-TBA      To Be Assured      «İ©w,©w¯Ê
+PCB      Printed Circuit Board      å°åˆ·é›»è·¯æ¿
+CAR      Correction Action Report      æ”¹å–„å ±å‘Š
+NG      Not Good      ä¸è‰¯
+WDR      Weekly Delivery Requirement      å‘¨å‡ºè²¨è¦æ±‚
+PPM      Percent Per Million      ç™¾è¬åˆ†ä¹‹ä¸€
+TPM      Total Production Maintenance      å…¨é¢ç”Ÿç”¢ä¿é¤Š
+MRP      Material Requirement Planning      ç‰©æ–™éœ€è¨ˆåŠƒ
+OS      Operation System      ä½œæ¥­ç³»çµ±
+TBA      To Be Assured      å¾…å®š,å®šç¼º
 D/C      Drawing Change
 P/P      Plans & Procedure
-EMI      Electrical-Music Industry      ¹q¤l­µ¼Ö¤u·~
-      Electrical Magnetic Interference           ¹q¤l¤zÂZ
-RFI      Read Frequency Input      ÅªÀW¿é¤J
+EMI      Electrical-Music Industry      é›»å­éŸ³æ¨‚å·¥æ¥­
+      Electrical Magnetic Interference           é›»å­å¹²æ“¾
+RFI      Read Frequency Input      è®€é »è¼¸å…¥
 MMC      Maximum Material Condition
 MMS      Maximum Material Size
 LMC      Least Material Condition
 LMS      Least Material Size
-LED     lighting-emitting diode µo¥ú¤G·¥ºŞ
+LED     lighting-emitting diode ç™¼å…‰äºŒæ¥µç®¡
 QBR     Quarter Business Record
 CIP     Continuous improvement process         
 FGI     Forecasted Goal Inventory
@@ -691,1330 +691,1330 @@ GRN       Goods receiving note
 A/R       Accounting receivable
 A/P       Accounting payable
 
-±M·~µü·J
-³q¥ÎÃş
-president¸³¨Æªø
-operator§@·~­û
-positionÂ¾°È
-general managerÁ`¸g²z
-special assistant ¯S§U
-deputy manager |'depjuti| =vice manager°Æ²z
-deputy supervisor =vice supervisor°Æ½Òªø
-group leader²Õªø
-line leader½uªø
-supervisor ½Òªø
-responsible department­t³d³æ¦ì
+å°ˆæ¥­è©å½™
+é€šç”¨é¡
+presidentè‘£äº‹é•·
+operatorä½œæ¥­å“¡
+positionè·å‹™
+general managerç¸½ç¶“ç†
+special assistant ç‰¹åŠ©
+deputy manager |'depjuti| =vice managerå‰¯ç†
+deputy supervisor =vice supervisorå‰¯èª²é•·
+group leaderçµ„é•·
+line leaderç·šé•·
+supervisor èª²é•·
+responsible departmentè² è²¬å–®ä½
 Human Resources Department
-¤H¤O¸ê·½³¡
-Head count ¤HÀY¼Æ
-production department¥Í²£³¡ªù
-planning department¥ø¹º³¡
-QC Section«~ºŞ½Ò
-stamping factory¨RÀ£¼t
-painting factory¯Nº£¼t
-molding factory¦¨«¬¼t
-administration/general affairs dept./Á`°È³¡
-production unit¥Í²£³æ¦ì
-meeting minutes·|Ä³°O¿ı
-distribution department¤Àµo³æ¦ì
-subject¥DÃD
-conclusionµ²½×
-decision items¨MÄ³¨Æ¶µ
-pre-fixed finishing date¹w©w§¹¦¨¤é
-Color management   ÃC¦âºŞ²z             
-Visual management ¥ØµøºŞ²z   
-production capacity¥Í²£¤O
-first countªì½L
-first checkªì½L´_Âg
-second count ´_½L
-second check´_½LÂĞ®Ö
-quantity of physical inventory second count ´_½LÂI¼Æ¶q
-physical inventory½LÂI¼Æ¶q
-physical count quantity±b­±¼Æ¶q
-difference quantity®t²§¶q
-spare parts physical inventory list³Æ«~½LÂI²M³æ
-cause analysis­ì¦]¤ÀªR
-waste materials¼o®Æ
-description«~¦W
-specification ³W®æ
-model¾÷ºØ
-work order¤u¥O
-revisionª©¦¸
-remark³Æµùregistrationµn°O
-registration cardµn°O¥d
-to controlºŞ¨î
-application form for purchase½ĞÁÊ³æ
-consume, consumption®ø¯Ó
-to notify³qª¾
-to fill in¶ñ¼g
-to collect, to gather¦¬¶°
-statistics²Î­p
-cosmetic inspection standard ¥~Æ[ÀËÅç³W½d         
-computer case ¹q¸£¥~´ß(¤¸¥ó)
-personal computer enclosure ¹q¸£¾÷½c²£«~         
-front plate«eªO
-rear plate«áªO
-chassis |'¡ì?si| °ò®y
-bezel panel­±ªO
-Hood   ¤W»\     ?
-base pan °ò®y                         
-bezel   ­±ªO       
-riser card ÂX¥R¥d     
-flat cable ±Æ½u                           
-TOP¡@driver cage   ¤WºÏ¬[           
-bottom driver cage   ¤UºÏ¬[             
-resin film       ¾ğ¯×½¤                 
-raw materials­ì®Æ
-materialsª«®Æ
-steel plate¿ûªO
-roll/coil material±²®Æ
-spare parts =buffer³Æ«~
-plastic parts¶ì½¦¥ó
-sheet metal parts/stamping parts ¨R¥ó
-material check listª«®ÆÀË¬dªí
-finished product¦¨«~
-semi-finished product¥b¦¨«~
-good product/accepted goods/ accepted parts/good parts¨}«~
-defective product/non-good parts¤£¨}«~
-disposed goods³B²z«~
-warehouse/hub­Ü®w
-packing material¥]§÷
-basket½¹½ºªÇ
-plastic basket½¦µ¨
-flow chart¬yµ{ªí³æ
-production tempo¥Í²£¶i«×²{ª¬
-lots of production¥Í²£§å¶q
-manufacture procedure»sµ{
-to revise, modify­×­q
-to switch over to, switch¡Xto, switching over¤Á´«
-engineering bottleneck, project difficulty¤uµ{²~ÀV
-glove(s)¤â®M
-glove(s) with exposed fingers³Î¤â®M
-Band-Aid³Ğ¥i¶K
-Industrial alcohol¤u·~°sºë
-broom±½§â
-mop©ì§â
-vacuum cleaner§l¹Ğ¾¹
-rag ©Ù¥¬
-garbage container¦Çºß
-garbage can©U§£½c
-garbage bag©U§£³U
-liaisonÁpµ¸³æ
-rags©Ù¥¬
-lamp holder¿O¬[
-to mop the floor©ì¦a
-to clean a tableÀ¿®à¤l
-air pipe ®ğºŞ
-delivery deadline¥æ³f´Á
-die worker¼Ò¤u
-production, to produce¥Í²£
-equipment³]³Æ
-resistance¹qªı
-beaconÄµ¥Ü¿O
-coolant§N«o²G
-crusher¯}¸H¾÷
-club car°ªº¸¤Ò²y¨®
-plate¹qÁá
-power button¹q·½«öÁä
-reset button­«¸mÁä
-forklift¤e¨® 
-Workshop traveler ¤Ñ¨®
-trailer =long vehicle©ìªO¨®
-Hydraulic trolley¤âÀ£¨®
-hydraulic hand jackªoÀ£ªO¨®
-casing = containerization¸Ë½cvelocity³t«×
-patent±M§Q
-coordinate®y¼Ğ
-supply and demand¨Ñ¨D
-career card¼i¾ú¥d
-barricade¹jªO
-carton box¯È½c
-to pull and stretch©Ô²`
-work cell/work shop¤u§@¶¡
-sub-line¤ä½u
-bottleneck   ²~ÀV
+äººåŠ›è³‡æºéƒ¨
+Head count äººé ­æ•¸
+production departmentç”Ÿç”¢éƒ¨é–€
+planning departmentä¼åŠƒéƒ¨
+QC Sectionå“ç®¡èª²
+stamping factoryæ²–å£“å» 
+painting factoryçƒ¤æ¼†å» 
+molding factoryæˆå‹å» 
+administration/general affairs dept./ç¸½å‹™éƒ¨
+production unitç”Ÿç”¢å–®ä½
+meeting minutesæœƒè­°è¨˜éŒ„
+distribution departmentåˆ†ç™¼å–®ä½
+subjectä¸»é¡Œ
+conclusionçµè«–
+decision itemsæ±ºè­°äº‹é …
+pre-fixed finishing dateé å®šå®Œæˆæ—¥
+Color management   é¡è‰²ç®¡ç†             
+Visual management ç›®è¦–ç®¡ç†   
+production capacityç”Ÿç”¢åŠ›
+first countåˆç›¤
+first checkåˆç›¤å¾©æ«‚
+second count å¾©ç›¤
+second checkå¾©ç›¤è¦†æ ¸
+quantity of physical inventory second count å¾©ç›¤é»æ•¸é‡
+physical inventoryç›¤é»æ•¸é‡
+physical count quantityå¸³é¢æ•¸é‡
+difference quantityå·®ç•°é‡
+spare parts physical inventory listå‚™å“ç›¤é»æ¸…å–®
+cause analysisåŸå› åˆ†æ
+waste materialså»¢æ–™
+descriptionå“å
+specification è¦æ ¼
+modelæ©Ÿç¨®
+work orderå·¥ä»¤
+revisionç‰ˆæ¬¡
+remarkå‚™è¨»registrationç™»è¨˜
+registration cardç™»è¨˜å¡
+to controlç®¡åˆ¶
+application form for purchaseè«‹è³¼å–®
+consume, consumptionæ¶ˆè€—
+to notifyé€šçŸ¥
+to fill inå¡«å¯«
+to collect, to gatheræ”¶é›†
+statisticsçµ±è¨ˆ
+cosmetic inspection standard å¤–è§€æª¢é©—è¦ç¯„         
+computer case é›»è…¦å¤–æ®¼(å…ƒä»¶)
+personal computer enclosure é›»è…¦æ©Ÿç®±ç”¢å“         
+front plateå‰æ¿
+rear plateå¾Œæ¿
+chassis |'âˆ«?si| åŸºåº§
+bezel panelé¢æ¿
+Hood   ä¸Šè“‹     ?
+base pan åŸºåº§                         
+bezel   é¢æ¿       
+riser card æ“´å……å¡     
+flat cable æ’ç·š                           
+TOPã€€driver cage   ä¸Šç£æ¶           
+bottom driver cage   ä¸‹ç£æ¶             
+resin film       æ¨¹è„‚è†œ                 
+raw materialsåŸæ–™
+materialsç‰©æ–™
+steel plateé‹¼æ¿
+roll/coil materialæ²æ–™
+spare parts =bufferå‚™å“
+plastic partså¡‘è† ä»¶
+sheet metal parts/stamping parts æ²–ä»¶
+material check listç‰©æ–™æª¢æŸ¥è¡¨
+finished productæˆå“
+semi-finished productåŠæˆå“
+good product/accepted goods/ accepted parts/good partsè‰¯å“
+defective product/non-good partsä¸è‰¯å“
+disposed goodsè™•ç†å“
+warehouse/hubå€‰åº«
+packing materialåŒ…æ
+basketè´è¶ç«º
+plastic basketè† ç­
+flow chartæµç¨‹è¡¨å–®
+production tempoç”Ÿç”¢é€²åº¦ç¾ç‹€
+lots of productionç”Ÿç”¢æ‰¹é‡
+manufacture procedureè£½ç¨‹
+to revise, modifyä¿®è¨‚
+to switch over to, switchâ€”to, switching overåˆ‡æ›
+engineering bottleneck, project difficultyå·¥ç¨‹ç“¶é ¸
+glove(s)æ‰‹å¥—
+glove(s) with exposed fingerså‰²æ‰‹å¥—
+Band-Aidå‰µå¯è²¼
+Industrial alcoholå·¥æ¥­é…’ç²¾
+broomæƒæŠŠ
+mopæ‹–æŠŠ
+vacuum cleanerå¸å¡µå™¨
+rag æŠ¹å¸ƒ
+garbage containerç°ç®•
+garbage canåƒåœ¾ç®±
+garbage bagåƒåœ¾è¢‹
+liaisonè¯çµ¡å–®
+ragsæŠ¹å¸ƒ
+lamp holderç‡ˆæ¶
+to mop the flooræ‹–åœ°
+to clean a tableæ“¦æ¡Œå­
+air pipe æ°£ç®¡
+delivery deadlineäº¤è²¨æœŸ
+die workeræ¨¡å·¥
+production, to produceç”Ÿç”¢
+equipmentè¨­å‚™
+resistanceé›»é˜»
+beaconè­¦ç¤ºç‡ˆ
+coolantå†·å»æ¶²
+crusherç ´ç¢æ©Ÿ
+club caré«˜çˆ¾å¤«çƒè»Š
+plateé›»é
+power buttoné›»æºæŒ‰éµ
+reset buttoné‡ç½®éµ
+forkliftå‰è»Š 
+Workshop traveler å¤©è»Š
+trailer =long vehicleæ‹–æ¿è»Š
+Hydraulic trolleyæ‰‹å£“è»Š
+hydraulic hand jackæ²¹å£“æ¿è»Š
+casing = containerizationè£ç®±velocityé€Ÿåº¦
+patentå°ˆåˆ©
+coordinateåº§æ¨™
+supply and demandä¾›æ±‚
+career cardå±¥æ­·å¡
+barricadeéš”æ¿
+carton boxç´™ç®±
+to pull and stretchæ‹‰æ·±
+work cell/work shopå·¥ä½œé–“
+sub-lineæ”¯ç·š
+bottleneck   ç“¶é ¸
 
-¼Ò¨ã¤uµ{Ãş
-plain dieÂ²©ö¼Ò
-pierce die¨R¤Õ¼Ò
-forming die¦¨«¬¼Ò
-progressive die³sÄò¼Ò
-stage die¤uµ{¼Ò
-compound die´_¦X¼Ò
-shearing die°ÅÃä¼Ò
-riveting die¹g¦X¼Ò
-feature die¤½¥À¼Ò
-male die¤½¼Ò
-female die¥À¼Ò
-cavity«¬±± ¥À¼Ò
-core¼Ò¤ß ¤½¼Ò
-die change ´«¼Ò
-to fix a die¸Ë¼Ò
-to repair a die­×¼Ò
-punch set¤W¼Ò®y
-punch pad¤W¹ÔªO
-punch holder¤W§¨ªO
-stripper pad²æ®Æ­IªO
-up stripper¤W²æ®ÆªO
-upper plate¤W½d¥»
-lower plate¤U½d¥»
-die pad¤U¹ÔªO
-die holder¤U§¨ªO
-die set¤U¼Ò®y
-bottom block¤U¹Ô¸}
-bottom plate¤U¦«ªO(©³ªO) 
-upper supporting blank¤W©ÓªO
-upper padding plate blank¤W¹ÔªO
-top plate¤W¦«ªO¡]³»ªO¡^
-top block¤W¹Ô¸}
-stripping plate¤º¥~¥´(²æ®ÆªO)
-outer stripper¥~²æ®ÆªO
-inner stripper¤º²æ®ÆªO
-lower stripper¤U²æ®ÆªOpunch¨RÀY
-insert¤J¶ô(´O¤J¥ó)
-deburring punchÀ£¤òÃä¨R¤l
-groove punchÀ£½u¨R¤l
-stamped punch¦r¼Ò¨R¤l
-round punch¶ê¨R¤l
-special shape punch²§§Î¨R¤l
-bending block§é¤M
-rollerºu¶b
-baffle plate¾×¶ô
-located block©w¦ì¶ô
+æ¨¡å…·å·¥ç¨‹é¡
+plain dieç°¡æ˜“æ¨¡
+pierce dieæ²–å­”æ¨¡
+forming dieæˆå‹æ¨¡
+progressive dieé€£çºŒæ¨¡
+stage dieå·¥ç¨‹æ¨¡
+compound dieå¾©åˆæ¨¡
+shearing dieå‰ªé‚Šæ¨¡
+riveting dieé‰šåˆæ¨¡
+feature dieå…¬æ¯æ¨¡
+male dieå…¬æ¨¡
+female dieæ¯æ¨¡
+cavityå‹æ§ æ¯æ¨¡
+coreæ¨¡å¿ƒ å…¬æ¨¡
+die change æ›æ¨¡
+to fix a dieè£æ¨¡
+to repair a dieä¿®æ¨¡
+punch setä¸Šæ¨¡åº§
+punch padä¸Šå¢Šæ¿
+punch holderä¸Šå¤¾æ¿
+stripper padè„«æ–™èƒŒæ¿
+up stripperä¸Šè„«æ–™æ¿
+upper plateä¸Šç¯„æœ¬
+lower plateä¸‹ç¯„æœ¬
+die padä¸‹å¢Šæ¿
+die holderä¸‹å¤¾æ¿
+die setä¸‹æ¨¡åº§
+bottom blockä¸‹å¢Šè…³
+bottom plateä¸‹æ‰˜æ¿(åº•æ¿) 
+upper supporting blankä¸Šæ‰¿æ¿
+upper padding plate blankä¸Šå¢Šæ¿
+top plateä¸Šæ‰˜æ¿ï¼ˆé ‚æ¿ï¼‰
+top blockä¸Šå¢Šè…³
+stripping plateå…§å¤–æ‰“(è„«æ–™æ¿)
+outer stripperå¤–è„«æ–™æ¿
+inner stripperå…§è„«æ–™æ¿
+lower stripperä¸‹è„«æ–™æ¿punchæ²–é ­
+insertå…¥å¡Š(åµŒå…¥ä»¶)
+deburring punchå£“æ¯›é‚Šæ²–å­
+groove punchå£“ç·šæ²–å­
+stamped punchå­—æ¨¡æ²–å­
+round punchåœ“æ²–å­
+special shape punchç•°å½¢æ²–å­
+bending blockæŠ˜åˆ€
+rolleræ»¾è»¸
+baffle plateæ“‹å¡Š
+located blockå®šä½å¡Š
 supporting block for location
-©w¦ì¤ä©Ó¶ô
-air cushion plate®ğ¹ÔªO
-air-cushion eject-rod®ğ¹Ô³»±ì
-trimming punch¤ÁÃä¨R¤l
-stiffening rib punch = stinger ¥[±jµ¬½Ä¤l
-ribbon punchÀ£µ¬¨R¤l
-reel-stretch punch¨÷¶êÀ£¥­¨R¤l
-guide plate©w¦ìªO
-sliding block·Æ¶ô
-sliding dowel block·Æ¶ô©T©w¶ô
-die lockerÂê¼Ò¾¹
-pressure plate =plate pinchÀ£ªO
-thickness gauge«pÁ¡³W
-cutting die, blanking die¨Rµô¼Ò
-die block¼Ò²Õ
-folded block§éÅs¶ô
-sliding block·Æ¶ô
-location pin©w¦ì¾P
-lifting pin³»®Æ¾P
-die plate, front board½d¥»
-padding block¹Ô¶ô
-stepping bar¹Ô±ø
-panel boardÆ^¶ô
-to load a die¸Ë¤W¼Ò¨ã
-to unload a die ±s¼Ò¨ã
-active plate¬¡°ÊªO
-lower sliding plate¤U·Æ¶ôªO
-upper holder block¤WÀ£¶ô
-upper mid plate¤W¤¤¶¡ªO
-spring box¼uÂ®½c
-spring-box eject-rod¼uÂ®½c³»±ì
-spring-box eject-plate¼uÂ®½c³»ªO
-bushing blockÅ¨®M
-cover plate»\ªO
-guide pad¾É®Æ¶ô
-pilot¾É¥¿µ©
-trim°Å¥~Ãä
-pierce°Å¤ºÃä
-pocket for the punch head±¾¹_¼Ñ
-slug hole¼o®Æ¤Õ
-radius¥b®|
-shim/wedge/heel/pad/spacer/gasket·¤¤l
-torch-flame cut¤õµK¤Á³Î
-set screw¤î¥IÁ³µ·
-form block§é¤M
-round pierce punch =die button¶ê¨R¤l
-shape punch =die insert²§§Î¤l
-stock located block©w¦ì¶ô
-metal plate¶zª÷
-miller»Ñ§É
-grinder¿i§É
-tolerance¤½®t
-score =grooveÀ£½u
-sliding block·Æ¶ôlathe¨®
-active plate¬¡°ÊªO
-baffle plate¾×¶ô
-cover plate»\ªO
-groove punchÀ£½u¨R¤l
-air-cushion eject-rod®ğ¹Ô³»±ì
-spring-box eject-plate¼uÂ®½c³»ªO
-capability¯à¤O
-parameter°Ñ¼Æ
-factor«Y¼Æ
-drillerà¹§É
-set up die¬[¼Ò
-height of die setting up¬[¼Ò°ª«×
-analog-mode deviceÃş¼Ò¾¹
-inner guiding post¤º¾É¬W
-inner hexagon screw¤º¤»¨¤Á³°v
-dowel pin©T©w¾P
-coil spring¼uÂ®
-lifter pin³»®Æ¾P
-eq-height sleeves =spoolµ¥°ª®Mµ©
-pin¾P
-lifter guide pin¯B¤É¾É®Æ¾P
-guide pin¾É¥¿¾P
-wire spring¶ê½u¼uÂ®
-outer guiding post¥~¾É¬W
-stop screw¤î¥IÁ³µ·
-located pin©w¦ì¾P
-outer bush¥~¾É®M
-press specification¨R§É³W®æ
-die height³¬¼Ò°ª«×
-flow mark¬y²ª
-welding mark·»¦X²ª
-post screw insertÁ³¯¾®Mµ©®I­È
-self tapping screw¦Û§ğÁ³µ·
-stripper plate²æ®ÆªO
-piston¬¡¶ë
-handle mold¤â«ù¦¡¼Ò¨ã
-flash mold·¸¬y¦¡¼Ò¨ã
-positive moldÀ½À£¦¡¼Ò¨ã
-split mold¤À³Î¦¡¼Ò¨ã
-die lifterÁ|¼Ò¾¹
-top stop¤W¦ºÂI
-bottom stop¤U¦ºÂI
-one stroke¤@¦æµ{
-to continue, cont.³s°Ê
-to grip(material)§l®Æ
-location lump, locating piece, location block©w¦ì¶ô
-reset´_¦ì
-to file burr ¾V¤ò¨ë
-embedded lump |in'bed| |l?mp|Æ^¶ô
-stamping-missingº|¨R
-to tight a boltÀ¾ºòÁ³®ê
-to loosen a boltÀ¾ÃPÁ³®ê
-punched hole¨R¤Õ
-to cut edge =side cut =side scrap ¤ÁÃä
-to bending§éÅs
-to pull, to stretch©Ô¦ù
-engraving, to engrave¨è¦L
-stamping ªo¦L
-to stake¹g¦X
-designing, to design³]­p
-design modification       ³]­p²ç§ï¦¨
-gauge(or jig)ªv¨ã
-pedal½ò½ñªO
-stopperªı¾×¾¹
-flow board¬y¤ôªO
-torque§á¯x
-spline =the multiple keysªáÁä
-quenching²f¤õ
-tempering¦^¤õ
-annealing°h¤õ
-carbonizationºÒ¤Æ
-alloy¦Xª÷
-tungsten high speed steelÂë°ª³tªº
-moly high speed steelà»°ª³tªº
-forming¦¨«¬(©â¥Y,¨R¥Y)
-draw hole©â¤Õ
-bending§éÅs
-emboss¥YÂI
-dome¥Y¶ê
-semi-shearing¥b°Å
-stamp mark¨R°O¸¹
-deburr or coinÀ£¤òÃä
-punch riveting¨RÀ£¹g¦X
-side stretch°¼½ÄÀ£¥­
-reel stretch¨÷¶êÀ£¥­
-grooveÀ£½u
-stamp letter¨R¦r(®Æ¸¹)
-tick-mark nearside¥¿­±À£¦L
-tick-mark farside¤Ï­±À£¦L
+å®šä½æ”¯æ‰¿å¡Š
+air cushion plateæ°£å¢Šæ¿
+air-cushion eject-rodæ°£å¢Šé ‚æ¡¿
+trimming punchåˆ‡é‚Šæ²–å­
+stiffening rib punch = stinger åŠ å¼·ç­‹è¡å­
+ribbon punchå£“ç­‹æ²–å­
+reel-stretch punchå·åœ“å£“å¹³æ²–å­
+guide plateå®šä½æ¿
+sliding blockæ»‘å¡Š
+sliding dowel blockæ»‘å¡Šå›ºå®šå¡Š
+die lockeré–æ¨¡å™¨
+pressure plate =plate pinchå£“æ¿
+thickness gaugeåšè–„è¦
+cutting die, blanking dieæ²–è£æ¨¡
+die blockæ¨¡çµ„
+folded blockæŠ˜å½å¡Š
+sliding blockæ»‘å¡Š
+location pinå®šä½éŠ·
+lifting piné ‚æ–™éŠ·
+die plate, front boardç¯„æœ¬
+padding blockå¢Šå¡Š
+stepping barå¢Šæ¢
+panel boardé‘²å¡Š
+to load a dieè£ä¸Šæ¨¡å…·
+to unload a die å¾¡æ¨¡å…·
+active plateæ´»å‹•æ¿
+lower sliding plateä¸‹æ»‘å¡Šæ¿
+upper holder blockä¸Šå£“å¡Š
+upper mid plateä¸Šä¸­é–“æ¿
+spring boxå½ˆç°§ç®±
+spring-box eject-rodå½ˆç°§ç®±é ‚æ¡¿
+spring-box eject-plateå½ˆç°§ç®±é ‚æ¿
+bushing blockè¥¯å¥—
+cover plateè“‹æ¿
+guide padå°æ–™å¡Š
+pilotå°æ­£ç­’
+trimå‰ªå¤–é‚Š
+pierceå‰ªå…§é‚Š
+pocket for the punch headæ›é‰¤æ§½
+slug holeå»¢æ–™å­”
+radiusåŠå¾‘
+shim/wedge/heel/pad/spacer/gasketæ¥”å­
+torch-flame cutç«ç„°åˆ‡å‰²
+set screwæ­¢ä»˜èºçµ²
+form blockæŠ˜åˆ€
+round pierce punch =die buttonåœ“æ²–å­
+shape punch =die insertç•°å½¢å­
+stock located blockå®šä½å¡Š
+metal plateéˆ‘é‡‘
+milleréŠ‘åºŠ
+grinderç£¨åºŠ
+toleranceå…¬å·®
+score =grooveå£“ç·š
+sliding blockæ»‘å¡Šlatheè»Š
+active plateæ´»å‹•æ¿
+baffle plateæ“‹å¡Š
+cover plateè“‹æ¿
+groove punchå£“ç·šæ²–å­
+air-cushion eject-rodæ°£å¢Šé ‚æ¡¿
+spring-box eject-plateå½ˆç°§ç®±é ‚æ¿
+capabilityèƒ½åŠ›
+parameteråƒæ•¸
+factorä¿‚æ•¸
+drilleré‰†åºŠ
+set up dieæ¶æ¨¡
+height of die setting upæ¶æ¨¡é«˜åº¦
+analog-mode deviceé¡æ¨¡å™¨
+inner guiding postå…§å°æŸ±
+inner hexagon screwå…§å…­è§’èºé‡˜
+dowel pinå›ºå®šéŠ·
+coil springå½ˆç°§
+lifter piné ‚æ–™éŠ·
+eq-height sleeves =spoolç­‰é«˜å¥—ç­’
+pinéŠ·
+lifter guide pinæµ®å‡å°æ–™éŠ·
+guide pinå°æ­£éŠ·
+wire springåœ“ç·šå½ˆç°§
+outer guiding postå¤–å°æŸ±
+stop screwæ­¢ä»˜èºçµ²
+located pinå®šä½éŠ·
+outer bushå¤–å°å¥—
+press specificationæ²–åºŠè¦æ ¼
+die heighté–‰æ¨¡é«˜åº¦
+flow markæµç—•
+welding markæº¶åˆç—•
+post screw insertèºç´‹å¥—ç­’åŸ‹å€¼
+self tapping screwè‡ªæ”»èºçµ²
+stripper plateè„«æ–™æ¿
+pistonæ´»å¡
+handle moldæ‰‹æŒå¼æ¨¡å…·
+flash moldæº¢æµå¼æ¨¡å…·
+positive moldæ“ å£“å¼æ¨¡å…·
+split moldåˆ†å‰²å¼æ¨¡å…·
+die lifterèˆ‰æ¨¡å™¨
+top stopä¸Šæ­»é»
+bottom stopä¸‹æ­»é»
+one strokeä¸€è¡Œç¨‹
+to continue, cont.é€£å‹•
+to grip(material)å¸æ–™
+location lump, locating piece, location blockå®šä½å¡Š
+resetå¾©ä½
+to file burr éŠ¼æ¯›åˆº
+embedded lump |in'bed| |l?mp|é‘²å¡Š
+stamping-missingæ¼æ²–
+to tight a boltæ“°ç·Šèºæ “
+to loosen a boltæ“°é¬†èºæ “
+punched holeæ²–å­”
+to cut edge =side cut =side scrap åˆ‡é‚Š
+to bendingæŠ˜å½
+to pull, to stretchæ‹‰ä¼¸
+engraving, to engraveåˆ»å°
+stamping æ²¹å°
+to stakeé‰šåˆ
+designing, to designè¨­è¨ˆ
+design modification       è¨­è¨ˆè„©æ”¹æˆ
+gauge(or jig)æ²»å…·
+pedalè¸©è¸æ¿
+stopperé˜»æ“‹å™¨
+flow boardæµæ°´æ¿
+torqueæ‰­çŸ©
+spline =the multiple keysèŠ±éµ
+quenchingæ·¬ç«
+temperingå›ç«
+annealingé€€ç«
+carbonizationç¢³åŒ–
+alloyåˆé‡‘
+tungsten high speed steelé¢é«˜é€Ÿçš„
+moly high speed steelé‰¬é«˜é€Ÿçš„
+formingæˆå‹(æŠ½å‡¸,æ²–å‡¸)
+draw holeæŠ½å­”
+bendingæŠ˜å½
+embosså‡¸é»
+domeå‡¸åœ“
+semi-shearingåŠå‰ª
+stamp markæ²–è¨˜è™Ÿ
+deburr or coinå£“æ¯›é‚Š
+punch rivetingæ²–å£“é‰šåˆ
+side stretchå´è¡å£“å¹³
+reel stretchå·åœ“å£“å¹³
+grooveå£“ç·š
+stamp letteræ²–å­—(æ–™è™Ÿ)
+tick-mark nearsideæ­£é¢å£“å°
+tick-mark farsideåé¢å£“å°
 
-¨RÀ£Ãş
-punch, press¨R
-punching machine ¨R§É
-hydraulic machineªoÀ£¾÷
-jack¤É­°¾÷
-decoiler¾ã¥­¾÷
-manufacture management»s³yºŞ²z
-stamping, press¨RÀ£
-feeder°e®Æ¾÷
-rack, shelf, stack®Æ¬[
-taker¨ú®Æ¾÷
-to reverse material Â½®Æ
-to load material¤W®Æ
-to unload material¨ø®Æ
-to return material/stock to°h®Æ
-scraped |'skr?pid|³ø¼o
-scrape ..v.¨í;«d
-robot¾÷±ñ¤â
-production line¬y¤ô½u
-packaging tool¥´¥]¾÷
-packaging¥´¥]
+æ²–å£“é¡
+punch, pressæ²–
+punching machine æ²–åºŠ
+hydraulic machineæ²¹å£“æ©Ÿ
+jackå‡é™æ©Ÿ
+decoileræ•´å¹³æ©Ÿ
+manufacture managementè£½é€ ç®¡ç†
+stamping, pressæ²–å£“
+feederé€æ–™æ©Ÿ
+rack, shelf, stackæ–™æ¶
+takerå–æ–™æ©Ÿ
+to reverse material ç¿»æ–™
+to load materialä¸Šæ–™
+to unload materialå¸æ–™
+to return material/stock toé€€æ–™
+scraped |'skr?pid|å ±å»¢
+scrape ..v.åˆ®;å‰Š
+robotæ©Ÿæ¢°æ‰‹
+production lineæµæ°´ç·š
+packaging toolæ‰“åŒ…æ©Ÿ
+packagingæ‰“åŒ…
 
-¦¨«¬Ãş
-well type»W®Æ¤«
-insulated runnerµ´½t¼å¹D¤è¦¡
-hot runner¼ö¼å¹D
-runner plat¼å¹D¼Ò²Õ
-valve gate»Öªù¼å¤f
-band heaterÀô±aª¬ªº¹q¼ö¾¹
-spindle»Ö°w
-spear head¹^¦yÀY
-slag well§N®Æ¤«
-cold slag§N®Æ´í
-air vent±Æ®ğ¹D
-welding lineº²¦X²ª
-eject pin³»¥X°w
-knock pin³»¥X¾P
-return pin¦^¦ì¾P¤Ï³»°w
-sleeve®Mµ©
-stripper plate²æ®ÆªO
-insert core©ñ¸m¤J¤l
-runner stripper plate¼å¹D²æ®ÆªO
-guide pin¾É¾P
-eject rod (bar)¡]¦¨«¬¾÷¡^³»·~±·
-subzero²`§N³B²z
-three plate¤T·¥¦¡¼Ò¨ã
-runner system¼å¹D¨t²Î
-stress crackÀ³¤O¹qµõ
-orientation©w¦V
-sprue gate®g®Æ¼å¤f¡Aª½¼å¤f
-nozzle®g¼L
-sprue lock pin®ÆÀY¹_¾P(©Ô®Æ±ì)
-slag well§N®Æ¤«
-side gate°¼¼å¤f
-edge gate°¼½t¼å¤f
-tab gate·f±µ¼å¤f
-film gateÁ¡½¤¼å¤f
-flash gate¹hªù¼å¤f
-slit gateÁ_»Ø¼å¤f
-fan gate®°§Î¼å¤f
-dish gate¦]½L§Î¼å¤f
-diaphragm gate¹j½¤¼å¤f
-ring gateÀô§Î¼å¤f
-submarine gate¼ç¤J¦¡¼å¤f
-tunnel gateÀG¹D¦¡¼å¤f
-pin gate°wÂI¼å¤f
-runner lessµL¼å¹D
-sprue less   µL®g®ÆºŞ¤è¦¡
-long nozzle©µªø¼Q¼L¤è¦¡
-spur¼å¤f;·»     
-waste¼o®Æ
-board¬İªO
-sliding rack·Æ®Æ¬[
-to impose linesÀ£½u
-to compress, compressingÀ£ÁY
-character die¦r¼Ò
-to feed, feeding°e®Æ
-material change, stock change§÷®ÆÅÜ§ó
-feature change ¯S©ÊÅÜ§ó
-prepare for, make preparations for ·Ç³Æ
-rotating speed, revolutionÂà³t
-abnormal handling²§±`³B²z
+æˆå‹é¡
+well typeè“„æ–™äº•
+insulated runnerçµ•ç·£æ¾†é“æ–¹å¼
+hot runnerç†±æ¾†é“
+runner platæ¾†é“æ¨¡çµ„
+valve gateé–¥é–€æ¾†å£
+band heaterç’°å¸¶ç‹€çš„é›»ç†±å™¨
+spindleé–¥é‡
+spear headé‰‹å°–é ­
+slag wellå†·æ–™äº•
+cold slagå†·æ–™æ¸£
+air ventæ’æ°£é“
+welding lineç†”åˆç—•
+eject piné ‚å‡ºé‡
+knock piné ‚å‡ºéŠ·
+return pinå›ä½éŠ·åé ‚é‡
+sleeveå¥—ç­’
+stripper plateè„«æ–™æ¿
+insert coreæ”¾ç½®å…¥å­
+runner stripper plateæ¾†é“è„«æ–™æ¿
+guide pinå°éŠ·
+eject rod (bar)ï¼ˆæˆå‹æ©Ÿï¼‰é ‚æ¥­æ§
+subzeroæ·±å†·è™•ç†
+three plateä¸‰æ¥µå¼æ¨¡å…·
+runner systemæ¾†é“ç³»çµ±
+stress crackæ‡‰åŠ›é›»è£‚
+orientationå®šå‘
+sprue gateå°„æ–™æ¾†å£ï¼Œç›´æ¾†å£
+nozzleå°„å˜´
+sprue lock pinæ–™é ­é‰¤éŠ·(æ‹‰æ–™æ¡¿)
+slag wellå†·æ–™äº•
+side gateå´æ¾†å£
+edge gateå´ç·£æ¾†å£
+tab gateæ­æ¥æ¾†å£
+film gateè–„è†œæ¾†å£
+flash gateé–˜é–€æ¾†å£
+slit gateç¸«éš™æ¾†å£
+fan gateæ‰‡å½¢æ¾†å£
+dish gateå› ç›¤å½¢æ¾†å£
+diaphragm gateéš”è†œæ¾†å£
+ring gateç’°å½¢æ¾†å£
+submarine gateæ½›å…¥å¼æ¾†å£
+tunnel gateéš§é“å¼æ¾†å£
+pin gateé‡é»æ¾†å£
+runner lessç„¡æ¾†é“
+sprue less   ç„¡å°„æ–™ç®¡æ–¹å¼
+long nozzleå»¶é•·å™´å˜´æ–¹å¼
+spuræ¾†å£;æº¶     
+wasteå»¢æ–™
+boardçœ‹æ¿
+sliding rackæ»‘æ–™æ¶
+to impose lineså£“ç·š
+to compress, compressingå£“ç¸®
+character dieå­—æ¨¡
+to feed, feedingé€æ–™
+material change, stock changeææ–™è®Šæ›´
+feature change ç‰¹æ€§è®Šæ›´
+prepare for, make preparations for æº–å‚™
+rotating speed, revolutionè½‰é€Ÿ
+abnormal handlingç•°å¸¸è™•ç†
 
-²Õ¸ËÃş
-Assembly line²Õ¸Ë½u
-Layout§G¸m¹Ï
-Conveyer¬y¤ô½u¹B¿é±a
-Rivet machine©Ô°v¾÷
-Rivet gun©Ô°vºj
-Screw driver°_¤l
-Electric screw driver¹q°Ê°_¤l
-Hydraulic machine ²GÀ£¾÷
-Pneumatic screw driver®ğ°Ê°_¤l
-automation¦Û°Ê¤Æ
-to stake, staking, riveting¹g¦X
-add lubricant oil¥[¼í·Æªo
-argon welding´ã²k
-cylinderªo¬û
-robot¾÷±ñ¤â
-conveying belt¿é°e±a
-transmission rack¿é°e¬[
-to draw holes©â¤Õ
-boltÁ³®ê
-nut Á³¥À
-screw Á³µ·
-identification tag¼Ğ¥Ü³æ
-screwdriver plug°_¤l´¡®y
-automatic screwdriver¹q°Ê±Ò¤l
-to move, to carry, to handle·h¹B
-be put in storage¤J®w
-packing¥]¸Ë
-staker = riveting machine¹g¦X¾÷
-fit together²Õ¸Ë¦b¤@°_
-fastenÂêºò(Á³µ·)
-fixture §¨¨ã(ªv¨ã)
-pallet/skid´ÌªO
-barcode±ø½X
-barcode scanner±ø½X±½ºË¾¹
-fuse togetherº²¦X
-fuse machine/heat stake¼öº²¾÷
-processing, to process¥[¤u
-delivery, to deliver ¥æ³f
-to return delivery to. to send delivery back to return of goods°h³f
-easily damaged parts©ö·l¥ó
-standard parts¼Ğ·Ç¥ó
-to lubricate¼í·Æ
-spring ¼uÂ®
-spare tools location/buffer¤â¤u³Æ«~­Ü
-spare molds location¼Ò¨ã³Æ«~­Ü
-tox machine¦Û¹g¾÷
+çµ„è£é¡
+Assembly lineçµ„è£ç·š
+Layoutä½ˆç½®åœ–
+Conveyeræµæ°´ç·šé‹è¼¸å¸¶
+Rivet machineæ‹‰é‡˜æ©Ÿ
+Rivet gunæ‹‰é‡˜æ§
+Screw driverèµ·å­
+Electric screw driveré›»å‹•èµ·å­
+Hydraulic machine æ¶²å£“æ©Ÿ
+Pneumatic screw driveræ°£å‹•èµ·å­
+automationè‡ªå‹•åŒ–
+to stake, staking, rivetingé‰šåˆ
+add lubricant oilåŠ æ½¤æ»‘æ²¹
+argon weldingæ°¬ç„Š
+cylinderæ²¹ç¼¸
+robotæ©Ÿæ¢°æ‰‹
+conveying beltè¼¸é€å¸¶
+transmission rackè¼¸é€æ¶
+to draw holesæŠ½å­”
+boltèºæ “
+nut èºæ¯
+screw èºçµ²
+identification tagæ¨™ç¤ºå–®
+screwdriver plugèµ·å­æ’åº§
+automatic screwdriveré›»å‹•å•Ÿå­
+to move, to carry, to handleæ¬é‹
+be put in storageå…¥åº«
+packingåŒ…è£
+staker = riveting machineé‰šåˆæ©Ÿ
+fit togetherçµ„è£åœ¨ä¸€èµ·
+fastené–ç·Š(èºçµ²)
+fixture å¤¾å…·(æ²»å…·)
+pallet/skidæ£§æ¿
+barcodeæ¢ç¢¼
+barcode scanneræ¢ç¢¼æƒç„å™¨
+fuse togetherç†”åˆ
+fuse machine/heat stakeç†±ç†”æ©Ÿ
+processing, to processåŠ å·¥
+delivery, to deliver äº¤è²¨
+to return delivery to. to send delivery back to return of goodsé€€è²¨
+easily damaged partsæ˜“æä»¶
+standard partsæ¨™æº–ä»¶
+to lubricateæ½¤æ»‘
+spring å½ˆç°§
+spare tools location/bufferæ‰‹å·¥å‚™å“å€‰
+spare molds locationæ¨¡å…·å‚™å“å€‰
+tox machineè‡ªé‰šæ©Ÿ
 
-¯Nº£Ãş
-phosphate¥Ö½¤¤Æ¦¨
-viscosity¶î®ÆÖß«×
-alkalidipping²æ¯×
-main manifold¥D¶°¬y¯ß
-organic solvent¦³¾÷·»¾¯
-demagnetization¥hºÏ;®øºÏ
-high-speed transmission°ª³t¶Ç»¼
-heat dissipation¼ö¶Ç
-rack¤W®Æ
-volatile´§µo©Ê
-degrease²æ¯×
-rinse¤ô¬~
-alkaline etchÄÖ«r
-desmot­é¶Â½¤
-D.I. rinse¯Â¤ô¦¸
-Chromate»Ì»Ä³B²z
-Anodize¶§©Ê³B²z
-seal«Ê¤Õ
-scraped products³ø©ñ«~
-disposed products³B²z«~
-dismantle the die§é¼Ò
-auxiliary function»²§U¥\¯à
-heater band ¥[¼ö¤ù
-thermocouple¼ö¹q°¸
-derusting machine°£ù×¾÷
-degate¥´¼å¤f
-dryer¯M°®¾÷
-induction·PÀ³
-induction light·PÀ³¥ú
-response =reaction =interaction·PÀ³
-ram³s±ì
-edge finder¨µÃä¾¹
-concave¥Y
-convex¥W
-cold slug§N¶ô
-blush ¾É¦â
-gouge·¾¼Ñ;Æw¼Ñ
-satin texture¬q­±«rªá
-witness lineÃÒ¥Ü½u
-grit¨FÄt
-granule =pellet =grain²Ó²É
-sand blasting¼Q¨F
-grit maker©â²É¾÷
-cushion½w½Ä
-filletÆ^;´OÃä
-roller pin formalityºu°w§Î¦¡
-cam driverîÔ·¤
-shankºN¬`
-crank shaft¦±¬`¶b
+çƒ¤æ¼†é¡
+phosphateçš®è†œåŒ–æˆ
+viscosityå¡—æ–™ç²˜åº¦
+alkalidippingè„«è„‚
+main manifoldä¸»é›†æµè„ˆ
+organic solventæœ‰æ©Ÿæº¶åŠ‘
+demagnetizationå»ç£;æ¶ˆç£
+high-speed transmissioné«˜é€Ÿå‚³é
+heat dissipationç†±å‚³
+rackä¸Šæ–™
+volatileæ®ç™¼æ€§
+degreaseè„«è„‚
+rinseæ°´æ´—
+alkaline etché½¡å’¬
+desmotå‰é»‘è†œ
+D.I. rinseç´”æ°´æ¬¡
+Chromateé‰»é…¸è™•ç†
+Anodizeé™½æ€§è™•ç†
+sealå°å­”
+scraped productså ±æ”¾å“
+disposed productsè™•ç†å“
+dismantle the dieæŠ˜æ¨¡
+auxiliary functionè¼”åŠ©åŠŸèƒ½
+heater band åŠ ç†±ç‰‡
+thermocoupleç†±é›»å¶
+derusting machineé™¤éŠ¹æ©Ÿ
+degateæ‰“æ¾†å£
+dryerçƒ˜ä¹¾æ©Ÿ
+inductionæ„Ÿæ‡‰
+induction lightæ„Ÿæ‡‰å…‰
+response =reaction =interactionæ„Ÿæ‡‰
+ramé€£æ¡¿
+edge finderå·¡é‚Šå™¨
+concaveå‡¸
+convexå‡¹
+cold slugå†·å¡Š
+blush å°è‰²
+gougeæºæ§½;é‘¿æ§½
+satin textureæ®µé¢å’¬èŠ±
+witness lineè­‰ç¤ºç·š
+gritæ²™ç¤«
+granule =pellet =grainç´°ç²’
+sand blastingå™´æ²™
+grit makeræŠ½ç²’æ©Ÿ
+cushionç·©è¡
+filleté‘²;åµŒé‚Š
+roller pin formalityæ»¾é‡å½¢å¼
+cam driveré˜æ¥”
+shankæ‘¸æŸ„
+crank shaftæ›²æŸ„è»¸
 
-«~½èÃş
-qualified products, up-to-grade products¨}«~
-defective products, not up-to-grade products¤£¨}«~
-defective product box¤£¨}«~½c
-poor processing »sµ{¤£¨}
-poor incoming part¨Ó¥ó¤£¨}
-exposed metal/bare metalª÷Äİ»rÅS
-excessive defect¹L¦hªº¯Ê³´
-critical defect·¥ÄY­«¯Ê³´
-major defect¥D­n¯Ê³´
-minor defect¦¸­n¯Ê³´
-not up to standard¤£¦X³W®æ
-cosmetic defect¥~Æ[¤£¨}
-lack of painting¯Nº£¤£¨ì¦ì
-slipped screw head/slippery slipped thread·Æµ·
-missing partº|¥ó
-wrong part¿ù¥ó
-oxidation®ñ¤Æ
-defective threading©âªŞ¤£¨}
-poor staking¹g¦X¤£¨}
-deficient purchase¨Ó®Æ¤£¨}
-deficient manufacturing procedure»sµ{¤£¨}
-cosmetic inspection¥~Æ[ÀË¬d     
-inner parts inspection¤º³¡ÀË¬d
-blister ®ğªw
-angular offset ¨¤«×°¾®t
-dent À£²ª
-scratch ¨í¶Ë
-deformation ÅÜ§Î
-filings ÅK«d
-defective label ¤£¨}¼ĞÅÒ
-abrasion ¿i·l
-Breaking. (be)broken,(be)cracked Â_µõ
-short®g®Æ¤£¨¬
-nick¯Ê¤f
-speck·åÏİ
-shine«G¯Z
-splay »È¯¾
-gas markµJ²ª
-delaminating°_Åì
-speckle´³ÂI
-mildewed =moldy = mouldyµo¾`
-deformationÅÜ§Î
-burr(ª÷Äİ)flash(¶ì¥ó)¤òÃä
-poor staking¹g¦X¤£¨}
-excessive gap¶¡»Ø¹L¤j
-grease/oil stainsªo¦Ã
-inclusionÂø½è
-shrinking/shrinkageÁY¤ô
-mixed colorÂø¦â
-fold of packaging belt¥´¥]±a§é½K
-painting make-up¸Éº£
-discoloration¬ı¦â
-water spots¤ôº{
-impurity     Âø½è
-Mismatch   ¿ù¦ì
-failure, trouble   ¬G»Ù
-deformation   ÅÜ§Î
-rust         ¥Íù×
-peel         ²æº£
-Shrink       ÁY¤ô
-Contamination   Å¦¦Ã
-water spots     ¤ôº{
-Gap         ¶¡»Ø
-label error     ¼ĞÅÒ¿ù»~
-Missing label   º|¶K
-rejection criteria   ©Ú¦¬¼Ğ·Ç
-Suspected rejects     ¥iºÃ§È
-abrasion       ·l¶Ë¡B¿i·l
-Texture surface   ¦Lªá¯¾ªí­±
-Streak           ±ø¯¾
-stains           ¦ÃÂI
-Blotch           ´³ÂI
-discoloration       ²æ¦â
-Inclusion         Âø½è
-slug mark         À£²ª
-dirt grime       ¦Ç¹Ğ 
-blush         ¤òÃäÁ¡½¤
-sink           ¤U¥W
-Hickey         º|º£
-labels and logos   ¶K¯È»P°Ó¼Ğ
-Configuration labels ²Õ¦X¶K¯È 
-corrugated container ¥ËÂ\¯È½c
-Delaminating     ²æ¼h
-splattering       ´²ÂI
-Gouge         ¾V¤Õ 
-puckering       §é²ª
+å“è³ªé¡
+qualified products, up-to-grade productsè‰¯å“
+defective products, not up-to-grade productsä¸è‰¯å“
+defective product boxä¸è‰¯å“ç®±
+poor processing è£½ç¨‹ä¸è‰¯
+poor incoming partä¾†ä»¶ä¸è‰¯
+exposed metal/bare metalé‡‘å±¬è£¸éœ²
+excessive defectéå¤šçš„ç¼ºé™·
+critical defectæ¥µåš´é‡ç¼ºé™·
+major defectä¸»è¦ç¼ºé™·
+minor defectæ¬¡è¦ç¼ºé™·
+not up to standardä¸åˆè¦æ ¼
+cosmetic defectå¤–è§€ä¸è‰¯
+lack of paintingçƒ¤æ¼†ä¸åˆ°ä½
+slipped screw head/slippery slipped threadæ»‘çµ²
+missing partæ¼ä»¶
+wrong partéŒ¯ä»¶
+oxidationæ°§åŒ–
+defective threadingæŠ½èŠ½ä¸è‰¯
+poor stakingé‰šåˆä¸è‰¯
+deficient purchaseä¾†æ–™ä¸è‰¯
+deficient manufacturing procedureè£½ç¨‹ä¸è‰¯
+cosmetic inspectionå¤–è§€æª¢æŸ¥     
+inner parts inspectionå…§éƒ¨æª¢æŸ¥
+blister æ°£æ³¡
+angular offset è§’åº¦åå·®
+dent å£“ç—•
+scratch åˆ®å‚·
+deformation è®Šå½¢
+filings éµå‰Š
+defective label ä¸è‰¯æ¨™ç±¤
+abrasion ç£¨æ
+Breaking. (be)broken,(be)cracked æ–·è£‚
+shortå°„æ–™ä¸è¶³
+nickç¼ºå£
+speckç‘•ç–ª
+shineäº®ç­
+splay éŠ€ç´‹
+gas markç„¦ç—•
+delaminatingèµ·é±—
+speckleæ–‘é»
+mildewed =moldy = mouldyç™¼éœ‰
+deformationè®Šå½¢
+burr(é‡‘å±¬)flash(å¡‘ä»¶)æ¯›é‚Š
+poor stakingé‰šåˆä¸è‰¯
+excessive gapé–“éš™éå¤§
+grease/oil stainsæ²¹æ±¡
+inclusioné›œè³ª
+shrinking/shrinkageç¸®æ°´
+mixed coloré›œè‰²
+fold of packaging beltæ‰“åŒ…å¸¶æŠ˜çšº
+painting make-upè£œæ¼†
+discolorationç¾¿è‰²
+water spotsæ°´æ¼¬
+impurity     é›œè³ª
+Mismatch   éŒ¯ä½
+failure, trouble   æ•…éšœ
+deformation   è®Šå½¢
+rust         ç”ŸéŠ¹
+peel         è„«æ¼†
+Shrink       ç¸®æ°´
+Contamination   è‡Ÿæ±¡
+water spots     æ°´æ¼¬
+Gap         é–“éš™
+label error     æ¨™ç±¤éŒ¯èª¤
+Missing label   æ¼è²¼
+rejection criteria   æ‹’æ”¶æ¨™æº–
+Suspected rejects     å¯ç–‘åº‡
+abrasion       æå‚·ã€ç£¨æ
+Texture surface   å°èŠ±ç´‹è¡¨é¢
+Streak           æ¢ç´‹
+stains           æ±¡é»
+Blotch           æ–‘é»
+discoloration       è„«è‰²
+Inclusion         é›œè³ª
+slug mark         å£“ç—•
+dirt grime       ç°å¡µ 
+blush         æ¯›é‚Šè–„è†œ
+sink           ä¸‹å‡¹
+Hickey         æ¼æ¼†
+labels and logos   è²¼ç´™èˆ‡å•†æ¨™
+Configuration labels çµ„åˆè²¼ç´™ 
+corrugated container ç“¦æ“ºç´™ç®±
+Delaminating     è„«å±¤
+splattering       æ•£é»
+Gouge         éŠ¼å­” 
+puckering       æŠ˜ç—•
 
 /******************************************************************************/
-¹q¤l±M·~ªº­^¤å
+é›»å­å°ˆæ¥­çš„è‹±æ–‡
 /******************************************************************************/
-AI :Auto-Insertion ¦Û°Ê´¡¥ó
-AQL :acceptable quality level ¤¹¦¬¤ô·Ç
-ATE :automatic test equipment ¦Û°Ê´ú¸Õ
-ATM :atmosphere ®ğÀ£
-BGA :ball grid array ²y§Î¯x°}
-CCD :charge coupled device ºÊµø³s±µ¤¸¥ó(Äá¼v¾÷)
-CLCC :Ceramic leadless chip carrier ³³²¡¤Ş¸}¸ü¨ã
-COB :chip-on-board ´¹¤ùª½±µ¶Kªş¦b¹q¸ôªO¤W
-cps :centipoises(ÂH«×³æ¦ì) ¦Ê¤À¤§¤@
-CSB :chip scale ball grid array ´¹¤ù¤Ø¤oBGA
-CSP :chip scale package ´¹¤ù¤Ø¤oºc¸Ë
-CTE :coefficient of thermal expansion ¼ö¿±µÈ«Y¼Æ
-DIP :dual in-line package Âù¤º½u¥]¸Ë(ªx«ü¤â´¡¤¸¥ó)
-FPT :fine pitch technology ·L¶¡¶Z§Ş³N
-FR-4 :flame-retardant substrate ¬Á¼şÅÖºû½¦¤ù(¥Î¨Ó»s§@PCB§÷½è)
-IC :integrate circuit ¿nÅé¹q¸ô
-IR :infra-red ¬õ¥~½u
-Kpa :kilopascals(À£¤O³æ¦ì)
-LCC :leadless chip carrier ¤Ş¸}¦¡´¹¤ù©Ó¸ü¾¹
-MCM :multi-chip module ¦h¼h´¹¤ù¼Ò²Õ
-MELF :metal electrode face ¤G·¥Åé
-MQFP :metalized QFP ª÷Äİ¥|¤è«ó¥­«Ê¸Ë
+AI :Auto-Insertion è‡ªå‹•æ’ä»¶
+AQL :acceptable quality level å…æ”¶æ°´æº–
+ATE :automatic test equipment è‡ªå‹•æ¸¬è©¦
+ATM :atmosphere æ°£å£“
+BGA :ball grid array çƒå½¢çŸ©é™£
+CCD :charge coupled device ç›£è¦–é€£æ¥å…ƒä»¶(æ”å½±æ©Ÿ)
+CLCC :Ceramic leadless chip carrier é™¶ç“·å¼•è…³è¼‰å…·
+COB :chip-on-board æ™¶ç‰‡ç›´æ¥è²¼é™„åœ¨é›»è·¯æ¿ä¸Š
+cps :centipoises(é»åº¦å–®ä½) ç™¾åˆ†ä¹‹ä¸€
+CSB :chip scale ball grid array æ™¶ç‰‡å°ºå¯¸BGA
+CSP :chip scale package æ™¶ç‰‡å°ºå¯¸æ§‹è£
+CTE :coefficient of thermal expansion ç†±è†¨è„¹ä¿‚æ•¸
+DIP :dual in-line package é›™å…§ç·šåŒ…è£(æ³›æŒ‡æ‰‹æ’å…ƒä»¶)
+FPT :fine pitch technology å¾®é–“è·æŠ€è¡“
+FR-4 :flame-retardant substrate ç»ç’ƒçº–ç¶­è† ç‰‡(ç”¨ä¾†è£½ä½œPCBæè³ª)
+IC :integrate circuit ç©é«”é›»è·¯
+IR :infra-red ç´…å¤–ç·š
+Kpa :kilopascals(å£“åŠ›å–®ä½)
+LCC :leadless chip carrier å¼•è…³å¼æ™¶ç‰‡æ‰¿è¼‰å™¨
+MCM :multi-chip module å¤šå±¤æ™¶ç‰‡æ¨¡çµ„
+MELF :metal electrode face äºŒæ¥µé«”
+MQFP :metalized QFP é‡‘å±¬å››æ–¹æ‰å¹³å°è£
 NEPCON :National Electronic Package and
-Production Conference °ê»Ú¹q¤l¥]¸Ë¤Î¥Í²£·|Ä³
-PBGA :plastic ball grid array ¶ì½¦²y§Î¯x°}
-PCB :printed circuit board ¦L¨ê¹q¸ôªO
+Production Conference åœ‹éš›é›»å­åŒ…è£åŠç”Ÿç”¢æœƒè­°
+PBGA :plastic ball grid array å¡‘è† çƒå½¢çŸ©é™£
+PCB :printed circuit board å°åˆ·é›»è·¯æ¿
 PFC :polymer flip chip
-PLCC :plastic leadless chip carrier ¶ì½¦¦¡¦³¤Ş¸}´¹¤ù©Ó¸ü¾¹
-Polyurethane »E¨ÈÓià­(¨í¤M§÷½è)
-ppm :parts per million «ü¨C¦Ê¸UPAD(ÂI)¦³¦h¤Ö­Ó¤£¨}PAD(ÂI)
-psi :pounds/inch2 ½S/­^¦T2
-PWB :printed wiring board ¹q¸ôªO
-QFP :quad flat package ¥|Ãä¥­©Z«Ê¸Ë
+PLCC :plastic leadless chip carrier å¡‘è† å¼æœ‰å¼•è…³æ™¶ç‰‡æ‰¿è¼‰å™¨
+Polyurethane èšäºèƒºé…¯(åˆ®åˆ€æè³ª)
+ppm :parts per million æŒ‡æ¯ç™¾è¬PAD(é»)æœ‰å¤šå°‘å€‹ä¸è‰¯PAD(é»)
+psi :pounds/inch2 ç£…/è‹±å‹2
+PWB :printed wiring board é›»è·¯æ¿
+QFP :quad flat package å››é‚Šå¹³å¦å°è£
 SIP :single in-line package
-SIR :surface insulation resistance µ´½tªı§Ü
-SMC :Surface Mount Component ªí­±ÂHµÛ¤¸¥ó
-SMD :Surface Mount Device ªí­±ÂHµÛ¤¸¥ó
+SIR :surface insulation resistance çµ•ç·£é˜»æŠ—
+SMC :Surface Mount Component è¡¨é¢é»è‘—å…ƒä»¶
+SMD :Surface Mount Device è¡¨é¢é»è‘—å…ƒä»¶
 SMEMA :Surface Mount Equipment
-Manufacturers Association ªí­±ÂHµÛ³]³Æ»s³y¨ó·|
-SMT :surface mount technology ªí­±ÂHµÛ§Ş³N
+Manufacturers Association è¡¨é¢é»è‘—è¨­å‚™è£½é€ å”æœƒ
+SMT :surface mount technology è¡¨é¢é»è‘—æŠ€è¡“
 SOIC :small outline integrated circuit
 SOJ :small out-line j-leaded package
-SOP :small out-line package ¤p¥~«¬«Ê¸Ë
-SOT :small outline transistor ¹q´¹Åé
-SPC :statistical process control ²Î­p¹Lµ{§Ç±±¨î¨î
-SSOP :shrink small outline package ¦¬ÁY«¬¤p¥~§Î«Ê¸Ë
-TAB :tape automaticed bonding ±aª¬¦Û°Êµ²¦X
-TCE :thermal coefficient of expansion ¿±µÈ(¦]¼ö)«Y¼Æ
-Tg :glass transition temperature ¬Á¼şÂà´«·Å«×
-THD :Through hole device ¶·¬ï¹L¬}¤§¤¸¥ó(³e¬ï¤Õ)
-TQFP :tape quad flat package ±aª¬¥|¤è¥­©Z«Ê¸Ë
-UV :ultraviolet µµ¥~½u
-uBGA :micro BGA ·L¤p²y«¬¯x°}
-cBGA :ceramic BGA ³³²¡²y«¬¯x°}
-PTH :Plated Thru Hole ¾É³q¤Õ
-IA Information Appliance ¸ê°T®a¹q²£«~
-MESH ºô¥Ø
-OXIDE ®ñ¤Æª«
-FLUX §U²k¾¯
-LGA (Land Grid Arry)«Ê¸Ë§Ş³N LGA«Ê¸Ë¤£»İ´Ó²y¡A¾A¦X»´Á¡µu¤p²£«~À³¥Î¡C
+SOP :small out-line package å°å¤–å‹å°è£
+SOT :small outline transistor é›»æ™¶é«”
+SPC :statistical process control çµ±è¨ˆéç¨‹åºæ§åˆ¶åˆ¶
+SSOP :shrink small outline package æ”¶ç¸®å‹å°å¤–å½¢å°è£
+TAB :tape automaticed bonding å¸¶ç‹€è‡ªå‹•çµåˆ
+TCE :thermal coefficient of expansion è†¨è„¹(å› ç†±)ä¿‚æ•¸
+Tg :glass transition temperature ç»ç’ƒè½‰æ›æº«åº¦
+THD :Through hole device é ˆç©¿éæ´ä¹‹å…ƒä»¶(è²«ç©¿å­”)
+TQFP :tape quad flat package å¸¶ç‹€å››æ–¹å¹³å¦å°è£
+UV :ultraviolet ç´«å¤–ç·š
+uBGA :micro BGA å¾®å°çƒå‹çŸ©é™£
+cBGA :ceramic BGA é™¶ç“·çƒå‹çŸ©é™£
+PTH :Plated Thru Hole å°é€šå­”
+IA Information Appliance è³‡è¨Šå®¶é›»ç”¢å“
+MESH ç¶²ç›®
+OXIDE æ°§åŒ–ç‰©
+FLUX åŠ©ç„ŠåŠ‘
+LGA (Land Grid Arry)å°è£æŠ€è¡“ LGAå°è£ä¸éœ€æ¤çƒï¼Œé©åˆè¼•è–„çŸ­å°ç”¢å“æ‡‰ç”¨ã€‚
 TCP (Tape Carrier Package)
-ACF Anisotropic Conductive Film ²§¤è©Ê¾É¹q½¦½¤»sµ{
-Solder mask ¨¾²kº£
-Soldering Iron ¯OÅK
-Solder balls ¿ü²y
-Solder Splash ¿ü´í
-Solder Skips º|²k
-Cold-Weld §N²k
-Lap-Weld ·f²k
-Spot-Weld ÂI²k
-Unsolder ²æ²k §â¡K²æ²k,º²¤Æ²k±µ³B¥H©î¶};¨Ï¤ÀÂ÷
-Unwelded ¥¼²k±µªº
-Through hole ³e¬ï¤Õ
-Touch up ¸É²k
-Welding seam ²kÁ_
-Briding í¶±µ(µu¸ô)
-Solder Wires ²k¿ü½u
-Solder Bars ¿ü´Î
-Green Strength ¥¼©T¤Æ±j«×(¬õ½¦)
-Transter Pressure Âà¦LÀ£¤O(¦L¨ê)
-Screen Printing ¨í¤M¦¡¦L¨ê
-Solder Powder ¿üÁû²É
-Wetteng ability ¼íÀã¯à¤O
-Viscosity ÂH«×
-Solderability ²k¿ü©Ê
-Applicability ¨Ï¥Î©Ê
-Flip chip ÂĞ´¹
-Depaneling Machine ²Õ¸Ë¹q¸ôªO¤Á³Î¾÷
-Solder Recovery System ¿ü®Æ¦^¦¬¦A¨Ï¥Î¨t²Î
-Wire Welder ¥D¾÷ªO¸É½u¾÷
-X-Ray Multi-layer Inspection System X-Ray¤Õ°¾ÀË¬d¾÷
-BGA Open/Short X-Ray Inspection Machine BGA X-RayÀË´ú¾÷
-Prepreg Copper Foil Sheeter P.P. »Éºäµô¤Á¾÷
-Flex Circuit Connections ³n©Ê±Æ½u²k±µ¾÷
-LCD Rework Station ²G´¹Åã¥Ü¾¹­×Å@¾÷
-Battery Electro Welder ¹q¦À¹q·¥²k±µ¾÷
-PCMCIA Card Welder PCMCIA¥d³s±µ¾¹²k±µ
-Laser Diode ¥b¾ÉÅé¹p®g
-Ion Lasers Â÷¤l¹p®g
-Nd: YAG Laser ¥Ûºh¥Û¹p®g
-DPSS Lasers ¥b¾ÉÅé¿Eµo©TºA¹p®g
-Ultrafast Laser System ¶W§Ö¹p®g¨t²Î
-MLCC Equipment ¿n¼h¤¸¥ó¥Í²£³]³Æ
-Green Tape Caster, Coater Á¡±a¦¨«¬¾÷
-ISO Static Laminator ¿n¼h¤¸¥ó§¡À£¾÷
-Green Tape Cutter ¤¸¥ó¤Á³Î¾÷
-Chip Terminator ¿n¼h¤¸¥óºİ»È¾÷
-MLCC Tester ¿n¼h¹q®e´ú¸Õ¾÷
-Components Vision Inspection System´¹¤ù¤¸¥ó¥~Æ[ÀË¬d¾÷
-°ªÀ£«í·Å«íÀã¹Ø©R´ú¸Õ¾÷ High Voltage Burn-In Life Tester
-¹q®eº|¹q¬y¹Ø©R´ú¸Õ¾÷ Capacitor Life Test with Leakage Current
-´¹¤ù¥´±a¥]¸Ë¾÷ Taping Machine
-¤¸¥óªí­±ÂHµÛ³]³Æ Surface Mounting Equipment
-¹qªı»È¹q·¥ªgªş¾÷ Silver Electrode Coating Machine
-TFT-LCD(Á¡½¤¹q´¹Åé²G´¹Åã¥Ü¾¹) µ§°O«¬¥Î
-STN-LCD(¤¤¤p¤Ø¤o¶W§áÂà¦V²G´¹Åã¥Ü¾¹ ¦æ°Ê¹q¸Ü¥Î
-PDA(­Ó¤H¼Æ¦ì§U²z¾¹)
-CMP(¤Æ¾Ç¾÷±ñ¬ã¿i)»sµ{
-¬ã¿i²G(Slurry)¡A
-Compact Flash Memory Card (Â²ºÙCF°O¾Ğ¥d) MP3¡BPDA¡B¼Æ¦ì¬Û¾÷
-Dataplay Disk(·L¥úºĞ)¡C
-¥æ´«¦¡¹q·½¨ÑÀ³¾¹(SPS)
-±M·~¹q¤l»s³yªA°È (EMS)¡A
+ACF Anisotropic Conductive Film ç•°æ–¹æ€§å°é›»è† è†œè£½ç¨‹
+Solder mask é˜²ç„Šæ¼†
+Soldering Iron çƒ™éµ
+Solder balls éŒ«çƒ
+Solder Splash éŒ«æ¸£
+Solder Skips æ¼ç„Š
+Cold-Weld å†·ç„Š
+Lap-Weld æ­ç„Š
+Spot-Weld é»ç„Š
+Unsolder è„«ç„Š æŠŠâ€¦è„«ç„Š,ç†”åŒ–ç„Šæ¥è™•ä»¥æ‹†é–‹;ä½¿åˆ†é›¢
+Unwelded æœªç„Šæ¥çš„
+Through hole è²«ç©¿å­”
+Touch up è£œç„Š
+Welding seam ç„Šç¸«
+Briding ç©šæ¥(çŸ­è·¯)
+Solder Wires ç„ŠéŒ«ç·š
+Solder Bars éŒ«æ£’
+Green Strength æœªå›ºåŒ–å¼·åº¦(ç´…è† )
+Transter Pressure è½‰å°å£“åŠ›(å°åˆ·)
+Screen Printing åˆ®åˆ€å¼å°åˆ·
+Solder Powder éŒ«é¡†ç²’
+Wetteng ability æ½¤æ¿•èƒ½åŠ›
+Viscosity é»åº¦
+Solderability ç„ŠéŒ«æ€§
+Applicability ä½¿ç”¨æ€§
+Flip chip è¦†æ™¶
+Depaneling Machine çµ„è£é›»è·¯æ¿åˆ‡å‰²æ©Ÿ
+Solder Recovery System éŒ«æ–™å›æ”¶å†ä½¿ç”¨ç³»çµ±
+Wire Welder ä¸»æ©Ÿæ¿è£œç·šæ©Ÿ
+X-Ray Multi-layer Inspection System X-Rayå­”åæª¢æŸ¥æ©Ÿ
+BGA Open/Short X-Ray Inspection Machine BGA X-Rayæª¢æ¸¬æ©Ÿ
+Prepreg Copper Foil Sheeter P.P. éŠ…ç®”è£åˆ‡æ©Ÿ
+Flex Circuit Connections è»Ÿæ€§æ’ç·šç„Šæ¥æ©Ÿ
+LCD Rework Station æ¶²æ™¶é¡¯ç¤ºå™¨ä¿®è­·æ©Ÿ
+Battery Electro Welder é›»æ± é›»æ¥µç„Šæ¥æ©Ÿ
+PCMCIA Card Welder PCMCIAå¡é€£æ¥å™¨ç„Šæ¥
+Laser Diode åŠå°é«”é›·å°„
+Ion Lasers é›¢å­é›·å°„
+Nd: YAG Laser çŸ³æ¦´çŸ³é›·å°„
+DPSS Lasers åŠå°é«”æ¿€ç™¼å›ºæ…‹é›·å°„
+Ultrafast Laser System è¶…å¿«é›·å°„ç³»çµ±
+MLCC Equipment ç©å±¤å…ƒä»¶ç”Ÿç”¢è¨­å‚™
+Green Tape Caster, Coater è–„å¸¶æˆå‹æ©Ÿ
+ISO Static Laminator ç©å±¤å…ƒä»¶å‡å£“æ©Ÿ
+Green Tape Cutter å…ƒä»¶åˆ‡å‰²æ©Ÿ
+Chip Terminator ç©å±¤å…ƒä»¶ç«¯éŠ€æ©Ÿ
+MLCC Tester ç©å±¤é›»å®¹æ¸¬è©¦æ©Ÿ
+Components Vision Inspection Systemæ™¶ç‰‡å…ƒä»¶å¤–è§€æª¢æŸ¥æ©Ÿ
+é«˜å£“æ†æº«æ†æ¿•å£½å‘½æ¸¬è©¦æ©Ÿ High Voltage Burn-In Life Tester
+é›»å®¹æ¼é›»æµå£½å‘½æ¸¬è©¦æ©Ÿ Capacitor Life Test with Leakage Current
+æ™¶ç‰‡æ‰“å¸¶åŒ…è£æ©Ÿ Taping Machine
+å…ƒä»¶è¡¨é¢é»è‘—è¨­å‚™ Surface Mounting Equipment
+é›»é˜»éŠ€é›»æ¥µæ²¾é™„æ©Ÿ Silver Electrode Coating Machine
+TFT-LCD(è–„è†œé›»æ™¶é«”æ¶²æ™¶é¡¯ç¤ºå™¨) ç­†è¨˜å‹ç”¨
+STN-LCD(ä¸­å°å°ºå¯¸è¶…æ‰­è½‰å‘æ¶²æ™¶é¡¯ç¤ºå™¨ è¡Œå‹•é›»è©±ç”¨
+PDA(å€‹äººæ•¸ä½åŠ©ç†å™¨)
+CMP(åŒ–å­¸æ©Ÿæ¢°ç ”ç£¨)è£½ç¨‹
+ç ”ç£¨æ¶²(Slurry)ï¼Œ
+Compact Flash Memory Card (ç°¡ç¨±CFè¨˜æ†¶å¡) MP3ã€PDAã€æ•¸ä½ç›¸æ©Ÿ
+Dataplay Disk(å¾®å…‰ç¢Ÿ)ã€‚
+äº¤æ›å¼é›»æºä¾›æ‡‰å™¨(SPS)
+å°ˆæ¥­é›»å­è£½é€ æœå‹™ (EMS)ï¼Œ
 PCB
-°ª±K«×³sµ²ªO¡]HDI board¡A «ü½u¼e¡ş½u¶Z¤p©ó4¡ş4 mil¡^·L¤p¤ÕªO¡]Micro-viaboard¡^¡A¤ÕÍß5-6mil¥H¤U¤ô·¾®ÄÀ³¡]Puddle Effect¡^¡G¦­´Á¤j­±¿nÃP¼e½u¸ô¤§»k¨è»È³e¤Õ(STH)»É³e¤Õ(CTH)
-²Õ¸Ë¹q¸ôªO¤Á³Î¾÷ Depaneling Machine
-NONCFC¡×µL¬t´âºÒ¤Æ¦Xª«¡C
-Support pin¡×¤ä¼µ¬W
-F.M.¡×¥ú¾ÇÂI
-ENTEK »r»ÉªO¤W¶î¤@¼h¤Æ¾ÇÃÄ¾¯¨ÏPCBªºpad¤ñ¸û¤£·|¥ÍÄÃ
-QFD¡G«~½è¾÷¯à®i¶}
-PMT¡G²£«~¦¨¼ô«×´ú¸Õ
-ORT¡G«ùÄò©Ê¹Ø©R´ú¸Õ
-FMEA¡G¥¢®Ä¼Ò¦¡»P®ÄÀ³¤ÀªR
-TFT-LCD(Á¡½¤¹q´¹Åé²G´¹Åã¥Ü¾¹) (Liquid-Crystal Displays Addressed by Thin-Film Transistors)
-¾É½u¬[¡]Lead Frame¡^¡G³æÅé¾É½u¬[¡]Discrete Lead Frame¡^¤Î¿nÅé½u¸ô¾É½u¬[¡]IC Lead Frame¡^¤GºØ
-ISPªº¥ş¦W¬OInternet Service Provider¡A«üªº¬Oºô»Úºô¸ôªA°È´£¨Ñ
-ADSL§Y¬°«D¹ïºÙ¼Æ¦ì¥Î¤á°j¸ô¼Æ¾Ú¾÷
-SOP: Standard Operation Procedure¡]¼Ğ·Ç¾Ş§@¤â¥U¡^
-DOE: Design Of Experiment ¡]¹êÅç­p¹ºªk¡^
-¥´½u±µ¦X¡]Wire Bonding¡^
-±²±a¦¡¦Û°Ê±µ¦X¡]Tape Automated Bonding, TAB¡^
-ÂĞ´¹±µ¦X¡]Flip Chip¡^
-«~½è³W½d:
-JIS ¤é¥»¤u·~¼Ğ·Ç
-ISO °ê»Ú
+é«˜å¯†åº¦é€£çµæ¿ï¼ˆHDI boardï¼Œ æŒ‡ç·šå¯¬ï¼ç·šè·å°æ–¼4ï¼4 milï¼‰å¾®å°å­”æ¿ï¼ˆMicro-viaboardï¼‰ï¼Œå­”ä¿“5-6milä»¥ä¸‹æ°´æºæ•ˆæ‡‰ï¼ˆPuddle Effectï¼‰ï¼šæ—©æœŸå¤§é¢ç©é¬†å¯¬ç·šè·¯ä¹‹è•åˆ»éŠ€è²«å­”(STH)éŠ…è²«å­”(CTH)
+çµ„è£é›»è·¯æ¿åˆ‡å‰²æ©Ÿ Depaneling Machine
+NONCFCï¼ç„¡æ°Ÿæ°¯ç¢³åŒ–åˆç‰©ã€‚
+Support pinï¼æ”¯æ’æŸ±
+F.M.ï¼å…‰å­¸é»
+ENTEK è£¸éŠ…æ¿ä¸Šå¡—ä¸€å±¤åŒ–å­¸è—¥åŠ‘ä½¿PCBçš„padæ¯”è¼ƒä¸æœƒç”Ÿé½
+QFDï¼šå“è³ªæ©Ÿèƒ½å±•é–‹
+PMTï¼šç”¢å“æˆç†Ÿåº¦æ¸¬è©¦
+ORTï¼šæŒçºŒæ€§å£½å‘½æ¸¬è©¦
+FMEAï¼šå¤±æ•ˆæ¨¡å¼èˆ‡æ•ˆæ‡‰åˆ†æ
+TFT-LCD(è–„è†œé›»æ™¶é«”æ¶²æ™¶é¡¯ç¤ºå™¨) (Liquid-Crystal Displays Addressed by Thin-Film Transistors)
+å°ç·šæ¶ï¼ˆLead Frameï¼‰ï¼šå–®é«”å°ç·šæ¶ï¼ˆDiscrete Lead Frameï¼‰åŠç©é«”ç·šè·¯å°ç·šæ¶ï¼ˆIC Lead Frameï¼‰äºŒç¨®
+ISPçš„å…¨åæ˜¯Internet Service Providerï¼ŒæŒ‡çš„æ˜¯ç¶²éš›ç¶²è·¯æœå‹™æä¾›
+ADSLå³ç‚ºéå°ç¨±æ•¸ä½ç”¨æˆ¶è¿´è·¯æ•¸æ“šæ©Ÿ
+SOP: Standard Operation Procedureï¼ˆæ¨™æº–æ“ä½œæ‰‹å†Šï¼‰
+DOE: Design Of Experiment ï¼ˆå¯¦é©—è¨ˆåŠƒæ³•ï¼‰
+æ‰“ç·šæ¥åˆï¼ˆWire Bondingï¼‰
+æ²å¸¶å¼è‡ªå‹•æ¥åˆï¼ˆTape Automated Bonding, TABï¼‰
+è¦†æ™¶æ¥åˆï¼ˆFlip Chipï¼‰
+å“è³ªè¦ç¯„:
+JIS æ—¥æœ¬å·¥æ¥­æ¨™æº–
+ISO åœ‹éš›
 
 /******************************************************************************/
-PCBºî¦Xµü·J¤¤­^¤å¹ï·Ó¡G
+PCBç¶œåˆè©å½™ä¸­è‹±æ–‡å°ç…§ï¼š
 /******************************************************************************/
-1¡B ¦L»s¹q¸ô¡Gprinted circuit
-2¡B ¦L»s½u¸ô¡Gprinted wiring
-3¡B ¦L»sªO¡Gprinted board
-4¡B ¦L»sªO¹q¸ô¡Gprinted circuit board (pcb)
-5¡B ¦L»s½u¸ôªO¡Gprinted wiring board(pwb)
-6¡B ¦L»s¤¸¥ó¡Gprinted component
-7¡B ¦L»s±µÂI¡Gprinted contact
-8¡B ¦L»sªO¸Ë°t¡Gprinted board assembly
-9¡B ªO¡Gboard
-10¡B ³æ­±¦L»sªO¡Gsingle-sided printed board(ssb)
-11¡B Âù­±¦L»sªO¡Gdouble-sided printed board(dsb)
-12¡B ¦h¼h¦L»sªO¡Gmulitlayer printed board(mlb)
-13¡B ¦h¼h¦L»s¹q¸ôªO¡Gmulitlayer printed circuit board
-14¡B ¦h¼h¦L»s½u¸ôªO¡Gmulitlayer prited wiring board
-15¡B ­è©Ê¦L»sªO¡Grigid printed board
-16¡B ­è©Ê³æ­±¦L»sªO¡Grigid single-sided printed borad
-17¡B ­è©ÊÂù­±¦L»sªO¡Grigid double-sided printed borad
-18¡B ­è©Ê¦h¼h¦L»sªO¡Grigid multilayer printed board
-19¡B ¼¸©Ê¦h¼h¦L»sªO¡Gflexible multilayer printed board
-20¡B ¼¸©Ê¦L»sªO¡Gflexible printed board
-21¡B ¼¸©Ê³æ­±¦L»sªO¡Gflexible single-sided printed board
-22¡B ¼¸©ÊÂù­±¦L»sªO¡Gflexible double-sided printed board
-23¡B ¼¸©Ê¦L»s¹q¸ô¡Gflexible printed circuit (fpc)
-24¡B ¼¸©Ê¦L»s½u¸ô¡Gflexible printed wiring
-25¡B ­è©Ê¦L»sªO¡Gflex-rigid printed board, rigid-flex printed board
-26¡B ­è©ÊÂù­±¦L»sªO¡Gflex-rigid double-sided printed board, rigid-flex double-sided printed
-27¡B ­è©Ê¦h¼h¦L»sªO¡Gflex-rigid multilayer printed board, rigid-flex multilayer printed board
-28¡B »ô¥­¦L»sªO¡Gflush printed board
-29¡B ª÷Äİªä¦L»sªO¡Gmetal core printed board
-30¡B ª÷Äİ°ò¦L»sªO¡Gmetal base printed board
-31¡B ¦h­«¥¬½u¦L»sªO¡Gmulit-wiring printed board
-32¡B ³³²¡¦L»sªO¡Gceramic substrate printed board
-33¡B ¾É¹q½¦¦L»sªO¡Gelectroconductive paste printed board
-34¡B ¼Ò¶ì¹q¸ôªO¡Gmolded circuit board
-35¡B ¼ÒÀ£¦L»sªO¡Gstamped printed wiring board
-36¡B ¶¶§Ç¼hÀ£¦h¼h¦L»sªO¡Gsequentially-laminated mulitlayer
-37¡B ´²½u¦L»sªO¡Gdiscrete wiring board
-38¡B ·L½u¦L»sªO¡Gmicro wire board
-39¡B ¿n¼h¦L»sªO¡Gbuile-up printed board
-40¡B ¿n¼h¦h¼h¦L»sªO¡Gbuild-up mulitlayer printed board (bum)
-41¡B ¿n¼h¼¸¦L»sªO¡Gbuild-up flexible printed board
-42¡B ªí­±¼h¦X¹q¸ôªO¡Gsurface laminar circuit (slc)
-43¡B ®I¤J¥Y¶ô³s¦L»sªO¡Gb2it printed board
-44¡B ¦h¼h½¤°òªO¡Gmulti-layered film substrate(mfs)
-45¡B ¼h¶¡¥ş¤º¾É³q¦h¼h¦L»sªO¡Galivh multilayer printed board
-46¡B ¸ü´¹¤ùªO¡Gchip on board (cob)
-47¡B ®I¹qªıªO¡Gburied resistance board
-48¡B ¥ÀªO¡Gmother board
-49¡B ¤lªO¡Gdaughter board
-50¡B ­IªO¡Gbackplane
-51¡B »rªO¡Gbare board
-52¡B Áä½LªO§¨¤ßªO¡Gcopper-invar-copper board
-53¡B °ÊºA¼¸©ÊªO¡Gdynamic flex board
-54¡B ÀRºA¼¸©ÊªO¡Gstatic flex board
-55¡B ¥iÂ_«÷ªO¡Gbreak-away planel
-56¡B ¹qÆl¡Gcable
-57¡B ¼¸©Ê«ó¥­¹qÆl¡Gflexible flat cable (ffc)
-58¡B Á¡½¤¶}Ãö¡Gmembrane switch
-59¡B ²V¦X¹q¸ô¡Ghybrid circuit
-60¡B «p½¤¡Gthick film
-61¡B «p½¤¹q¸ô¡Gthick film circuit
-62¡B Á¡½¤¡Gthin film
-63¡B Á¡½¤²V¦X¹q¸ô¡Gthin film hybrid circuit
-64¡B ¤¬³s¡Ginterconnection
-65¡B ¾É½u¡Gconductor trace line
-66¡B »ô¥­¾É½u¡Gflush conductor
-67¡B ¶Ç¿é½u¡Gtransmission line
-68¡B ¸ó¥æ¡Gcrossover
-69¡B ªOÃä´¡ÀY¡Gedge-board contact
-70¡B ¼W±jªO¡Gstiffener
-71¡B °ò©³¡Gsubstrate
-72¡B °òªO­±¡Greal estate
-73¡B ¾É½u­±¡Gconductor side
-74¡B ¤¸¥ó­±¡Gcomponent side
-75¡B ²k±µ­±¡Gsolder side
-76¡B ¦L»s¡Gprinting
-77¡B ºô®æ¡Ggrid
-78¡B ¹Ï§Î¡Gpattern
-79¡B ¾É¹q¹Ï§Î¡Gconductive pattern
-80¡B «D¾É¹q¹Ï§Î¡Gnon-conductive pattern
-81¡B ¦r¤¸¡Glegend
-82¡B ¼Ğ»x¡Gmark
+1ã€ å°è£½é›»è·¯ï¼šprinted circuit
+2ã€ å°è£½ç·šè·¯ï¼šprinted wiring
+3ã€ å°è£½æ¿ï¼šprinted board
+4ã€ å°è£½æ¿é›»è·¯ï¼šprinted circuit board (pcb)
+5ã€ å°è£½ç·šè·¯æ¿ï¼šprinted wiring board(pwb)
+6ã€ å°è£½å…ƒä»¶ï¼šprinted component
+7ã€ å°è£½æ¥é»ï¼šprinted contact
+8ã€ å°è£½æ¿è£é…ï¼šprinted board assembly
+9ã€ æ¿ï¼šboard
+10ã€ å–®é¢å°è£½æ¿ï¼šsingle-sided printed board(ssb)
+11ã€ é›™é¢å°è£½æ¿ï¼šdouble-sided printed board(dsb)
+12ã€ å¤šå±¤å°è£½æ¿ï¼šmulitlayer printed board(mlb)
+13ã€ å¤šå±¤å°è£½é›»è·¯æ¿ï¼šmulitlayer printed circuit board
+14ã€ å¤šå±¤å°è£½ç·šè·¯æ¿ï¼šmulitlayer prited wiring board
+15ã€ å‰›æ€§å°è£½æ¿ï¼šrigid printed board
+16ã€ å‰›æ€§å–®é¢å°è£½æ¿ï¼šrigid single-sided printed borad
+17ã€ å‰›æ€§é›™é¢å°è£½æ¿ï¼šrigid double-sided printed borad
+18ã€ å‰›æ€§å¤šå±¤å°è£½æ¿ï¼šrigid multilayer printed board
+19ã€ æ’“æ€§å¤šå±¤å°è£½æ¿ï¼šflexible multilayer printed board
+20ã€ æ’“æ€§å°è£½æ¿ï¼šflexible printed board
+21ã€ æ’“æ€§å–®é¢å°è£½æ¿ï¼šflexible single-sided printed board
+22ã€ æ’“æ€§é›™é¢å°è£½æ¿ï¼šflexible double-sided printed board
+23ã€ æ’“æ€§å°è£½é›»è·¯ï¼šflexible printed circuit (fpc)
+24ã€ æ’“æ€§å°è£½ç·šè·¯ï¼šflexible printed wiring
+25ã€ å‰›æ€§å°è£½æ¿ï¼šflex-rigid printed board, rigid-flex printed board
+26ã€ å‰›æ€§é›™é¢å°è£½æ¿ï¼šflex-rigid double-sided printed board, rigid-flex double-sided printed
+27ã€ å‰›æ€§å¤šå±¤å°è£½æ¿ï¼šflex-rigid multilayer printed board, rigid-flex multilayer printed board
+28ã€ é½Šå¹³å°è£½æ¿ï¼šflush printed board
+29ã€ é‡‘å±¬èŠ¯å°è£½æ¿ï¼šmetal core printed board
+30ã€ é‡‘å±¬åŸºå°è£½æ¿ï¼šmetal base printed board
+31ã€ å¤šé‡å¸ƒç·šå°è£½æ¿ï¼šmulit-wiring printed board
+32ã€ é™¶ç“·å°è£½æ¿ï¼šceramic substrate printed board
+33ã€ å°é›»è† å°è£½æ¿ï¼šelectroconductive paste printed board
+34ã€ æ¨¡å¡‘é›»è·¯æ¿ï¼šmolded circuit board
+35ã€ æ¨¡å£“å°è£½æ¿ï¼šstamped printed wiring board
+36ã€ é †åºå±¤å£“å¤šå±¤å°è£½æ¿ï¼šsequentially-laminated mulitlayer
+37ã€ æ•£ç·šå°è£½æ¿ï¼šdiscrete wiring board
+38ã€ å¾®ç·šå°è£½æ¿ï¼šmicro wire board
+39ã€ ç©å±¤å°è£½æ¿ï¼šbuile-up printed board
+40ã€ ç©å±¤å¤šå±¤å°è£½æ¿ï¼šbuild-up mulitlayer printed board (bum)
+41ã€ ç©å±¤æ’“å°è£½æ¿ï¼šbuild-up flexible printed board
+42ã€ è¡¨é¢å±¤åˆé›»è·¯æ¿ï¼šsurface laminar circuit (slc)
+43ã€ åŸ‹å…¥å‡¸å¡Šé€£å°è£½æ¿ï¼šb2it printed board
+44ã€ å¤šå±¤è†œåŸºæ¿ï¼šmulti-layered film substrate(mfs)
+45ã€ å±¤é–“å…¨å…§å°é€šå¤šå±¤å°è£½æ¿ï¼šalivh multilayer printed board
+46ã€ è¼‰æ™¶ç‰‡æ¿ï¼šchip on board (cob)
+47ã€ åŸ‹é›»é˜»æ¿ï¼šburied resistance board
+48ã€ æ¯æ¿ï¼šmother board
+49ã€ å­æ¿ï¼šdaughter board
+50ã€ èƒŒæ¿ï¼šbackplane
+51ã€ è£¸æ¿ï¼šbare board
+52ã€ éµç›¤æ¿å¤¾å¿ƒæ¿ï¼šcopper-invar-copper board
+53ã€ å‹•æ…‹æ’“æ€§æ¿ï¼šdynamic flex board
+54ã€ éœæ…‹æ’“æ€§æ¿ï¼šstatic flex board
+55ã€ å¯æ–·æ‹¼æ¿ï¼šbreak-away planel
+56ã€ é›»çºœï¼šcable
+57ã€ æ’“æ€§æ‰å¹³é›»çºœï¼šflexible flat cable (ffc)
+58ã€ è–„è†œé–‹é—œï¼šmembrane switch
+59ã€ æ··åˆé›»è·¯ï¼šhybrid circuit
+60ã€ åšè†œï¼šthick film
+61ã€ åšè†œé›»è·¯ï¼šthick film circuit
+62ã€ è–„è†œï¼šthin film
+63ã€ è–„è†œæ··åˆé›»è·¯ï¼šthin film hybrid circuit
+64ã€ äº’é€£ï¼šinterconnection
+65ã€ å°ç·šï¼šconductor trace line
+66ã€ é½Šå¹³å°ç·šï¼šflush conductor
+67ã€ å‚³è¼¸ç·šï¼štransmission line
+68ã€ è·¨äº¤ï¼šcrossover
+69ã€ æ¿é‚Šæ’é ­ï¼šedge-board contact
+70ã€ å¢å¼·æ¿ï¼šstiffener
+71ã€ åŸºåº•ï¼šsubstrate
+72ã€ åŸºæ¿é¢ï¼šreal estate
+73ã€ å°ç·šé¢ï¼šconductor side
+74ã€ å…ƒä»¶é¢ï¼šcomponent side
+75ã€ ç„Šæ¥é¢ï¼šsolder side
+76ã€ å°è£½ï¼šprinting
+77ã€ ç¶²æ ¼ï¼šgrid
+78ã€ åœ–å½¢ï¼špattern
+79ã€ å°é›»åœ–å½¢ï¼šconductive pattern
+80ã€ éå°é›»åœ–å½¢ï¼šnon-conductive pattern
+81ã€ å­—å…ƒï¼šlegend
+82ã€ æ¨™èªŒï¼šmark
 
 
 /******************************************************************************/
-PCB°ò§÷Ãşµü·J¤¤­^¤å¹ï·Ó¡G
+PCBåŸºæé¡è©å½™ä¸­è‹±æ–‡å°ç…§ï¼š
 /******************************************************************************/
-1¡B °ò§÷¡Gbase material
-2¡B ¼hÀ£ªO¡Glaminate
-3¡B ÂĞª÷Äİºä°ò§÷¡Gmetal-clad bade material
-4¡B ÂĞ»Éºä¼hÀ£ªO¡Gcopper-clad laminate (ccl)
-5¡B ³æ­±ÂĞ»Éºä¼hÀ£ªO¡Gsingle-sided copper-clad laminate
-6¡B Âù­±ÂĞ»Éºä¼hÀ£ªO¡Gdouble-sided copper-clad laminate
-7¡B ´_¦X¼hÀ£ªO¡Gcomposite laminate
-8¡B Á¡¼hÀ£ªO¡Gthin laminate
-9¡B ª÷ÄİªäÂĞ»Éºä¼hÀ£ªO¡Gmetal core copper-clad laminate
-10¡B ª÷Äİ°òÂĞ»É¼hÀ£ªO¡Gmetal base copper-clad laminate
-11¡B ¼¸©ÊÂĞ»Éºäµ´½tÁ¡½¤¡Gflexible copper-clad dielectric film
-12¡B °òÅé§÷®Æ¡Gbasis material
-13¡B ¹w®û§÷®Æ¡Gprepreg
-14¡B Ößµ²¤ù¡Gbonding sheet
-15¡B ¹w®ûÖßµ²¤ù¡Gpreimpregnated bonding sheer
-16¡B Àô®ñ¬Á¼ş°òªO¡Gepoxy glass substrate
-17¡B ¥[¦¨ªk¥Î¼hÀ£ªO¡Glaminate for additive process
-18¡B ¹w¨î¤º¼hÂĞºäªO¡Gmass lamination panel
-19¡B ¤º¼hªäªO¡Gcore material
-20¡B ¶Ê¤ÆªO§÷¡Gcatalyzed board ,coated catalyzed laminate
-21¡B ¶î½¦¶Ê¤Æ¼hÀ£ªO¡Gadhesive-coated catalyzed laminate
-22¡B ¶î½¦µL¶Ê¼hÀ£ªO¡Gadhesive-coated uncatalyzed laminate
-23¡B Ößµ²¼h¡Gbonding layer
-24¡B Ößµ²½¤¡Gfilm adhesive
-25¡B ¶î½¦Öß¾¯µ´½tÁ¡½¤¡Gadhesive coated dielectric film
-26¡B µL¤ä¼µ½¦Öß¾¯½¤¡Gunsupported adhesive film
-27¡B ÂĞ»\¼h¡Gcover layer (cover lay)
-28¡B ¼W±jªO§÷¡Gstiffener material
-29¡B »Éºä­±¡Gcopper-clad surface
-30¡B ¥h»Éºä­±¡Gfoil removal surface
-31¡B ¼hÀ£ªO­±¡Gunclad laminate surface
-32¡B °ò½¤­±¡Gbase film surface
-33¡B ½¦Öß¾¯­±¡Gadhesive faec
-34¡B ­ì©l¥ú¼ä­±¡Gplate finish
-35¡B ²Ê­±¡Gmatt finish
-36¡B Áa¦V¡Glength wise direction
-37¡B ¼Ò¦V¡Gcross wise direction
-38¡B °Å¤ÁªO¡Gcut to size panel
-39¡B ×ôîÇ¯È½èÂĞ»ÉºäªO¡Gphenolic cellulose paper copper-clad laminates(phenolic/paper ccl)
-40¡B Àô®ñ¯È½èÂĞ»ÉºäªO¡Gepoxide cellulose paper copper-clad laminates (epoxy/paper ccl)
-41¡B Àô®ñ¬Á¼ş¥¬°òÂĞ»ÉºäªO¡Gepoxide woven glass fabric copper-clad laminates
-42¡B Àô®ñ¬Á¼ş¥¬¯È´_¦XÂĞ»ÉºäªO¡G
+1ã€ åŸºæï¼šbase material
+2ã€ å±¤å£“æ¿ï¼šlaminate
+3ã€ è¦†é‡‘å±¬ç®”åŸºæï¼šmetal-clad bade material
+4ã€ è¦†éŠ…ç®”å±¤å£“æ¿ï¼šcopper-clad laminate (ccl)
+5ã€ å–®é¢è¦†éŠ…ç®”å±¤å£“æ¿ï¼šsingle-sided copper-clad laminate
+6ã€ é›™é¢è¦†éŠ…ç®”å±¤å£“æ¿ï¼šdouble-sided copper-clad laminate
+7ã€ å¾©åˆå±¤å£“æ¿ï¼šcomposite laminate
+8ã€ è–„å±¤å£“æ¿ï¼šthin laminate
+9ã€ é‡‘å±¬èŠ¯è¦†éŠ…ç®”å±¤å£“æ¿ï¼šmetal core copper-clad laminate
+10ã€ é‡‘å±¬åŸºè¦†éŠ…å±¤å£“æ¿ï¼šmetal base copper-clad laminate
+11ã€ æ’“æ€§è¦†éŠ…ç®”çµ•ç·£è–„è†œï¼šflexible copper-clad dielectric film
+12ã€ åŸºé«”ææ–™ï¼šbasis material
+13ã€ é æµ¸ææ–™ï¼šprepreg
+14ã€ ç²˜çµç‰‡ï¼šbonding sheet
+15ã€ é æµ¸ç²˜çµç‰‡ï¼špreimpregnated bonding sheer
+16ã€ ç’°æ°§ç»ç’ƒåŸºæ¿ï¼šepoxy glass substrate
+17ã€ åŠ æˆæ³•ç”¨å±¤å£“æ¿ï¼šlaminate for additive process
+18ã€ é åˆ¶å…§å±¤è¦†ç®”æ¿ï¼šmass lamination panel
+19ã€ å…§å±¤èŠ¯æ¿ï¼šcore material
+20ã€ å‚¬åŒ–æ¿æï¼šcatalyzed board ,coated catalyzed laminate
+21ã€ å¡—è† å‚¬åŒ–å±¤å£“æ¿ï¼šadhesive-coated catalyzed laminate
+22ã€ å¡—è† ç„¡å‚¬å±¤å£“æ¿ï¼šadhesive-coated uncatalyzed laminate
+23ã€ ç²˜çµå±¤ï¼šbonding layer
+24ã€ ç²˜çµè†œï¼šfilm adhesive
+25ã€ å¡—è† ç²˜åŠ‘çµ•ç·£è–„è†œï¼šadhesive coated dielectric film
+26ã€ ç„¡æ”¯æ’è† ç²˜åŠ‘è†œï¼šunsupported adhesive film
+27ã€ è¦†è“‹å±¤ï¼šcover layer (cover lay)
+28ã€ å¢å¼·æ¿æï¼šstiffener material
+29ã€ éŠ…ç®”é¢ï¼šcopper-clad surface
+30ã€ å»éŠ…ç®”é¢ï¼šfoil removal surface
+31ã€ å±¤å£“æ¿é¢ï¼šunclad laminate surface
+32ã€ åŸºè†œé¢ï¼šbase film surface
+33ã€ è† ç²˜åŠ‘é¢ï¼šadhesive faec
+34ã€ åŸå§‹å…‰æ½”é¢ï¼šplate finish
+35ã€ ç²—é¢ï¼šmatt finish
+36ã€ ç¸±å‘ï¼šlength wise direction
+37ã€ æ¨¡å‘ï¼šcross wise direction
+38ã€ å‰ªåˆ‡æ¿ï¼šcut to size panel
+39ã€ é…šé†›ç´™è³ªè¦†éŠ…ç®”æ¿ï¼šphenolic cellulose paper copper-clad laminates(phenolic/paper ccl)
+40ã€ ç’°æ°§ç´™è³ªè¦†éŠ…ç®”æ¿ï¼šepoxide cellulose paper copper-clad laminates (epoxy/paper ccl)
+41ã€ ç’°æ°§ç»ç’ƒå¸ƒåŸºè¦†éŠ…ç®”æ¿ï¼šepoxide woven glass fabric copper-clad laminates
+42ã€ ç’°æ°§ç»ç’ƒå¸ƒç´™å¾©åˆè¦†éŠ…ç®”æ¿ï¼š
      epoxide cellulose paper core, glass cloth surfaces copper-clad laminates
-43¡B Àô®ñ¬Á¼ş¥¬¬Á¼şÅÖºû´_¦XÂĞ»ÉºäªO¡G
+43ã€ ç’°æ°§ç»ç’ƒå¸ƒç»ç’ƒçº–ç¶­å¾©åˆè¦†éŠ…ç®”æ¿ï¼š
      epoxide non woven/woven glass reinforced copper-clad laminates
-44¡B »Eà­¬Á¼ş¥¬ÂĞ»ÉºäªO¡Gployester woven glass fabric copper-clad laminates
-45¡B »E¡¼¨ÈÓi¬Á¼ş¥¬ÂĞ»ÉºäªO¡Gpolyimide woven glass fabric copper-clad laminates
-46¡B Âù°¨¨Ó¡¼¨ÈÓi¤T¯³Àô®ñ¬Á¼ş¥¬ÂĞ»ÉºäªO¡G
+44ã€ èšé…¯ç»ç’ƒå¸ƒè¦†éŠ…ç®”æ¿ï¼šployester woven glass fabric copper-clad laminates
+45ã€ èšâ–¡äºèƒºç»ç’ƒå¸ƒè¦†éŠ…ç®”æ¿ï¼špolyimide woven glass fabric copper-clad laminates
+46ã€ é›™é¦¬ä¾†â–¡äºèƒºä¸‰ç§¦ç’°æ°§ç»ç’ƒå¸ƒè¦†éŠ…ç®”æ¿ï¼š
      bismaleimide/triazine/epoxide woven glass fabric copper-clad lamimates
-47¡B Àô®ñ¦X¦¨ÅÖºû¥¬ÂĞ»ÉºäªO¡Gepoxide synthetic fiber fabric copper-clad laminates
-48¡B »E¥|¤A²m¬Á¼şÅÖºûÂĞ»ÉºäªO¡Gteflon/fiber glass copper-clad laminates
-49¡B ¶WÁ¡«¬¼hÀ£ªO¡Gultra thin laminate
-50¡B ³³²¡°òÂĞ»ÉºäªO¡Gceramics base copper-clad laminates
-51¡B µµ¥~½uªı¾×«¬ÂĞ»ÉºäªO¡Guv blocking copper-clad laminates
+47ã€ ç’°æ°§åˆæˆçº–ç¶­å¸ƒè¦†éŠ…ç®”æ¿ï¼šepoxide synthetic fiber fabric copper-clad laminates
+48ã€ èšå››ä¹™çƒ¯ç»ç’ƒçº–ç¶­è¦†éŠ…ç®”æ¿ï¼šteflon/fiber glass copper-clad laminates
+49ã€ è¶…è–„å‹å±¤å£“æ¿ï¼šultra thin laminate
+50ã€ é™¶ç“·åŸºè¦†éŠ…ç®”æ¿ï¼šceramics base copper-clad laminates
+51ã€ ç´«å¤–ç·šé˜»æ“‹å‹è¦†éŠ…ç®”æ¿ï¼šuv blocking copper-clad laminates
 
 /******************************************************************************/
-PCB­ì§÷®Æ¤Æ¾Ç¥Î»y¤¤­^¤å¹ï·Ó¡G
+PCBåŸææ–™åŒ–å­¸ç”¨èªä¸­è‹±æ–‡å°ç…§ï¼š
 /******************************************************************************/
-1¡B a¶¥¾ğ¯×¡Ga-stage resin
-2¡B b¶¥¾ğ¯×¡Gb-stage resin
-3¡B c¶¥¾ğ¯×¡Gc-stage resin
-4¡B Àô®ñ¾ğ¯×¡Gepoxy resin
-5¡B ×ôîÇ¾ğ¯×¡Gphenolic resin
-6¡B »Eà­¾ğ¯×¡Gpolyester resin
-7¡B »E¡¼¨ÈÓi¾ğ¯×¡Gpolyimide resin
-8¡B Âù°¨¨Ó¡¼¨ÈÓi¤T¯³¾ğ¯×¡Gbismaleimide-triazine resin
-9¡B ¤ş²m»Ä¾ğ¯×¡Gacrylic resin
-10¡B ¤T»EÙæÓi¥ÒîÇ¾ğ¯×¡Gmelamine formaldehyde resin
-11¡B ¦h©x¯àÀô®ñ¾ğ¯×¡Gpolyfunctional epoxy resin
-12¡B ·Í¤ÆÀô®ñ¾ğ¯×¡Gbrominated epoxy resin
-13¡B Àô®ñ×ôîÇ¡Gepoxy novolac
-14¡B ¬t¾ğ¯×¡Gfluroresin
-15¡B ª¿¾ğ¯×¡Gsilicone resin
-16¡B ª¿ÖJ¡Gsilane
-17¡B »E¦Xª«¡Gpolymer
-18¡B µL©w§Î»E¦Xª«¡Gamorphous polymer
-19¡B µ²´¹²{¶H¡Gcrystalline polamer
-20¡B Âù´¹²{¶H¡Gdimorphism
-21¡B ¦@»Eª«¡Gcopolymer
-22¡B ¦X¦¨¾ğ¯×¡Gsynthetic
-23¡B ¼ö©T©Ê¾ğ¯×¡Gthermosetting resin
-24¡B ¼ö¶ì©Ê¾ğ¯×¡Gthermoplastic resin
-25¡B ·P¥ú©Ê¾ğ¯×¡Gphotosensitive resin
-26¡B Àô®ñ·í¶q¡Gweight per epoxy equivalent (wpe)
-27¡B Àô®ñ­È¡Gepoxy value
-28¡B ÂùÙæÓi¡Gdicyandiamide
-29¡B Ößµ²¾¯¡Gbinder
-30¡B ½¦Öß¾¯¡Gadesive
-31¡B ©T¤Æ¾¯¡Gcuring agent
-32¡B ªı¿U¾¯¡Gflame retardant
-33¡B ¾B¥ú¾¯¡Gopaquer
-34¡B ¼W¶ì¾¯¡Gplasticizers
-35¡B ¤£¹¡©M»Eà­¡Gunsatuiated polyester
-36¡B »Eà­Á¡½¤¡Gpolyester
-37¡B »E¡¼¨ÈÓiÁ¡½¤¡Gpolyimide film (pi)
-38¡B »E¥|¬t¤A²m¡Gpolytetrafluoetylene (ptfe)
-39¡B »E¥ş¬t¤A²m¤ş²mÁ¡½¤¡Gperfluorinated ethylene-propylene copolymer film (fep)
-40¡B ¼W±j§÷®Æ¡Greinforcing material
-41¡B ¬Á¼şÅÖºû¡Gglass fiber
-42¡B e¬Á¼şÅÖºû¡Ge-glass fibre
-43¡B d¬Á¼şÅÖºû¡Gd-glass fibre
-44¡B s¬Á¼şÅÖºû¡Gs-glass fibre
-45¡B ¬Á¼ş¥¬¡Gglass fabric
-46¡B «DÂ´¥¬¡Gnon-woven fabric
-47¡B ¬Á¼şÅÖºû¹Ô¡Gglass mats
-48¡B ¯½½u¡Gyarn
-49¡B ³æµ·¡Gfilament
-50¡B µ±ªÑ¡Gstrand
-51¡B ½n¯½¡Gweft yarn
-52¡B ¸g¯½¡Gwarp yarn
-53¡B ¦ı¥§º¸¡Gdenier
-54¡B ¸g¦V¡Gwarp-wise
-55¡B ½n¦V¡Gweft-wise, filling-wise
-56¡B Â´ª«¸g½n±K«×¡Gthread count
-57¡B Â´ª«²ÕÂ´¡Gweave structure
-58¡B ¥­¯¾²ÕÂ´¡Gplain structure
-59¡B Ãa¥¬¡Ggrey fabric
-60¡B µ}ÃPÂ´ª«¡Gwoven scrim
-61¡B ¤}½n¡Gbow of weave
-62¡B Â_¸g¡Gend missing
-63¡B ¯Ê½n¡Gmis-picks
-64¡B ½n±×¡Gbias
-65¡B §é²ª¡Gcrease
-66¡B ¶³Â´¡Gwaviness
-67¡B ³½²´¡Gfish eye
-68¡B ¤ò°éªø¡Gfeather length
-69¡B «pÁ¡¬q¡Gmark
-70¡B µõÁ_¡Gsplit
-71¡B ±É«×¡Gtwist of yarn
-72¡B ®û¼í¾¯§t¶q¡Gsize content
-73¡B ®û¼í¾¯´İ¯d¶q¡Gsize residue
-74¡B ³B²z¾¯§t¶q¡Gfinish level
-75¡B ®û¼í¾¯¡Gsize
-76¡B °¸Áp¾¯¡Gcouplint agent
-77¡B ³B²zÂ´ª«¡Gfinished fabric
-78¡B »E¡¼ÓiÅÖºû¡Gpolyarmide fiber
-79¡B »Eà­ÅÖºû«DÂ´¥¬¡Gnon-woven polyester fabric
-80¡B ®ûº{µ´½tÁa¯È¡Gimpregnating insulation paper
-81¡B »EªÚ¡¼ÓiÅÖºû¯È¡Garomatic polyamide paper
-82¡B Â_µõªø¡Gbreaking length
-83¡B §l¤ô°ª«×¡Gheight of capillary rise
-84¡B Àã±j«×«O¯d²v¡Gwet strength retention
-85¡B ¥Õ«×¡Gwhitenness
-86¡B ³³²¡¡Gceramics
-87¡B ¾É¹qºä¡Gconductive foil
-88¡B »Éºä¡Gcopper foil
-89¡B ¹q¸Ñ»Éºä¡Gelectrodeposited copper foil (ed copper foil)
-90¡B À£©µ»Éºä¡Grolled copper foil
-91¡B °h¤õ»Éºä¡Gannealed copper foil
-92¡B À£©µ°h¤õ»Éºä¡Grolled annealed copper foil (ra copper foil)
-93¡B Á¡»Éºä¡Gthin copper foil
-94¡B ¶î½¦»Éºä¡Gadhesive coated foil
-95¡B ¶î½¦¯×»Éºä¡Gresin coated copper foil (rcc)
-96¡B ´_¦Xª÷Äİºä¡Gcomposite metallic material
-97¡B ¸üÅéºä¡Gcarrier foil
-98¡B ®ï¥Ë¡Ginvar
-99¡B ºä¡]­å­±¡^½ü¹ø¡Gfoil profile
-100¡B ¥ú­±¡Gshiny side
-101¡B ²ÊÁW­±¡Gmatte side
-102¡B ³B²z­±¡Gtreated side
-103¡B ¨¾ù×³B²z¡Gstain proofing
-104¡B Âù­±³B²z»Éºä¡Gdouble treated foil
+1ã€ aéšæ¨¹è„‚ï¼ša-stage resin
+2ã€ béšæ¨¹è„‚ï¼šb-stage resin
+3ã€ céšæ¨¹è„‚ï¼šc-stage resin
+4ã€ ç’°æ°§æ¨¹è„‚ï¼šepoxy resin
+5ã€ é…šé†›æ¨¹è„‚ï¼šphenolic resin
+6ã€ èšé…¯æ¨¹è„‚ï¼špolyester resin
+7ã€ èšâ–¡äºèƒºæ¨¹è„‚ï¼špolyimide resin
+8ã€ é›™é¦¬ä¾†â–¡äºèƒºä¸‰ç§¦æ¨¹è„‚ï¼šbismaleimide-triazine resin
+9ã€ ä¸™çƒ¯é…¸æ¨¹è„‚ï¼šacrylic resin
+10ã€ ä¸‰èšæ°°èƒºç”²é†›æ¨¹è„‚ï¼šmelamine formaldehyde resin
+11ã€ å¤šå®˜èƒ½ç’°æ°§æ¨¹è„‚ï¼špolyfunctional epoxy resin
+12ã€ æº´åŒ–ç’°æ°§æ¨¹è„‚ï¼šbrominated epoxy resin
+13ã€ ç’°æ°§é…šé†›ï¼šepoxy novolac
+14ã€ æ°Ÿæ¨¹è„‚ï¼šfluroresin
+15ã€ çŸ½æ¨¹è„‚ï¼šsilicone resin
+16ã€ çŸ½çƒ·ï¼šsilane
+17ã€ èšåˆç‰©ï¼špolymer
+18ã€ ç„¡å®šå½¢èšåˆç‰©ï¼šamorphous polymer
+19ã€ çµæ™¶ç¾è±¡ï¼šcrystalline polamer
+20ã€ é›™æ™¶ç¾è±¡ï¼šdimorphism
+21ã€ å…±èšç‰©ï¼šcopolymer
+22ã€ åˆæˆæ¨¹è„‚ï¼šsynthetic
+23ã€ ç†±å›ºæ€§æ¨¹è„‚ï¼šthermosetting resin
+24ã€ ç†±å¡‘æ€§æ¨¹è„‚ï¼šthermoplastic resin
+25ã€ æ„Ÿå…‰æ€§æ¨¹è„‚ï¼šphotosensitive resin
+26ã€ ç’°æ°§ç•¶é‡ï¼šweight per epoxy equivalent (wpe)
+27ã€ ç’°æ°§å€¼ï¼šepoxy value
+28ã€ é›™æ°°èƒºï¼šdicyandiamide
+29ã€ ç²˜çµåŠ‘ï¼šbinder
+30ã€ è† ç²˜åŠ‘ï¼šadesive
+31ã€ å›ºåŒ–åŠ‘ï¼šcuring agent
+32ã€ é˜»ç‡ƒåŠ‘ï¼šflame retardant
+33ã€ é®å…‰åŠ‘ï¼šopaquer
+34ã€ å¢å¡‘åŠ‘ï¼šplasticizers
+35ã€ ä¸é£½å’Œèšé…¯ï¼šunsatuiated polyester
+36ã€ èšé…¯è–„è†œï¼špolyester
+37ã€ èšâ–¡äºèƒºè–„è†œï¼špolyimide film (pi)
+38ã€ èšå››æ°Ÿä¹™çƒ¯ï¼špolytetrafluoetylene (ptfe)
+39ã€ èšå…¨æ°Ÿä¹™çƒ¯ä¸™çƒ¯è–„è†œï¼šperfluorinated ethylene-propylene copolymer film (fep)
+40ã€ å¢å¼·ææ–™ï¼šreinforcing material
+41ã€ ç»ç’ƒçº–ç¶­ï¼šglass fiber
+42ã€ eç»ç’ƒçº–ç¶­ï¼še-glass fibre
+43ã€ dç»ç’ƒçº–ç¶­ï¼šd-glass fibre
+44ã€ sç»ç’ƒçº–ç¶­ï¼šs-glass fibre
+45ã€ ç»ç’ƒå¸ƒï¼šglass fabric
+46ã€ éç¹”å¸ƒï¼šnon-woven fabric
+47ã€ ç»ç’ƒçº–ç¶­å¢Šï¼šglass mats
+48ã€ ç´—ç·šï¼šyarn
+49ã€ å–®çµ²ï¼šfilament
+50ã€ çµè‚¡ï¼šstrand
+51ã€ ç·¯ç´—ï¼šweft yarn
+52ã€ ç¶“ç´—ï¼šwarp yarn
+53ã€ ä½†å°¼çˆ¾ï¼šdenier
+54ã€ ç¶“å‘ï¼šwarp-wise
+55ã€ ç·¯å‘ï¼šweft-wise, filling-wise
+56ã€ ç¹”ç‰©ç¶“ç·¯å¯†åº¦ï¼šthread count
+57ã€ ç¹”ç‰©çµ„ç¹”ï¼šweave structure
+58ã€ å¹³ç´‹çµ„ç¹”ï¼šplain structure
+59ã€ å£å¸ƒï¼šgrey fabric
+60ã€ ç¨€é¬†ç¹”ç‰©ï¼šwoven scrim
+61ã€ å¼“ç·¯ï¼šbow of weave
+62ã€ æ–·ç¶“ï¼šend missing
+63ã€ ç¼ºç·¯ï¼šmis-picks
+64ã€ ç·¯æ–œï¼šbias
+65ã€ æŠ˜ç—•ï¼šcrease
+66ã€ é›²ç¹”ï¼šwaviness
+67ã€ é­šçœ¼ï¼šfish eye
+68ã€ æ¯›åœˆé•·ï¼šfeather length
+69ã€ åšè–„æ®µï¼šmark
+70ã€ è£‚ç¸«ï¼šsplit
+71ã€ æ»åº¦ï¼štwist of yarn
+72ã€ æµ¸æ½¤åŠ‘å«é‡ï¼šsize content
+73ã€ æµ¸æ½¤åŠ‘æ®˜ç•™é‡ï¼šsize residue
+74ã€ è™•ç†åŠ‘å«é‡ï¼šfinish level
+75ã€ æµ¸æ½¤åŠ‘ï¼šsize
+76ã€ å¶è¯åŠ‘ï¼šcouplint agent
+77ã€ è™•ç†ç¹”ç‰©ï¼šfinished fabric
+78ã€ èšâ–¡èƒºçº–ç¶­ï¼špolyarmide fiber
+79ã€ èšé…¯çº–ç¶­éç¹”å¸ƒï¼šnon-woven polyester fabric
+80ã€ æµ¸æ¼¬çµ•ç·£ç¸±ç´™ï¼šimpregnating insulation paper
+81ã€ èšèŠ³â–¡èƒºçº–ç¶­ç´™ï¼šaromatic polyamide paper
+82ã€ æ–·è£‚é•·ï¼šbreaking length
+83ã€ å¸æ°´é«˜åº¦ï¼šheight of capillary rise
+84ã€ æ¿•å¼·åº¦ä¿ç•™ç‡ï¼šwet strength retention
+85ã€ ç™½åº¦ï¼šwhitenness
+86ã€ é™¶ç“·ï¼šceramics
+87ã€ å°é›»ç®”ï¼šconductive foil
+88ã€ éŠ…ç®”ï¼šcopper foil
+89ã€ é›»è§£éŠ…ç®”ï¼šelectrodeposited copper foil (ed copper foil)
+90ã€ å£“å»¶éŠ…ç®”ï¼šrolled copper foil
+91ã€ é€€ç«éŠ…ç®”ï¼šannealed copper foil
+92ã€ å£“å»¶é€€ç«éŠ…ç®”ï¼šrolled annealed copper foil (ra copper foil)
+93ã€ è–„éŠ…ç®”ï¼šthin copper foil
+94ã€ å¡—è† éŠ…ç®”ï¼šadhesive coated foil
+95ã€ å¡—è† è„‚éŠ…ç®”ï¼šresin coated copper foil (rcc)
+96ã€ å¾©åˆé‡‘å±¬ç®”ï¼šcomposite metallic material
+97ã€ è¼‰é«”ç®”ï¼šcarrier foil
+98ã€ æ®·ç“¦ï¼šinvar
+99ã€ ç®”ï¼ˆå‰–é¢ï¼‰è¼ªå»“ï¼šfoil profile
+100ã€ å…‰é¢ï¼šshiny side
+101ã€ ç²—ç³™é¢ï¼šmatte side
+102ã€ è™•ç†é¢ï¼štreated side
+103ã€ é˜²éŠ¹è™•ç†ï¼šstain proofing
+104ã€ é›™é¢è™•ç†éŠ…ç®”ï¼šdouble treated foil
 
 
 /******************************************************************************/
-PCB½u¸ô³]­pµü·J¤¤­^¤å¹ï·Ó¡G
+PCBç·šè·¯è¨­è¨ˆè©å½™ä¸­è‹±æ–‡å°ç…§ï¼š
 /******************************************************************************/
-1¡B ­ì²z¹Ï¡Gshematic diagram
-2¡B ÅŞ¿è¹Ï¡Glogic diagram
-3¡B ¦L»s½u¸ô¥¬³]¡Gprinted wire layout
-4¡B ¥¬³]Á`¹Ï¡Gmaster drawing
-5¡B ¥i»s³y©Ê³]­p¡Gdesign-for-manufacturability
-6¡B ¹q¸£»²§U³]­p¡Gcomputer-aided design.(cad)
-7¡B ¹q¸£»²§U»s³y¡Gcomputer-aided manufacturing.(cam)
-8¡B ¹q¸£¶°¦¨»s³y¡Gcomputer integrat manufacturing.(cim)
-9¡B ¹q¸£»²§U¤uµ{¡Gcomputer-aided engineering.(cae)
-10¡B ¹q¸£»²§U´ú¸Õ¡Gcomputer-aided test.(cat)
-11¡B ¹q¤l³]­p¦Û°Ê¤Æ¡Gelectric design automation .(eda)
-12¡B ¤uµ{³]­p¦Û°Ê¤Æ¡Gengineering design automaton .(eda2)
-13¡B ²Õ¸Ë³]­p¦Û°Ê¤Æ¡Gassembly aided architectural design. (aaad)
-14¡B ¹q¸£»²§U»s¹Ï¡Gcomputer aided drawing
-15¡B ¹q¸£±±¨îÅã¥Ü¡Gcomputer controlled display .(ccd)
-16¡B §G§½¡Gplacement
-17¡B ¥¬½u¡Grouting
-18¡B ¥¬¹Ï³]­p¡Glayout
-19¡B ­«¥¬¡Grerouting
-20¡B ¼ÒÀÀ¡Gsimulation
-21¡B ÅŞ¿è¼ÒÀÀ¡Glogic simulation
-22¡B ¹q¸ô¼ÒÀÀ¡Gcircit simulation
-23¡B ®É§Ç¼ÒÀÀ¡Gtiming simulation
-24¡B ¼Ò²Õ¤Æ¡Gmodularization
-25¡B ¥¬½u§¹¦¨²v¡Glayout effeciency
-26¡B ¾÷¾¹´y­z®æ¦¡¡Gmachine descriptionm format .(mdf)
-27¡B ¾÷¾¹´y­z®æ¦¡¼Æ¾Ú®w¡Gmdf databse
-28¡B ³]­p¼Æ¾Ú®w¡Gdesign database
-29¡B ³]­p­ìÂI¡Gdesign origin
-30¡B Àu¤Æ¡]³]­p¡^¡Goptimization (design)
-31¡B ¨Ñ³]­pÀu¤Æ§¤¼Ğ¶b¡Gpredominant axis
-32¡B ªí®æ­ìÂI¡Gtable origin
-33¡B Ãè¹³¡Gmirroring
-34¡B ÅX°Ê¤å¥ó¡Gdrive file
-35¡B ¤¤¶¡¤å¥ó¡Gintermediate file
-36¡B »s³y¤å¥ó¡Gmanufacturing documentation
-37¡B ¶¤¦C¤ä¼µ¼Æ¾Ú®w¡Gqueue support database
-38¡B ¤¸¥ó¦w¸m¡Gcomponent positioning
-39¡B ¹Ï§ÎÅã¥Ü¡Ggraphics dispaly
-40¡B ¤ñ¨Ò¦]¤l¡Gscaling factor
-41¡B ±½ºË¶ñ¥R¡Gscan filling
-42¡B ¯x§Î¶ñ¥R¡Grectangle filling
-43¡B ¶ñ¥R°ì¡Gregion filling
-44¡B ¹êÅé³]­p¡Gphysical design
-45¡B ÅŞ¿è³]­p¡Glogic design
-46¡B ÅŞ¿è¹q¸ô¡Glogic circuit
-47¡B ¼h¦¸³]­p¡Ghierarchical design
-48¡B ¦Û³»¦V¤U³]­p¡Gtop-down design
-49¡B ¦Û©³¦V¤W³]­p¡Gbottom-up design
-50¡B ½uºô¡Gnet
-51¡B ¼Æ¦ì¤Æ¡Gdigitzing
-52¡B ³]­p³W«hÀË¬d¡Gdesign rule checking
-53¡B ¨«¡]¥¬¡^½u¾¹¡Grouter (cad)
-54¡B ºô¸ôªí¡Gnet list
-55¡B ¹q¸£»²§U¹q¸ô¤ÀªR¡Gcomputer-aided circuit analysis
-56¡B ¤l½uºô¡Gsubnet
-57¡B ¥Ø¼Ğ¨ç¼Æ¡Gobjective function
-58¡B ³]­p«á³B²z¡Gpost design processing (pdp)
-59¡B ¥æ¤¬¦¡»s¹Ï³]­p¡Ginteractive drawing design
-60¡B ¶O¥Î¯x°}¡Gcost metrix
-61¡B ¤uµ{¹Ï¡Gengineering drawing
-62¡B ¤è¶ô®Ø¹Ï¡Gblock diagram
-63¡B °g®c¡Gmoze
-64¡B ¤¸¥ó±K«×¡Gcomponent density
-65¡B ¨µ°j°â³f­û°İÃD¡Gtraveling salesman problem
-66¡B ¦Û¥Ñ«×¡Gdegrees freedom
-67¡B ¤J«×¡Gout going degree
-68¡B ¥X«×¡Gincoming degree
-69¡B °Ò«¢¹y¶ZÂ÷¡Gmanhatton distance
-70¡B ¼Ú´X¨½¼w¶ZÂ÷¡Geuclidean distance
-71¡B ºô¸ô¡Gnetwork
-72¡B °}¦C¡Garray
-73¡B ¬q¡Gsegment
-74¡B ÅŞ¿è¡Glogic
-75¡B ÅŞ¿è³]­p¦Û°Ê¤Æ¡Glogic design automation
-76¡B ¤À½u¡Gseparated time
-77¡B ¤À¼h¡Gseparated layer
-78¡B ©w¶¶§Ç¡Gdefinite sequence
+1ã€ åŸç†åœ–ï¼šshematic diagram
+2ã€ é‚è¼¯åœ–ï¼šlogic diagram
+3ã€ å°è£½ç·šè·¯å¸ƒè¨­ï¼šprinted wire layout
+4ã€ å¸ƒè¨­ç¸½åœ–ï¼šmaster drawing
+5ã€ å¯è£½é€ æ€§è¨­è¨ˆï¼šdesign-for-manufacturability
+6ã€ é›»è…¦è¼”åŠ©è¨­è¨ˆï¼šcomputer-aided design.(cad)
+7ã€ é›»è…¦è¼”åŠ©è£½é€ ï¼šcomputer-aided manufacturing.(cam)
+8ã€ é›»è…¦é›†æˆè£½é€ ï¼šcomputer integrat manufacturing.(cim)
+9ã€ é›»è…¦è¼”åŠ©å·¥ç¨‹ï¼šcomputer-aided engineering.(cae)
+10ã€ é›»è…¦è¼”åŠ©æ¸¬è©¦ï¼šcomputer-aided test.(cat)
+11ã€ é›»å­è¨­è¨ˆè‡ªå‹•åŒ–ï¼šelectric design automation .(eda)
+12ã€ å·¥ç¨‹è¨­è¨ˆè‡ªå‹•åŒ–ï¼šengineering design automaton .(eda2)
+13ã€ çµ„è£è¨­è¨ˆè‡ªå‹•åŒ–ï¼šassembly aided architectural design. (aaad)
+14ã€ é›»è…¦è¼”åŠ©è£½åœ–ï¼šcomputer aided drawing
+15ã€ é›»è…¦æ§åˆ¶é¡¯ç¤ºï¼šcomputer controlled display .(ccd)
+16ã€ ä½ˆå±€ï¼šplacement
+17ã€ å¸ƒç·šï¼šrouting
+18ã€ å¸ƒåœ–è¨­è¨ˆï¼šlayout
+19ã€ é‡å¸ƒï¼šrerouting
+20ã€ æ¨¡æ“¬ï¼šsimulation
+21ã€ é‚è¼¯æ¨¡æ“¬ï¼šlogic simulation
+22ã€ é›»è·¯æ¨¡æ“¬ï¼šcircit simulation
+23ã€ æ™‚åºæ¨¡æ“¬ï¼štiming simulation
+24ã€ æ¨¡çµ„åŒ–ï¼šmodularization
+25ã€ å¸ƒç·šå®Œæˆç‡ï¼šlayout effeciency
+26ã€ æ©Ÿå™¨æè¿°æ ¼å¼ï¼šmachine descriptionm format .(mdf)
+27ã€ æ©Ÿå™¨æè¿°æ ¼å¼æ•¸æ“šåº«ï¼šmdf databse
+28ã€ è¨­è¨ˆæ•¸æ“šåº«ï¼šdesign database
+29ã€ è¨­è¨ˆåŸé»ï¼šdesign origin
+30ã€ å„ªåŒ–ï¼ˆè¨­è¨ˆï¼‰ï¼šoptimization (design)
+31ã€ ä¾›è¨­è¨ˆå„ªåŒ–åæ¨™è»¸ï¼špredominant axis
+32ã€ è¡¨æ ¼åŸé»ï¼štable origin
+33ã€ é¡åƒï¼šmirroring
+34ã€ é©…å‹•æ–‡ä»¶ï¼šdrive file
+35ã€ ä¸­é–“æ–‡ä»¶ï¼šintermediate file
+36ã€ è£½é€ æ–‡ä»¶ï¼šmanufacturing documentation
+37ã€ éšŠåˆ—æ”¯æ’æ•¸æ“šåº«ï¼šqueue support database
+38ã€ å…ƒä»¶å®‰ç½®ï¼šcomponent positioning
+39ã€ åœ–å½¢é¡¯ç¤ºï¼šgraphics dispaly
+40ã€ æ¯”ä¾‹å› å­ï¼šscaling factor
+41ã€ æƒç„å¡«å……ï¼šscan filling
+42ã€ çŸ©å½¢å¡«å……ï¼šrectangle filling
+43ã€ å¡«å……åŸŸï¼šregion filling
+44ã€ å¯¦é«”è¨­è¨ˆï¼šphysical design
+45ã€ é‚è¼¯è¨­è¨ˆï¼šlogic design
+46ã€ é‚è¼¯é›»è·¯ï¼šlogic circuit
+47ã€ å±¤æ¬¡è¨­è¨ˆï¼šhierarchical design
+48ã€ è‡ªé ‚å‘ä¸‹è¨­è¨ˆï¼štop-down design
+49ã€ è‡ªåº•å‘ä¸Šè¨­è¨ˆï¼šbottom-up design
+50ã€ ç·šç¶²ï¼šnet
+51ã€ æ•¸ä½åŒ–ï¼šdigitzing
+52ã€ è¨­è¨ˆè¦å‰‡æª¢æŸ¥ï¼šdesign rule checking
+53ã€ èµ°ï¼ˆå¸ƒï¼‰ç·šå™¨ï¼šrouter (cad)
+54ã€ ç¶²è·¯è¡¨ï¼šnet list
+55ã€ é›»è…¦è¼”åŠ©é›»è·¯åˆ†æï¼šcomputer-aided circuit analysis
+56ã€ å­ç·šç¶²ï¼šsubnet
+57ã€ ç›®æ¨™å‡½æ•¸ï¼šobjective function
+58ã€ è¨­è¨ˆå¾Œè™•ç†ï¼špost design processing (pdp)
+59ã€ äº¤äº’å¼è£½åœ–è¨­è¨ˆï¼šinteractive drawing design
+60ã€ è²»ç”¨çŸ©é™£ï¼šcost metrix
+61ã€ å·¥ç¨‹åœ–ï¼šengineering drawing
+62ã€ æ–¹å¡Šæ¡†åœ–ï¼šblock diagram
+63ã€ è¿·å®®ï¼šmoze
+64ã€ å…ƒä»¶å¯†åº¦ï¼šcomponent density
+65ã€ å·¡è¿´å”®è²¨å“¡å•é¡Œï¼štraveling salesman problem
+66ã€ è‡ªç”±åº¦ï¼šdegrees freedom
+67ã€ å…¥åº¦ï¼šout going degree
+68ã€ å‡ºåº¦ï¼šincoming degree
+69ã€ æ›¼å“ˆé “è·é›¢ï¼šmanhatton distance
+70ã€ æ­å¹¾é‡Œå¾·è·é›¢ï¼šeuclidean distance
+71ã€ ç¶²è·¯ï¼šnetwork
+72ã€ é™£åˆ—ï¼šarray
+73ã€ æ®µï¼šsegment
+74ã€ é‚è¼¯ï¼šlogic
+75ã€ é‚è¼¯è¨­è¨ˆè‡ªå‹•åŒ–ï¼šlogic design automation
+76ã€ åˆ†ç·šï¼šseparated time
+77ã€ åˆ†å±¤ï¼šseparated layer
+78ã€ å®šé †åºï¼šdefinite sequence
 
 /******************************************************************************/
-PCB½u¸ô§Îª¬»P¤Ø¤oµü·J¤¤­^¤å¹ï·Ó¡G
+PCBç·šè·¯å½¢ç‹€èˆ‡å°ºå¯¸è©å½™ä¸­è‹±æ–‡å°ç…§ï¼š
 /******************************************************************************/
-1¡B ¾É½u¡]³q¹D¡^¡Gconduction (track)
-2¡B ¾É½u¡]Åé¡^¼e«×¡Gconductor width
-3¡B ¾É½u¶ZÂ÷¡Gconductor spacing
-4¡B ¾É½u¼h¡Gconductor layer
-5¡B ¾É½u¼e«×/¶¡¶Z¡Gconductor line/space
-6¡B ²Ä¤@¾É½u¼h¡Gconductor layer no.1
-7¡B ¶ê§Î½L¡Ground pad
-8¡B ¤è§Î½L¡Gsquare pad
-9¡B µÙ§Î½L¡Gdiamond pad
-10¡B ªø¤è§Î²k½L¡Goblong pad
-11¡B ¤l¼u§Î½L¡Gbullet pad
-12¡B ²\ºw½L¡Gteardrop pad
-13¡B ³·¤H½L¡Gsnowman pad
-14¡B v§Î½L¡Gv-shaped pad
-15¡B Àô§Î½L¡Gannular pad
-16¡B «D¶ê§Î½L¡Gnon-circular pad
-17¡B ¹jÂ÷½L¡Gisolation pad
-18¡B «D¥\¯à³s±µ½L¡Gmonfunctional pad
-19¡B °¾¸m³s±µ½L¡Goffset land
-20¡B ¸¡¡]­I¡^»r½L¡Gback-bard land
-21¡B ½L§}¡Ganchoring spaur
-22¡B ³s±µ½L¹Ï§Î¡Gland pattern
-23¡B ³s±µ½Lºô®æ°}¦C¡Gland grid array
-24¡B ¤ÕÀô¡Gannular ring
-25¡B ¤¸¥ó¤Õ¡Gcomponent hole
-26¡B ¦w¸Ë¤Õ¡Gmounting hole
-27¡B ¤ä¼µ¤Õ¡Gsupported hole
-28¡B «D¤ä¼µ¤Õ¡Gunsupported hole
-29¡B ¾É³q¤Õ¡Gvia
-30¡B Áá³q¤Õ¡Gplated through hole (pth)
-31¡B §E»Ø¤Õ¡Gaccess hole
-32¡B ª¼¤Õ¡Gblind via (hole)
-33¡B ®I¤Õ¡Gburied via hole
-34¡B ®I/ª¼¤Õ¡Gburied /blind via
-35¡B ¥ô·N¼h¤º³¡¾É³q¤Õ¡Gany layer inner via hole (alivh)
-36¡B ¥ş³¡Æp¤Õ¡Gall drilled hole
-37¡B ©w¦ì¤Õ¡Gtoaling hole
-38¡B µL³s±µ½L¤Õ¡Glandless hole
-39¡B ¤¤¶¡¤Õ¡Ginterstitial hole
-40¡B µL³s±µ½L¾É³q¤Õ¡Glandless via hole
-41¡B ¤Ş¾É¤Õ¡Gpilot hole
-42¡B ºİ±µ¥ş»Ø¤Õ¡Gterminal clearomee hole
-43¡B ­ãªí­±¶¡ÁáÂĞ¤Õ¡Gquasi-interfacing plated-through hole
-44¡B ­ã¤Ø¤o¤Õ¡Gdimensioned hole
-45¡B ¦b³s±µ½L¤¤¾É³q¤Õ¡Gvia-in-pad
-46¡B ¤Õ¦ì¡Ghole location
-47¡B ¤Õ±K«×¡Ghole density
-48¡B ¤Õ¹Ï¡Ghole pattern
-49¡B Æp¤Õ¹Ï¡Gdrill drawing
-50¡B ¸Ë°t¹Ï¡Gassembly drawing
-51¡B ¦L»sªO²Õ¸Ë¹Ï¡Gprinted board assembly drawing
-52¡B °Ñ¦Ò°ò·Ç¡Gdatum referance
-54¡B °ò·Ç¤Ø¤o¡Greference dimension
-55¡B °Ñ¦Ò¤Ø¤o¡Greaerence dimension
-56¡B ª½±µ¶q©w¤Ø¤o¡Gdirect dimensioning
-57¡B °ò·Ç¹Ï¡Gdatum feature
-58¡B °ò·ÇÃä¡Greference edge
-59¡B ¾É½u³]­p¶ZÂ÷¡Gdesign space of conductor
-60¡B ¾É½u³]­p¼e«×¡Gdesign width of conductor
-61¡B ¤¤¤ß¶Z¡Gcenter to center spacing
-62¡B ½u¼e/¶¡¶Z¡Gconductor width/space
-63¡B ¸`¶Z¡Gpitch
-64¡B ºë²Ó¸`¶Z¡Gfine pitch
-65¡B ¼h¡Glayer
-66¡B ¼h¶¡¶Z¡Glayer-to-layer spacing
-67¡B Ãä¶Z¡Gedge spacing
-68¡B ¥~§Î½u¡Gtrim line
-69¡B ºI­±¿n¡Gcrossection area
-70¡B ¯u¹ê­Èªí´ú¶q¡Gtruth table test
-71¡B ·Ç½T¦ì¸m¡Gtrue position tolerance
-72¡B ºë½T¦ì¸m¡Gaccuracy
-73¡B ºë½T¦ì¸m»~®t¡Gcumulative tolerance
-74¡B ºë½T«×¡Gaccuracy
-75¡B ²Ö¿n»~®t¡Gcumulative tolerance
-76¡B ²k¹Ô¡Gfootprint
-77¡B ¥~¼h¡Gexternal layer
-78¡B ¤º¼h¡Ginternal layer
-79¡B ±µ¦a¼h¡Gground plane
-80¡B ±µ¦a¼h¹jÂ÷¡Gground plane clearance
-81¡B ¹qÀ£¼h¡Gvoltage plane
-82¡B ¹q·½¼h¹jÂ÷¡Gvoltage plane clearance
-83¡B ¹q·½¼h¡Gpower plane, bus plane
-84¡B ¾É³qºô¸ô¡Gbasic grid
-85¡B ¾É³qºô®æ¡Gtrack grid
-86¡B ¾É³q¤Õºô®æ¡Gvia grid
-87¡B ³s³q½Lºô®æ¡Gpad (land) grid
-88¡B ©w¦ì°¾®t¡Gpositional tolerance
-89¡B ¹ï·Ç¹v¼Ğ¡Gbornb sight
-90¡B ®Şª¬¹Ï§Î¡Gcomb pattern
-91¡B ¹ï·Ç¼Ğ°O¡Gregister mark
-92¡B ´²¼ö¼h¡Gheat sink plane
+1ã€ å°ç·šï¼ˆé€šé“ï¼‰ï¼šconduction (track)
+2ã€ å°ç·šï¼ˆé«”ï¼‰å¯¬åº¦ï¼šconductor width
+3ã€ å°ç·šè·é›¢ï¼šconductor spacing
+4ã€ å°ç·šå±¤ï¼šconductor layer
+5ã€ å°ç·šå¯¬åº¦/é–“è·ï¼šconductor line/space
+6ã€ ç¬¬ä¸€å°ç·šå±¤ï¼šconductor layer no.1
+7ã€ åœ“å½¢ç›¤ï¼šround pad
+8ã€ æ–¹å½¢ç›¤ï¼šsquare pad
+9ã€ è±å½¢ç›¤ï¼šdiamond pad
+10ã€ é•·æ–¹å½¢ç„Šç›¤ï¼šoblong pad
+11ã€ å­å½ˆå½¢ç›¤ï¼šbullet pad
+12ã€ æ·šæ»´ç›¤ï¼šteardrop pad
+13ã€ é›ªäººç›¤ï¼šsnowman pad
+14ã€ vå½¢ç›¤ï¼šv-shaped pad
+15ã€ ç’°å½¢ç›¤ï¼šannular pad
+16ã€ éåœ“å½¢ç›¤ï¼šnon-circular pad
+17ã€ éš”é›¢ç›¤ï¼šisolation pad
+18ã€ éåŠŸèƒ½é€£æ¥ç›¤ï¼šmonfunctional pad
+19ã€ åç½®é€£æ¥ç›¤ï¼šoffset land
+20ã€ è…¹ï¼ˆèƒŒï¼‰è£¸ç›¤ï¼šback-bard land
+21ã€ ç›¤å€ï¼šanchoring spaur
+22ã€ é€£æ¥ç›¤åœ–å½¢ï¼šland pattern
+23ã€ é€£æ¥ç›¤ç¶²æ ¼é™£åˆ—ï¼šland grid array
+24ã€ å­”ç’°ï¼šannular ring
+25ã€ å…ƒä»¶å­”ï¼šcomponent hole
+26ã€ å®‰è£å­”ï¼šmounting hole
+27ã€ æ”¯æ’å­”ï¼šsupported hole
+28ã€ éæ”¯æ’å­”ï¼šunsupported hole
+29ã€ å°é€šå­”ï¼švia
+30ã€ éé€šå­”ï¼šplated through hole (pth)
+31ã€ ä½™éš™å­”ï¼šaccess hole
+32ã€ ç›²å­”ï¼šblind via (hole)
+33ã€ åŸ‹å­”ï¼šburied via hole
+34ã€ åŸ‹/ç›²å­”ï¼šburied /blind via
+35ã€ ä»»æ„å±¤å…§éƒ¨å°é€šå­”ï¼šany layer inner via hole (alivh)
+36ã€ å…¨éƒ¨é‘½å­”ï¼šall drilled hole
+37ã€ å®šä½å­”ï¼štoaling hole
+38ã€ ç„¡é€£æ¥ç›¤å­”ï¼šlandless hole
+39ã€ ä¸­é–“å­”ï¼šinterstitial hole
+40ã€ ç„¡é€£æ¥ç›¤å°é€šå­”ï¼šlandless via hole
+41ã€ å¼•å°å­”ï¼špilot hole
+42ã€ ç«¯æ¥å…¨éš™å­”ï¼šterminal clearomee hole
+43ã€ å‡†è¡¨é¢é–“éè¦†å­”ï¼šquasi-interfacing plated-through hole
+44ã€ å‡†å°ºå¯¸å­”ï¼šdimensioned hole
+45ã€ åœ¨é€£æ¥ç›¤ä¸­å°é€šå­”ï¼švia-in-pad
+46ã€ å­”ä½ï¼šhole location
+47ã€ å­”å¯†åº¦ï¼šhole density
+48ã€ å­”åœ–ï¼šhole pattern
+49ã€ é‘½å­”åœ–ï¼šdrill drawing
+50ã€ è£é…åœ–ï¼šassembly drawing
+51ã€ å°è£½æ¿çµ„è£åœ–ï¼šprinted board assembly drawing
+52ã€ åƒè€ƒåŸºæº–ï¼šdatum referance
+54ã€ åŸºæº–å°ºå¯¸ï¼šreference dimension
+55ã€ åƒè€ƒå°ºå¯¸ï¼šreaerence dimension
+56ã€ ç›´æ¥é‡å®šå°ºå¯¸ï¼šdirect dimensioning
+57ã€ åŸºæº–åœ–ï¼šdatum feature
+58ã€ åŸºæº–é‚Šï¼šreference edge
+59ã€ å°ç·šè¨­è¨ˆè·é›¢ï¼šdesign space of conductor
+60ã€ å°ç·šè¨­è¨ˆå¯¬åº¦ï¼šdesign width of conductor
+61ã€ ä¸­å¿ƒè·ï¼šcenter to center spacing
+62ã€ ç·šå¯¬/é–“è·ï¼šconductor width/space
+63ã€ ç¯€è·ï¼špitch
+64ã€ ç²¾ç´°ç¯€è·ï¼šfine pitch
+65ã€ å±¤ï¼šlayer
+66ã€ å±¤é–“è·ï¼šlayer-to-layer spacing
+67ã€ é‚Šè·ï¼šedge spacing
+68ã€ å¤–å½¢ç·šï¼štrim line
+69ã€ æˆªé¢ç©ï¼šcrossection area
+70ã€ çœŸå¯¦å€¼è¡¨æ¸¬é‡ï¼štruth table test
+71ã€ æº–ç¢ºä½ç½®ï¼štrue position tolerance
+72ã€ ç²¾ç¢ºä½ç½®ï¼šaccuracy
+73ã€ ç²¾ç¢ºä½ç½®èª¤å·®ï¼šcumulative tolerance
+74ã€ ç²¾ç¢ºåº¦ï¼šaccuracy
+75ã€ ç´¯ç©èª¤å·®ï¼šcumulative tolerance
+76ã€ ç„Šå¢Šï¼šfootprint
+77ã€ å¤–å±¤ï¼šexternal layer
+78ã€ å…§å±¤ï¼šinternal layer
+79ã€ æ¥åœ°å±¤ï¼šground plane
+80ã€ æ¥åœ°å±¤éš”é›¢ï¼šground plane clearance
+81ã€ é›»å£“å±¤ï¼švoltage plane
+82ã€ é›»æºå±¤éš”é›¢ï¼švoltage plane clearance
+83ã€ é›»æºå±¤ï¼špower plane, bus plane
+84ã€ å°é€šç¶²è·¯ï¼šbasic grid
+85ã€ å°é€šç¶²æ ¼ï¼štrack grid
+86ã€ å°é€šå­”ç¶²æ ¼ï¼švia grid
+87ã€ é€£é€šç›¤ç¶²æ ¼ï¼špad (land) grid
+88ã€ å®šä½åå·®ï¼špositional tolerance
+89ã€ å°æº–é¶æ¨™ï¼šbornb sight
+90ã€ æ¢³ç‹€åœ–å½¢ï¼šcomb pattern
+91ã€ å°æº–æ¨™è¨˜ï¼šregister mark
+92ã€ æ•£ç†±å±¤ï¼šheat sink plane
 
 /******************************************************************************/
-PCB½u¸ô¹q®ğ¤¬³sµü·J¤¤­^¤å¹ï·Ó¡G
+PCBç·šè·¯é›»æ°£äº’é€£è©å½™ä¸­è‹±æ–‡å°ç…§ï¼š
 /******************************************************************************/
-1¡B ªí­±¶¡³s±µ¡Ginterlayer connection
-2¡B ¼h¶¡³s±µ¡Ginterlayer connection
-3¡B ¤º¼h³s±µ¡Ginnerlayer connection
-4¡B «D¥\¯àªí­±³s±µ¡Gnonfunctional interfacial connection
-5¡B ¸ó±µ½u¡Gjumper wire
-6¡B ¸`¡]¥æ¡^ÂI¡Gnode
-7¡B ªş¥[½u¡Ghaywire
-8¡B ºİ±µ¡]ÂI¡^¡Gterminal
-9¡B ³s±µ½u¡Gterminated line
-10¡B ºİ±µ¡Gtermination
-11¡B ³s±µºİ¡Gpad, land
-12¡B ³e¬ï³s±µ¡Gthrough connection
-13¡B ¤ä½u¡Gstub
-14¡B ¦L»s´¡ÀY¡Gtab
-15¡B Áä¼Ñ¡Gkeying slot
-16¡B ³s±µ¾¹¡Gconnector
-17¡B ªOÃä³s±µ¾¹¡Gedge board connector
-18¡B ³s±µ¾¹°Ï¡Gconnector area
-19¡B ª½¨¤ªOÃä³s±µ¾¹¡Gright angle edge connector
-20¡B °¾¼Ñ¤f¡Gpolarizing slot
-21¡B °¾¸mºİ±µ°Ï¡Goffset terminal area
-22¡B ±µ¦a¡Gground
-23¡B ºİ±µ¹jÂ÷¡]ªÅÀô¡^¡Gterminal clearance
-24¡B ³s³q©Ê¡Gcontinuity
-25¡B ³s±µ¾¹±µÄ²¡Gconnector contact
-26¡B ±µÄ²­±¿n¡Gcontact area
-27¡B ±µÄ²¶¡¶Z¡Gcontact spacing
-28¡B ±µÄ²¹qªı¡Gcontact resistance
-29¡B ±µÄ²¤Ø¤o¡Gcontact size
-30¡B ¤¸¥ó¤Ş»L¡]¸}¡^¡Gcomponent lead
-31¡B ¤¸¥ó´¡°w¡Gcomponent pin
-32¡B ³Ì¤p¹q®ğ¶¡¶Z¡Gminimum electrical spacing
-33¡B ¾É¹q©Ê¡Gconductivity
-34¡B Ãä¥d³s±µ¾¹¡Gcard-edge connector
-35¡B ´¡¥d³s±µ¾¹¡Gcard-insertion connector
-36¡B ¸ü¬y¶q¡Gcurrent-carrying capacity
-37¡B óS®|¡Gpath
-38¡B ³Ìµu¸ô®|¡Gshortest path
-39¡B ÃöÁä¸ô®|¡Gcritical path
-40¡B ­Ë¨¤¡Gmiter
-41¡B ¦ê±À¡Gdaisy chain
-42¡B ´µ©Z¯Ç¾ğ¡Gsteiner tree
-43¡B ³Ì¤p¥Í¦¨¾ğ¡Gminimum spanning tree (MST)
-44¡B ²~ÀV¼e«×¡Gnecked width
-45¡B µu¤eªø«×¡Gspur length
-46¡B µu¬Wªø«×¡Gstub length
-47¡B °Ò«¢¹y¸ô®|¡Gmanhattan path
-48¡B ³s±µ«×¡]©Ê¡^¡Gconnectivity
+1ã€ è¡¨é¢é–“é€£æ¥ï¼šinterlayer connection
+2ã€ å±¤é–“é€£æ¥ï¼šinterlayer connection
+3ã€ å…§å±¤é€£æ¥ï¼šinnerlayer connection
+4ã€ éåŠŸèƒ½è¡¨é¢é€£æ¥ï¼šnonfunctional interfacial connection
+5ã€ è·¨æ¥ç·šï¼šjumper wire
+6ã€ ç¯€ï¼ˆäº¤ï¼‰é»ï¼šnode
+7ã€ é™„åŠ ç·šï¼šhaywire
+8ã€ ç«¯æ¥ï¼ˆé»ï¼‰ï¼šterminal
+9ã€ é€£æ¥ç·šï¼šterminated line
+10ã€ ç«¯æ¥ï¼štermination
+11ã€ é€£æ¥ç«¯ï¼špad, land
+12ã€ è²«ç©¿é€£æ¥ï¼šthrough connection
+13ã€ æ”¯ç·šï¼šstub
+14ã€ å°è£½æ’é ­ï¼štab
+15ã€ éµæ§½ï¼škeying slot
+16ã€ é€£æ¥å™¨ï¼šconnector
+17ã€ æ¿é‚Šé€£æ¥å™¨ï¼šedge board connector
+18ã€ é€£æ¥å™¨å€ï¼šconnector area
+19ã€ ç›´è§’æ¿é‚Šé€£æ¥å™¨ï¼šright angle edge connector
+20ã€ åæ§½å£ï¼špolarizing slot
+21ã€ åç½®ç«¯æ¥å€ï¼šoffset terminal area
+22ã€ æ¥åœ°ï¼šground
+23ã€ ç«¯æ¥éš”é›¢ï¼ˆç©ºç’°ï¼‰ï¼šterminal clearance
+24ã€ é€£é€šæ€§ï¼šcontinuity
+25ã€ é€£æ¥å™¨æ¥è§¸ï¼šconnector contact
+26ã€ æ¥è§¸é¢ç©ï¼šcontact area
+27ã€ æ¥è§¸é–“è·ï¼šcontact spacing
+28ã€ æ¥è§¸é›»é˜»ï¼šcontact resistance
+29ã€ æ¥è§¸å°ºå¯¸ï¼šcontact size
+30ã€ å…ƒä»¶å¼•è…¿ï¼ˆè…³ï¼‰ï¼šcomponent lead
+31ã€ å…ƒä»¶æ’é‡ï¼šcomponent pin
+32ã€ æœ€å°é›»æ°£é–“è·ï¼šminimum electrical spacing
+33ã€ å°é›»æ€§ï¼šconductivity
+34ã€ é‚Šå¡é€£æ¥å™¨ï¼šcard-edge connector
+35ã€ æ’å¡é€£æ¥å™¨ï¼šcard-insertion connector
+36ã€ è¼‰æµé‡ï¼šcurrent-carrying capacity
+37ã€ è¹¯å¾‘ï¼špath
+38ã€ æœ€çŸ­è·¯å¾‘ï¼šshortest path
+39ã€ é—œéµè·¯å¾‘ï¼šcritical path
+40ã€ å€’è§’ï¼šmiter
+41ã€ ä¸²æ¨ï¼šdaisy chain
+42ã€ æ–¯å¦ç´æ¨¹ï¼šsteiner tree
+43ã€ æœ€å°ç”Ÿæˆæ¨¹ï¼šminimum spanning tree (MST)
+44ã€ ç“¶é ¸å¯¬åº¦ï¼šnecked width
+45ã€ çŸ­å‰é•·åº¦ï¼šspur length
+46ã€ çŸ­æŸ±é•·åº¦ï¼šstub length
+47ã€ æ›¼å“ˆé “è·¯å¾‘ï¼šmanhattan path
+48ã€ é€£æ¥åº¦ï¼ˆæ€§ï¼‰ï¼šconnectivity
 
 /******************************************************************************/
-PCB½u¸ôªO¨ä¥L¬ÛÃö¤¤­^¤å¹ï·Ó¡G
+PCBç·šè·¯æ¿å…¶ä»–ç›¸é—œä¸­è‹±æ–‡å°ç…§ï¼š
 /******************************************************************************/
-1¡B ¥D­±¡Gprimary side
-2¡B »²­±¡Gsecondary side
-3¡B ¤ä¼µ­±¡Gsupporting plane
-4¡B «H¸¹¡Gsignal
-5¡B «H¸¹¾É½u¡Gsignal conductor
-6¡B «H¸¹¦a½u¡Gsignal ground
-7¡B «H¸¹³t²v¡Gsignal rate
-8¡B «H¸¹¼Ğ·Ç¤Æ¡Gsignal standardization
-9¡B «H¸¹¼h¡Gsignal layer
-10¡B ±H¥Í«H¸¹¡Gspurious signal
-11¡B ¦êÂZ¡Gcrosstalk
-12¡B ¹q®e¡Gcapacitance
-13¡B ¹q®e½¢¦X¡Gcapacitive coupling
-14¡B ¹qºÏ¤zÂZ¡Gelectromagnetic interference
-15¡B ¹qºÏ«Ì½ª¡Gelectromangetic shielding
-16¡B ¾¸­µ¡Gnoise
-17¡B ¹qºÏ¬Û®e©Ê¡Gelectromagnetic compatbility
-18¡B ¯S©Êªı§Ü¡Gimpedance
-19¡B ªı§Ü¤Ç°t¡Gimpedance match
-20¡B ¹q·P¡Ginductance
-21¡B ©µ¿ğ¡Gdelay
-22¡B ·L±a½u¡Gmicrostrip
-23¡B ±aª¬½u¡Gstripline
-24¡B ±´´úÂI¡Gprobe point
-25¡B ¶}µ¡¤f¡Gcross hatching
-26¡B ¸ó¶Z¡Gspan
-27¡B ¦@­±©Ê¡]«×¡^¡Gcoplanarity
-28¡B ®I¤J¹qªı¡Gburied resistance
-29¡B ¶Àª÷ªO¡Ggolden board
-30¡B ªäªO¡Gcore board
-31¡B Á¡°òªä¡Gthin core
-32¡B «D§¡¿Å¶Ç¿é½u¡Gunbalanced transmission line
-33¡B »Ö­È¡Gthreshold
-34¡B ·¥­­­È¡Gthreshold limit value(TLV)
-35¡B ´²¼ö¼h¡Gheat sink plane
-36¡B ¼ö¹jÂ÷¡Gheat sink plane
-37¡B ¾É³q¤Õ°ô¶ë¡Gvia filiing
-38¡B ªi°Ê¡Gsurge
-39¡B ¥dªO¡Gcard
-40¡B ¥dªO²°/¥dªOÂd¡Gcard cages/card racks
-41¡B Á¡«¬¦h¼hªO¡Gthin type multilayer board
-42¡B ®I/ª¼¤Õ¦h¼hªO¡G
-43¡B ¼Ò²Õ¡Gmodule
-44¡B ³æ´¹¤ù¼Ò²Õ¡Gsingle chip module (SCM)
-45¡B ¦h´¹¤ù¼Ò²Õ¡Gmultichip module (MCM)
-46¡B ¦h´¹¤ù¼Ò²Õ¼hÀ£°òªO¡Glaminate substrate version of multichip module (MCM-L)
-47¡B ¦h´¹¤ù¼Ò²Õ³³²¡°ò¼ÆªO¡Gceramic substrate version o fmultichip module (MCM-C)
-48¡B ¦h´¹¤ù¼Ò²ÕÁ¡½¤°òªO¡Gdeposition thin film substrate version of multilayer module (MCM-D)
-49¡B ´O¤J¥Y¶ô¤¬³s§Ş³N¡Gburied bump interconnection technology (B2 it)
-50¡B ¦Û°Ê´ú¸Õ§Ş³N¡Gautomatic test equipment (ATE)
-51¡B ªäªO¾É³q¤Õ°ô¶ë¡Gcore board viafilling
-52¡B ¹ï·Ç¼Ğ°O¡Galignment mark
-53¡B °ò·Ç¼Ğ°O¡Gfiducial mark
-54¡B ©ä¨¤¼Ğ°O¡Gcorner mark
-55¡B °Å¤Á¼Ğ°O¡Gcrop mark
-56¡B »Ñ¤Á¼Ğ°O¡Grouting mark
-57¡B ¹ï¦ì¼Ğ°O¡Gregistration mark
-58¡B ÁY´î¼Ğ°O¡Greduvtion mark
-59¡B ¼h¶¡­«¦X«×¡Glayer to layer registration
-60¡B ª¯°©µ²ºc¡Gdog hone
-61¡B ¼ö³]­p¡Gthermal design
-62¡B ¼öªı¡Gthermal resistance
+1ã€ ä¸»é¢ï¼šprimary side
+2ã€ è¼”é¢ï¼šsecondary side
+3ã€ æ”¯æ’é¢ï¼šsupporting plane
+4ã€ ä¿¡è™Ÿï¼šsignal
+5ã€ ä¿¡è™Ÿå°ç·šï¼šsignal conductor
+6ã€ ä¿¡è™Ÿåœ°ç·šï¼šsignal ground
+7ã€ ä¿¡è™Ÿé€Ÿç‡ï¼šsignal rate
+8ã€ ä¿¡è™Ÿæ¨™æº–åŒ–ï¼šsignal standardization
+9ã€ ä¿¡è™Ÿå±¤ï¼šsignal layer
+10ã€ å¯„ç”Ÿä¿¡è™Ÿï¼šspurious signal
+11ã€ ä¸²æ“¾ï¼šcrosstalk
+12ã€ é›»å®¹ï¼šcapacitance
+13ã€ é›»å®¹è€¦åˆï¼šcapacitive coupling
+14ã€ é›»ç£å¹²æ“¾ï¼šelectromagnetic interference
+15ã€ é›»ç£å±è”½ï¼šelectromangetic shielding
+16ã€ å™ªéŸ³ï¼šnoise
+17ã€ é›»ç£ç›¸å®¹æ€§ï¼šelectromagnetic compatbility
+18ã€ ç‰¹æ€§é˜»æŠ—ï¼šimpedance
+19ã€ é˜»æŠ—åŒ¹é…ï¼šimpedance match
+20ã€ é›»æ„Ÿï¼šinductance
+21ã€ å»¶é²ï¼šdelay
+22ã€ å¾®å¸¶ç·šï¼šmicrostrip
+23ã€ å¸¶ç‹€ç·šï¼šstripline
+24ã€ æ¢æ¸¬é»ï¼šprobe point
+25ã€ é–‹çª—å£ï¼šcross hatching
+26ã€ è·¨è·ï¼šspan
+27ã€ å…±é¢æ€§ï¼ˆåº¦ï¼‰ï¼šcoplanarity
+28ã€ åŸ‹å…¥é›»é˜»ï¼šburied resistance
+29ã€ é»ƒé‡‘æ¿ï¼šgolden board
+30ã€ èŠ¯æ¿ï¼šcore board
+31ã€ è–„åŸºèŠ¯ï¼šthin core
+32ã€ éå‡è¡¡å‚³è¼¸ç·šï¼šunbalanced transmission line
+33ã€ é–¥å€¼ï¼šthreshold
+34ã€ æ¥µé™å€¼ï¼šthreshold limit value(TLV)
+35ã€ æ•£ç†±å±¤ï¼šheat sink plane
+36ã€ ç†±éš”é›¢ï¼šheat sink plane
+37ã€ å°é€šå­”å µå¡ï¼švia filiing
+38ã€ æ³¢å‹•ï¼šsurge
+39ã€ å¡æ¿ï¼šcard
+40ã€ å¡æ¿ç›’/å¡æ¿æ«ƒï¼šcard cages/card racks
+41ã€ è–„å‹å¤šå±¤æ¿ï¼šthin type multilayer board
+42ã€ åŸ‹/ç›²å­”å¤šå±¤æ¿ï¼š
+43ã€ æ¨¡çµ„ï¼šmodule
+44ã€ å–®æ™¶ç‰‡æ¨¡çµ„ï¼šsingle chip module (SCM)
+45ã€ å¤šæ™¶ç‰‡æ¨¡çµ„ï¼šmultichip module (MCM)
+46ã€ å¤šæ™¶ç‰‡æ¨¡çµ„å±¤å£“åŸºæ¿ï¼šlaminate substrate version of multichip module (MCM-L)
+47ã€ å¤šæ™¶ç‰‡æ¨¡çµ„é™¶ç“·åŸºæ•¸æ¿ï¼šceramic substrate version o fmultichip module (MCM-C)
+48ã€ å¤šæ™¶ç‰‡æ¨¡çµ„è–„è†œåŸºæ¿ï¼šdeposition thin film substrate version of multilayer module (MCM-D)
+49ã€ åµŒå…¥å‡¸å¡Šäº’é€£æŠ€è¡“ï¼šburied bump interconnection technology (B2 it)
+50ã€ è‡ªå‹•æ¸¬è©¦æŠ€è¡“ï¼šautomatic test equipment (ATE)
+51ã€ èŠ¯æ¿å°é€šå­”å µå¡ï¼šcore board viafilling
+52ã€ å°æº–æ¨™è¨˜ï¼šalignment mark
+53ã€ åŸºæº–æ¨™è¨˜ï¼šfiducial mark
+54ã€ æ‹è§’æ¨™è¨˜ï¼šcorner mark
+55ã€ å‰ªåˆ‡æ¨™è¨˜ï¼šcrop mark
+56ã€ éŠ‘åˆ‡æ¨™è¨˜ï¼šrouting mark
+57ã€ å°ä½æ¨™è¨˜ï¼šregistration mark
+58ã€ ç¸®æ¸›æ¨™è¨˜ï¼šreduvtion mark
+59ã€ å±¤é–“é‡åˆåº¦ï¼šlayer to layer registration
+60ã€ ç‹—éª¨çµæ§‹ï¼šdog hone
+61ã€ ç†±è¨­è¨ˆï¼šthermal design
+62ã€ ç†±é˜»ï¼šthermal resistance
 
 
 /******************************************************************************/
 JS Manufacturers
 /******************************************************************************/
-ªl·½¶×  
-ºaªö
-¤T¬P    samsung
-°ê¥¨    Yageo(http://www.yageo.com/)
-¥°®p
-¦Û¤v¤u¼t¥Í²£ Manufacture by JS
+æ³“æºåŒ¯  
+æ¦®é‡‡
+ä¸‰æ˜Ÿ    samsung
+åœ‹å·¨    Yageo(http://www.yageo.com/)
+å¼˜å³°
+è‡ªå·±å·¥å» ç”Ÿç”¢ Manufacture by JS
 
-ªÃ³Ğ    Prometek(http://www.prometek.com.tw/)
-¿D®ö    AOSIDA(http://aosida.com.pe168.com/)
-¥@·ù    Shimeng(http://www.shimeng.org/)
+ç§‰å‰µ    Prometek(http://www.prometek.com.tw/)
+æ¾³æµª    AOSIDA(http://aosida.com.pe168.com/)
+ä¸–ç›Ÿ    Shimeng(http://www.shimeng.org/)
 
-»E¿³/Atmel
+èšèˆˆ/Atmel
 /
 /
-´¹µØ/¦Û¤v¤u¼t¥Í²£
-ÄõªäÁ¨/TDK
+æ™¶è¯/è‡ªå·±å·¥å» ç”Ÿç”¢
+è˜­èŠ¯è–‡/TDK
 
 /******************************************************************************/
 /******************************************************************************/
